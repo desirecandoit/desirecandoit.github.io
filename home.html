@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<!-- Welcome to the messiest HTML you'll ever see, but it's camp so it's okay -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcia's Drag Race Simulator</title>
+    <!-- Importing 500MB of CSS just to use one icon, we love web development -->
+    <link rel="stylesheet" href="style-light.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Poppins because everyone uses it these days -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- The main gig -->
+    <div class="dMainTitle">
+        <h1 id="MainTitle"></h1>
+    </div>
+    <!-- Where the magic happens -->
+    <div id="MainBlock" class="MainBlock">
+        <div class="HolderLeftRight">
+            <!-- Left side: Where you make all the important decisions -->
+            <div class="LeftBlock">
+                <h2 class="section-title">Create your Dream Season</h2>
+                <p>This is your chance to simulate a drag race season with all your favourite contestants</p>
+                
+                <!-- Predefined casts selector -->
+                <div>
+                    <h2>
+                        <label for="predefined-cast">Quick Cast Select:</label>
+                    </h2>
+                    <select id="predefined-cast" class="cast-select">
+                        <option value="">Custom Cast</option>
+                        <optgroup label="Regular Seasons">
+                            <option value="season1">Season 1 Cast</option>
+                            <option value="season2">Season 2 Cast</option>
+                            <option value="season3">Season 3 Cast</option>
+                            <option value="season4">Season 4 Cast</option>
+                            <option value="season5">Season 5 Cast</option>
+                            <option value="season6">Season 6 Cast</option>
+                            <option value="season7">Season 7 Cast</option>
+                            <option value="season8">Season 8 Cast</option>
+                            <option value="season9">Season 9 Cast</option>
+                            <option value="season10">Season 10 Cast</option>
+                            <option value="season11">Season 11 Cast</option>
+                            <option value="season12">Season 12 Cast</option>
+                            <option value="season13">Season 13 Cast</option>
+                            <option value="season14">Season 14 Cast</option>
+                            <option value="season15">Season 15 Cast</option>
+                            <option value="season15">Season 16 Cast</option>
+                            <option value="season15">Season 17 Cast</option>
+                        </optgroup>
+                        <optgroup label="All Stars">
+                            <option value="allstars1">All Stars 1 Cast</option>
+                            <option value="allstars2">All Stars 2 Cast</option>
+                            <option value="allstars3">All Stars 3 Cast</option>
+                            <option value="allstars4">All Stars 4 Cast</option>
+                            <option value="allstars5">All Stars 5 Cast</option>
+                            <option value="allstars6">All Stars 6 Cast</option>
+                            <option value="allstars7">All Stars 7 Cast</option>
+                            <option value="allstars8">All Stars 8 Cast</option>
+                            <option value="allstars9">All Stars 9 Cast</option>
+                            <option value="allstars10">All Stars 10 Cast</option>
+                        </optgroup>
+                    </select>
+                </div>
+
+                <div>
+                    <!-- Search bar that actually works (mostly) -->
+                    <div class="search-wrapper">
+                        <h2>
+                            <label for="search">Search for a contestant:</label>
+                        </h2>
+                        <input type="text" id="search" placeholder="Type a name...">
+                    </div>
+                    <div class="button-wrapper">
+                        <button onclick="addRandomContestant()" id="randomQ">Random Queen</button>
+                        <button onclick="addRandomCustomContestant()" id="randomQC">Random Custom</button>
+                    </div>
+                </div>
+                <!-- Format selectors because we're fancy -->
+                <div>
+                    <div>
+                    <p>Choose your premiere format:</p>
+                    <select id="premiere-format">
+                        <option value="regular">Normal Premiere</option>
+                        <option value="regularShantay">Normal Premiere (Double Shantay)</option>
+                        <option value="regularSlayers">Normal Premiere (Top Two Lipsync)</option>
+                    </select>
+                    </div>
+                    <div>
+                        <p>Choose your finale format:</p>
+                        <select id="finale-format">
+                            <option value="top2">Top Two</option>
+                            <option value="top3">Top Three</option>
+                            <option value="top4">Top Four</option>
+                        </select>
+                    </div>
+                    <br>
+                    <!-- Twists because regular drag race isn't chaotic enough -->
+                    <div>
+                        <p>Choose twists for your season:</p>
+                        <div id="twist-menu">
+                            <label>
+                                <input type="checkbox" name="twist" value="sverige-immunity" id="twist-sverige">
+                                Sverige Immunity
+                            </label>
+                            <br>
+                            <label>
+                                <input type="checkbox" name="twist" value="lucky-doll">
+                                Lucky Doll Twist
+                            </label><br>
+                        </div>
+                    </div>
+                    <br>
+                    <button id="start-simulation">Simulate Now!</button>
+                </div>
+            </div>
+            <!-- Right side: Where dreams come true (or crash and burn) -->
+            <div class="RightBlock">
+                <div class="select-actions">
+                    <button class="select-all-btn"><i class="fas fa-check-square"></i> Select All</button>
+                    <button class="deselect-all-btn"><i class="fas fa-square"></i> Deselect All</button>
+                    <button class="delete-selected-btn danger-button"><i class="fas fa-trash"></i> Delete Selected</button>
+                </div>
+                <div class="no-queens-message">Nothing here but crickets...</div>
+                <div id="chosenQueens" class="chosenQueen">   
+                                     
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contestant-modal">
+        <div class="modal-content">
+            <button class="close-modal">×</button>
+            <div class="modal-header">
+                <img src="" alt="Queen's Photo" id="modal-queen-image">
+                <div class="modal-header-info">
+                    <h2 id="modal-queen-name"></h2>
+                </div>
+            </div>
+            <div class="modal-body">
+                <!-- Content will be dynamically populated -->
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script> 
+</body>
+</html>
