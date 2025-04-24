@@ -1,0 +1,2344 @@
+{
+  "queens": [
+   {
+    "name": "Akashia",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Akashia.webp",
+    "stats": {
+     "acting": 3,
+     "comedy": 2,
+     "dance": 7,
+     "design": 3,
+     "improv": 2,
+     "runway": 7,
+     "lipsync": 11
+    }
+   },
+   {
+    "name": "BeBe Zahara Benet",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/BeBe.webp",
+    "stats": {
+     "acting": 6,
+     "comedy": 7,
+     "dance": 8,
+     "design": 12,
+     "improv": 6,
+     "runway": 10,
+     "lipsync": 9
+    }
+   },
+   {
+    "name": "Jade Sotomayor",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Jade.webp",
+    "stats": {
+     "acting": 3,
+     "comedy": 3,
+     "dance": 8,
+     "design": 7,
+     "improv": 3,
+     "runway": 7,
+     "lipsync": 7
+    }
+   },
+   {
+    "name": "Nina Flowers",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/NinaFlowers.webp",
+    "stats": {
+     "acting": 7,
+     "comedy": 5,
+     "dance": 5,
+     "design": 11,
+     "improv": 6,
+     "runway": 10,
+     "lipsync": 6
+    }
+   },
+   {
+    "name": "Ongina",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Ongina.webp",
+    "stats": {
+     "acting": 9,
+     "comedy": 8,
+     "dance": 7,
+     "design": 9,
+     "improv": 10,
+     "runway": 9,
+     "lipsync": 8
+    }
+   },
+   {
+    "name": "Rebecca Glasscock",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Rebecca.webp",
+    "stats": {
+     "acting": 3,
+     "comedy": 3,
+     "dance": 6,
+     "design": 4,
+     "improv": 2,
+     "runway": 6,
+     "lipsync": 5
+    }
+   },
+   {
+    "name": "Shannel",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Shannel.webp",
+    "stats": {
+     "acting": 7,
+     "comedy": 8,
+     "dance": 7,
+     "design": 9,
+     "improv": 9,
+     "runway": 13,
+     "lipsync": 10
+    }
+   },
+   {
+    "name": "Tammie Brown",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Tammie.webp",
+    "stats": {
+     "acting": 6,
+     "comedy": 7,
+     "dance": 5,
+     "design": 7,
+     "improv": 6,
+     "runway": 7,
+     "lipsync": 6
+    }
+   },
+   {
+    "name": "Victoria 'Porkchop' Parker",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Victoria.webp",
+    "stats": {
+     "acting": 3,
+     "comedy": 6,
+     "dance": 4,
+     "design": 3,
+     "improv": 6,
+     "runway": 5,
+     "lipsync": 4
+    }
+   },
+   {
+    "name": "Tyra Sanchez",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Tyra.webp",
+    "stats": {
+     "acting": 11,
+     "comedy": 7,
+     "dance": 8,
+     "design": 11,
+     "improv": 8,
+     "runway": 9,
+     "lipsync": 10
+    }
+   },
+   {
+    "name": "Raven",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Raven.webp",
+    "stats": {
+     "acting": 5,
+     "comedy": 8,
+     "dance": 9,
+     "design": 10,
+     "improv": 5,
+     "runway": 8,
+     "lipsync": 11
+    }
+   },
+   {
+    "name": "Jujubee",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Jujubee.webp",
+    "stats": {
+     "acting": 9,
+     "comedy": 11,
+     "dance": 7,
+     "design": 8,
+     "improv": 12,
+     "runway": 6,
+     "lipsync": 12
+    }
+   },
+   {
+    "name": "Tatianna",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Tatianna.webp",
+    "stats": {
+     "acting": 8,
+     "comedy": 11,
+     "dance": 8,
+     "design": 8,
+     "improv": 10,
+     "runway": 8,
+     "lipsync": 10
+    }
+   },
+   {
+    "name": "Pandora Boxx",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Pandora.webp",
+    "stats": {
+     "acting": 12,
+     "comedy": 11,
+     "dance": 6,
+     "design": 8,
+     "improv": 10,
+     "runway": 8,
+     "lipsync": 7
+    }
+   },
+   {
+    "name": "Jessica Wild",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Jessica.webp",
+    "stats": {
+     "acting": 9,
+     "comedy": 8,
+     "dance": 10,
+     "design": 11,
+     "improv": 8,
+     "runway": 9,
+     "lipsync": 11
+    }
+   },
+   {
+    "name": "Sahara Davenport",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Sahara.webp",
+    "stats": {
+     "acting": 6,
+     "comedy": 6,
+     "dance": 10,
+     "design": 4,
+     "improv": 6,
+     "runway": 7,
+     "lipsync": 10
+    }
+   },
+   {
+    "name": "Morgan McMichaels",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Morgan.webp",
+    "stats": {
+     "acting": 6,
+     "comedy": 6,
+     "dance": 10,
+     "design": 9,
+     "improv": 5,
+     "runway": 10,
+     "lipsync": 10
+    }
+   },
+   {
+    "name": "Kylie Sonique Love",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Kylie.webp",
+    "stats": {
+     "acting": 11,
+     "comedy": 9,
+     "dance": 10,
+     "design": 9,
+     "improv": 8,
+     "runway": 11,
+     "lipsync": 11
+    }
+   },
+   {
+    "name": "Mystique Summers",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Mystique.webp",
+    "stats": {
+     "acting": 4,
+     "comedy": 5,
+     "dance": 3,
+     "design": 3,
+     "improv": 3,
+     "runway": 5,
+     "lipsync": 6
+    }
+   },
+   {
+    "name": "Nicole Paige Brooks",
+    "image": "https://themothermouse.github.io/DR-Simulator/queens/NicolePaigeBrooksAS10.webp",
+    "stats": {
+     "acting": 4,
+     "comedy": 4,
+     "dance": 4,
+     "design": 6,
+     "improv": 4,
+     "runway": 7,
+     "lipsync": 6
+    }
+   },
+   {
+    "name": "Shangela",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Shangela.webp",
+    "stats": {
+     "acting": 14,
+     "comedy": 13,
+     "dance": 10,
+     "design": 3,
+     "improv": 9,
+     "runway": 9,
+     "lipsync": 12
+    }
+   },
+   {
+    "name": "Raja",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Raja.webp",
+    "stats": {
+     "acting": 11,
+     "comedy": 13,
+     "dance": 6,
+     "design": 14,
+     "improv": 12,
+     "runway": 14,
+     "lipsync": 9
+    }
+   },
+   {
+    "name": "Manila Luzon",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Manila.webp",
+    "stats": {
+     "acting": 12,
+     "comedy": 11,
+     "dance": 7,
+     "design": 14,
+     "improv": 10,
+     "runway": 13,
+     "lipsync": 11
+    }
+   },
+   {
+    "name": "Alexis Mateo",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Alexis.webp",
+    "stats": {
+     "acting": 14,
+     "comedy": 12,
+     "dance": 9,
+     "design": 7,
+     "improv": 10,
+     "runway": 8,
+     "lipsync": 12
+    }
+   },
+   {
+    "name": "Carmen Carrera",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Carmen.webp",
+    "stats": {
+     "acting": 3,
+     "comedy": 8,
+     "dance": 6,
+     "design": 4,
+     "improv": 3,
+     "runway": 7,
+     "lipsync": 7
+    }
+   },
+   {
+    "name": "Delta Work",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Delta.webp",
+    "stats": {
+     "acting": 4,
+     "comedy": 6,
+     "dance": 5,
+     "design": 5,
+     "improv": 5,
+     "runway": 7,
+     "lipsync": 7
+    }
+   },
+   {
+    "name": "India Ferrah",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/India.webp",
+    "stats": {
+     "acting": 6,
+     "comedy": 4,
+     "dance": 8,
+     "design": 6,
+     "improv": 3,
+     "runway": 10,
+     "lipsync": 9
+    }
+   },
+   {
+    "name": "Mariah Paris Balenciaga",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Mariah.webp",
+    "stats": {
+     "acting": 6,
+     "comedy": 4,
+     "dance": 7,
+     "design": 8,
+     "improv": 4,
+     "runway": 9,
+     "lipsync": 8
+    }
+   },
+   {
+    "name": "Mimi Imfurst",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Mimi.webp",
+    "stats": {
+     "acting": 11,
+     "comedy": 6,
+     "dance": 6,
+     "design": 10,
+     "improv": 7,
+     "runway": 8,
+     "lipsync": 6
+    }
+   },
+   {
+    "name": "Phoenix",
+    "image": "https://themothermouse.github.io/DR-Simulator/queens/PhoenixAS10.webp",
+    "stats": {
+     "acting": 3,
+     "comedy": 3,
+     "dance": 6,
+     "design": 5,
+     "improv": 3,
+     "runway": 5,
+     "lipsync": 4
+    }
+   },
+   {
+    "name": "Stacy Layne Matthews",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Stacy.webp",
+    "stats": {
+     "acting": 6,
+     "comedy": 7,
+     "dance": 5,
+     "design": 4,
+     "improv": 10,
+     "runway": 5,
+     "lipsync": 6
+    }
+   },
+   {
+    "name": "Venus D-Lite",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Venus.webp",
+    "stats": {
+     "acting": 4,
+     "comedy": 5,
+     "dance": 8,
+     "design": 2,
+     "improv": 3,
+     "runway": 5,
+     "lipsync": 2
+    }
+   },
+   {
+    "name": "Yara Sofia",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Yara.webp",
+    "stats": {
+     "acting": 11,
+     "comedy": 9,
+     "dance": 9,
+     "design": 13,
+     "improv": 7,
+     "runway": 10,
+     "lipsync": 8
+    }
+   },
+   {
+    "name": "Alisa Summers",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Alisa.webp",
+    "stats": {
+     "acting": 4,
+     "comedy": 4,
+     "dance": 5,
+     "design": 2,
+     "improv": 3,
+     "runway": 5,
+     "lipsync": 4
+    }
+   },
+   {
+    "name": "Chad Michaels",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Chad.webp",
+    "stats": {
+     "acting": 11,
+     "comedy": 10,
+     "dance": 8,
+     "design": 9,
+     "improv": 12,
+     "runway": 10,
+     "lipsync": 8
+    }
+   },
+   {
+    "name": "Dida Ritz",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Dida.webp",
+    "stats": {
+     "acting": 8,
+     "comedy": 7,
+     "dance": 8,
+     "design": 5,
+     "improv": 7,
+     "runway": 7,
+     "lipsync": 12
+    }
+   },
+   {
+    "name": "Jiggly Caliente",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Jiggly.webp",
+    "stats": {
+     "acting": 4,
+     "comedy": 6,
+     "dance": 9,
+     "design": 4,
+     "improv": 4,
+     "runway": 7,
+     "lipsync": 10
+    }
+   },
+   {
+    "name": "Kenya Olivera",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Kenya.webp",
+    "stats": {
+     "acting": 9,
+     "comedy": 6,
+     "dance": 6,
+     "design": 6,
+     "improv": 8,
+     "runway": 7,
+     "lipsync": 8
+    }
+   },
+   {
+    "name": "Lashauwn Beyond",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Lashauwn.webp",
+    "stats": {
+     "acting": 4,
+     "comedy": 4,
+     "dance": 6,
+     "design": 11,
+     "improv": 5,
+     "runway": 7,
+     "lipsync": 7
+    }
+   },
+   {
+    "name": "Latrice Royale",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Latrice.webp",
+    "stats": {
+     "acting": 11,
+     "comedy": 8,
+     "dance": 9,
+     "design": 8,
+     "improv": 7,
+     "runway": 9,
+     "lipsync": 13
+    }
+   },
+   {
+    "name": "Madame LaQueer",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Madame.webp",
+    "stats": {
+     "acting": 4,
+     "comedy": 7,
+     "dance": 6,
+     "design": 5,
+     "improv": 9,
+     "runway": 7,
+     "lipsync": 6
+    }
+   },
+   {
+    "name": "Milan",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Milan.webp",
+    "stats": {
+     "acting": 4,
+     "comedy": 5,
+     "dance": 9,
+     "design": 7,
+     "improv": 5,
+     "runway": 8,
+     "lipsync": 10
+    }
+   },
+   {
+    "name": "Jaremi Carey",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/PhiPhi.webp",
+    "stats": {
+     "acting": 13,
+     "comedy": 9,
+     "dance": 8,
+     "design": 10,
+     "improv": 10,
+     "runway": 10,
+     "lipsync": 8
+    }
+   },
+   {
+    "name": "Sharon Needles",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/SharonNeedles.webp",
+    "stats": {
+     "acting": 12,
+     "comedy": 12,
+     "dance": 8,
+     "design": 12,
+     "improv": 11,
+     "runway": 10,
+     "lipsync": 8
+    }
+   },
+   {
+    "name": "The Princess",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Princess.webp",
+    "stats": {
+     "acting": 4,
+     "comedy": 4,
+     "dance": 5,
+     "design": 7,
+     "improv": 4,
+     "runway": 7,
+     "lipsync": 7
+    }
+   },
+   {
+    "name": "Willam",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Willam.webp",
+    "stats": {
+     "acting": 10,
+     "comedy": 8,
+     "dance": 7,
+     "design": 10,
+     "improv": 10,
+     "runway": 9,
+     "lipsync": 8
+    }
+   },
+   {
+    "name": "Alaska",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Alaska.webp",
+    "stats": {
+     "acting": 15,
+     "comedy": 14,
+     "dance": 7,
+     "design": 8,
+     "improv": 14,
+     "runway": 10,
+     "lipsync": 11
+    }
+   },
+   {
+    "name": "Alyssa Edwards",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Alyssa.webp",
+    "stats": {
+     "acting": 4,
+     "comedy": 6,
+     "dance": 15,
+     "design": 6,
+     "improv": 10,
+     "runway": 9,
+     "lipsync": 12
+    }
+   },
+   {
+    "name": "Coco Montrese",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Coco.webp",
+    "stats": {
+     "acting": 10,
+     "comedy": 10,
+     "dance": 11,
+     "design": 9,
+     "improv": 7,
+     "runway": 9,
+     "lipsync": 15
+    }
+   },
+   {
+    "name": "Detox",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Detox.webp",
+    "stats": {
+     "acting": 10,
+     "comedy": 9,
+     "dance": 9,
+     "design": 9,
+     "improv": 8,
+     "runway": 12,
+     "lipsync": 11
+    }
+   },
+   {
+    "name": "Honey Mahogany",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Honey.webp",
+    "stats": {
+     "acting": 10,
+     "comedy": 3,
+     "dance": 3,
+     "design": 6,
+     "improv": 6,
+     "runway": 8,
+     "lipsync": 4
+    }
+   },
+   {
+    "name": "Ivy Winters",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Ivy.webp",
+    "stats": {
+     "acting": 11,
+     "comedy": 4,
+     "dance": 8,
+     "design": 12,
+     "improv": 7,
+     "runway": 10,
+     "lipsync": 7
+    }
+   },
+   {
+    "name": "Jade Jolie",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/JadeJ.webp",
+    "stats": {
+     "acting": 5,
+     "comedy": 7,
+     "dance": 8,
+     "design": 7,
+     "improv": 8,
+     "runway": 7,
+     "lipsync": 8
+    }
+   },
+   {
+    "name": "Jinkx Monsoon",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Jinkx.webp",
+    "stats": {
+     "acting": 15,
+     "comedy": 15,
+     "dance": 9,
+     "design": 8,
+     "improv": 15,
+     "runway": 9,
+     "lipsync": 8
+    }
+   },
+   {
+    "name": "Lineysha Sparx",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Lineysha.webp",
+    "stats": {
+     "acting": 10,
+     "comedy": 4,
+     "dance": 7,
+     "design": 11,
+     "improv": 5,
+     "runway": 9,
+     "lipsync": 8
+    }
+   },
+   {
+    "name": "Monica Beverly Hillz",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Monica.webp",
+    "stats": {
+     "acting": 4,
+     "comedy": 4,
+     "dance": 6,
+     "design": 6,
+     "improv": 4,
+     "runway": 9,
+     "lipsync": 8
+    }
+   },
+   {
+    "name": "Penny Tration",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Penny.webp",
+    "stats": {
+     "acting": 4,
+     "comedy": 5,
+     "dance": 4,
+     "design": 5,
+     "improv": 5,
+     "runway": 5,
+     "lipsync": 4
+    }
+   },
+   {
+    "name": "Roxxxy Andrews",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Roxxxy.webp",
+    "stats": {
+     "acting": 8,
+     "comedy": 9,
+     "dance": 7,
+     "design": 13,
+     "improv": 8,
+     "runway": 11,
+     "lipsync": 15
+    }
+   },
+   {
+    "name": "Serena ChaCha",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Serena.webp",
+    "stats": {
+     "acting": 3,
+     "comedy": 3,
+     "dance": 7,
+     "design": 4,
+     "improv": 5,
+     "runway": 5,
+     "lipsync": 8
+    }
+   },
+   {
+    "name": "Vivienne Pinay",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Vivienne.webp",
+    "stats": {
+     "acting": 7,
+     "comedy": 3,
+     "dance": 4,
+     "design": 5,
+     "improv": 3,
+     "runway": 6,
+     "lipsync": 4
+    }
+   },
+   {
+    "name": "Adore Delano",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Adore.webp",
+    "stats": {
+     "acting": 9,
+     "comedy": 11,
+     "dance": 9,
+     "design": 6,
+     "improv": 9,
+     "runway": 8,
+     "lipsync": 11
+    }
+   },
+   {
+    "name": "April Carrión",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/April.webp",
+    "stats": {
+     "acting": 5,
+     "comedy": 5,
+     "dance": 6,
+     "design": 9,
+     "improv": 5,
+     "runway": 9,
+     "lipsync": 8
+    }
+   },
+   {
+    "name": "BenDeLaCreme",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/BenDeLaCreme.webp",
+    "stats": {
+     "acting": 12,
+     "comedy": 12,
+     "dance": 11,
+     "design": 10,
+     "improv": 15,
+     "runway": 10,
+     "lipsync": 9
+    }
+   },
+   {
+    "name": "Bianca Del Rio",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Bianca.webp",
+    "stats": {
+     "acting": 11,
+     "comedy": 15,
+     "dance": 7,
+     "design": 13,
+     "improv": 15,
+     "runway": 10,
+     "lipsync": 5
+    }
+   },
+   {
+    "name": "Courtney Act",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Courtney.webp",
+    "stats": {
+     "acting": 11,
+     "comedy": 8,
+     "dance": 10,
+     "design": 10,
+     "improv": 10,
+     "runway": 12,
+     "lipsync": 9
+    }
+   },
+   {
+    "name": "Darienne Lake",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Darienne.webp",
+    "stats": {
+     "acting": 10,
+     "comedy": 8,
+     "dance": 6,
+     "design": 5,
+     "improv": 9,
+     "runway": 9,
+     "lipsync": 13
+    }
+   },
+   {
+    "name": "Gia Gunn",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Gia.webp",
+    "stats": {
+     "acting": 10,
+     "comedy": 4,
+     "dance": 8,
+     "design": 8,
+     "improv": 4,
+     "runway": 8,
+     "lipsync": 9
+    }
+   },
+   {
+    "name": "Joslyn Fox",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Joslyn.webp",
+    "stats": {
+     "acting": 6,
+     "comedy": 7,
+     "dance": 8,
+     "design": 6,
+     "improv": 8,
+     "runway": 8,
+     "lipsync": 11
+    }
+   },
+   {
+    "name": "Kelly Mantle",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Kelly.webp",
+    "stats": {
+     "acting": 6,
+     "comedy": 6,
+     "dance": 5,
+     "design": 5,
+     "improv": 4,
+     "runway": 7,
+     "lipsync": 4
+    }
+   },
+   {
+    "name": "Laganja Estranja",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Laganja.webp",
+    "stats": {
+     "acting": 9,
+     "comedy": 5,
+     "dance": 14,
+     "design": 8,
+     "improv": 6,
+     "runway": 10,
+     "lipsync": 15
+    }
+   },
+   {
+    "name": "Magnolia Crawford",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Magnolia.webp",
+    "stats": {
+     "acting": 4,
+     "comedy": 5,
+     "dance": 6,
+     "design": 4,
+     "improv": 5,
+     "runway": 7,
+     "lipsync": 4
+    }
+   },
+   {
+    "name": "Milk",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Milk.webp",
+    "stats": {
+     "acting": 6,
+     "comedy": 6,
+     "dance": 7,
+     "design": 8,
+     "improv": 8,
+     "runway": 7,
+     "lipsync": 7
+    }
+   },
+   {
+    "name": "Trinity K. Bonet",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/TrinityKB.webp",
+    "stats": {
+     "acting": 9,
+     "comedy": 9,
+     "dance": 13,
+     "design": 12,
+     "improv": 4,
+     "runway": 10,
+     "lipsync": 15
+    }
+   },
+   {
+    "name": "Vivacious",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Vivacious.webp",
+    "stats": {
+     "acting": 4,
+     "comedy": 5,
+     "dance": 5,
+     "design": 4,
+     "improv": 4,
+     "runway": 7,
+     "lipsync": 7
+    }
+   },
+   {
+    "name": "Ginger Minj",
+    "image": "https://themothermouse.github.io/DR-Simulator/queens/GingerMinjAS10.webp",
+    "stats": {
+     "acting": 14,
+     "comedy": 12,
+     "dance": 8,
+     "design": 9,
+     "improv": 15,
+     "runway": 7,
+     "lipsync": 12
+    }
+   },
+   {
+    "name": "Jaidynn Diore Fierce",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Jaidynn.webp",
+    "stats": {
+     "acting": 9,
+     "comedy": 7,
+     "dance": 8,
+     "design": 6,
+     "improv": 6,
+     "runway": 7,
+     "lipsync": 11
+    }
+   },
+   {
+    "name": "Jasmine Masters",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Jasmine.webp",
+    "stats": {
+     "acting": 3,
+     "comedy": 4,
+     "dance": 6,
+     "design": 5,
+     "improv": 2,
+     "runway": 7,
+     "lipsync": 6
+    }
+   },
+   {
+    "name": "Kandy Ho",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/KandyH.webp",
+    "stats": {
+     "acting": 4,
+     "comedy": 4,
+     "dance": 7,
+     "design": 5,
+     "improv": 4,
+     "runway": 7,
+     "lipsync": 10
+    }
+   },
+   {
+    "name": "Katya",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Katya.webp",
+    "stats": {
+     "acting": 9,
+     "comedy": 12,
+     "dance": 9,
+     "design": 7,
+     "improv": 12,
+     "runway": 10,
+     "lipsync": 10
+    }
+   },
+   {
+    "name": "Kennedy Davenport",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Kennedy.webp",
+    "stats": {
+     "acting": 9,
+     "comedy": 8,
+     "dance": 10,
+     "design": 8,
+     "improv": 11,
+     "runway": 10,
+     "lipsync": 14
+    }
+   },
+   {
+    "name": "Max",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Max.webp",
+    "stats": {
+     "acting": 10,
+     "comedy": 7,
+     "dance": 5,
+     "design": 8,
+     "improv": 4,
+     "runway": 8,
+     "lipsync": 5
+    }
+   },
+   {
+    "name": "Miss Fame",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/MissFame.webp",
+    "stats": {
+     "acting": 8,
+     "comedy": 4,
+     "dance": 5,
+     "design": 11,
+     "improv": 3,
+     "runway": 10,
+     "lipsync": 5
+    }
+   },
+   {
+    "name": "Mrs. Kasha Davis",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Kasha.webp",
+    "stats": {
+     "acting": 11,
+     "comedy": 8,
+     "dance": 10,
+     "design": 7,
+     "improv": 6,
+     "runway": 9,
+     "lipsync": 7
+    }
+   },
+   {
+    "name": "Pearl",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Pearl.webp",
+    "stats": {
+     "acting": 7,
+     "comedy": 10,
+     "dance": 8,
+     "design": 9,
+     "improv": 10,
+     "runway": 9,
+     "lipsync": 5
+    }
+   },
+   {
+    "name": "Frisbee Jenkins",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/SashaB.webp",
+    "stats": {
+     "acting": 6,
+     "comedy": 6,
+     "dance": 4,
+     "design": 4,
+     "improv": 6,
+     "runway": 6,
+     "lipsync": 4
+    }
+   },
+   {
+    "name": "Tempest DuJour",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Tempest.webp",
+    "stats": {
+     "acting": 6,
+     "comedy": 6,
+     "dance": 5,
+     "design": 3,
+     "improv": 6,
+     "runway": 7,
+     "lipsync": 4
+    }
+   },
+   {
+    "name": "Trixie Mattel",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Trixie.webp",
+    "stats": {
+     "acting": 13,
+     "comedy": 10,
+     "dance": 6,
+     "design": 10,
+     "improv": 11,
+     "runway": 10,
+     "lipsync": 5
+    }
+   },
+   {
+    "name": "Violet Chachki",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Violet.webp",
+    "stats": {
+     "acting": 6,
+     "comedy": 7,
+     "dance": 8,
+     "design": 15,
+     "improv": 8,
+     "runway": 13,
+     "lipsync": 8
+    }
+   },
+   {
+    "name": "Acid Betty",
+    "image": "https://themothermouse.github.io/DR-Simulator/queens/AcidBettyAS10.webp",
+    "stats": {
+     "acting": 9,
+     "comedy": 4,
+     "dance": 7,
+     "design": 10,
+     "improv": 5,
+     "runway": 11,
+     "lipsync": 7
+    }
+   },
+   {
+    "name": "Bob The Drag Queen",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Bob.webp",
+    "stats": {
+     "acting": 15,
+     "comedy": 15,
+     "dance": 8,
+     "design": 9,
+     "improv": 15,
+     "runway": 8,
+     "lipsync": 12
+    }
+   },
+   {
+    "name": "Chi Chi DeVayne",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/ChiChi.webp",
+    "stats": {
+     "acting": 8,
+     "comedy": 4,
+     "dance": 13,
+     "design": 8,
+     "improv": 6,
+     "runway": 8,
+     "lipsync": 13
+    }
+   },
+   {
+    "name": "Cynthia Lee Fontaine",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Cynthia.webp",
+    "stats": {
+     "acting": 4,
+     "comedy": 4,
+     "dance": 7,
+     "design": 6,
+     "improv": 4,
+     "runway": 7,
+     "lipsync": 6
+    }
+   },
+   {
+    "name": "Dax ExclamationPoint",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Dax.webp",
+    "stats": {
+     "acting": 5,
+     "comedy": 6,
+     "dance": 6,
+     "design": 5,
+     "improv": 6,
+     "runway": 5,
+     "lipsync": 4
+    }
+   },
+   {
+    "name": "Derrick Barry",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Derrick.webp",
+    "stats": {
+     "acting": 7,
+     "comedy": 7,
+     "dance": 8,
+     "design": 8,
+     "improv": 9,
+     "runway": 7,
+     "lipsync": 8
+    }
+   },
+   {
+    "name": "Kim Chi",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Kim.webp",
+    "stats": {
+     "acting": 10,
+     "comedy": 7,
+     "dance": 4,
+     "design": 15,
+     "improv": 8,
+     "runway": 13,
+     "lipsync": 4
+    }
+   },
+   {
+    "name": "Laila McQueen",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Laila.webp",
+    "stats": {
+     "acting": 6,
+     "comedy": 6,
+     "dance": 4,
+     "design": 7,
+     "improv": 6,
+     "runway": 8,
+     "lipsync": 7
+    }
+   },
+   {
+    "name": "Naomi Smalls",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Naomi.webp",
+    "stats": {
+     "acting": 9,
+     "comedy": 7,
+     "dance": 10,
+     "design": 14,
+     "improv": 10,
+     "runway": 12,
+     "lipsync": 11
+    }
+   },
+   {
+    "name": "Naysha Lopez",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Naysha.webp",
+    "stats": {
+     "acting": 7,
+     "comedy": 5,
+     "dance": 7,
+     "design": 5,
+     "improv": 4,
+     "runway": 10,
+     "lipsync": 7
+    }
+   },
+   {
+    "name": "Robbie Turner",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Robbie.webp",
+    "stats": {
+     "acting": 4,
+     "comedy": 5,
+     "dance": 6,
+     "design": 4,
+     "improv": 3,
+     "runway": 6,
+     "lipsync": 6
+    }
+   },
+   {
+    "name": "Thorgy Thor",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Thorgy.webp",
+    "stats": {
+     "acting": 14,
+     "comedy": 9,
+     "dance": 6,
+     "design": 9,
+     "improv": 13,
+     "runway": 9,
+     "lipsync": 8
+    }
+   },
+   {
+    "name": "Aja",
+    "image": "https://themothermouse.github.io/DR-Simulator/queens/AjaAS10.webp",
+    "stats": {
+     "acting": 4,
+     "comedy": 8,
+     "dance": 12,
+     "design": 11,
+     "improv": 9,
+     "runway": 10,
+     "lipsync": 11
+    }
+   },
+   {
+    "name": "Alexis Michelle",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/AlexisM.webp",
+    "stats": {
+     "acting": 8,
+     "comedy": 8,
+     "dance": 11,
+     "design": 10,
+     "improv": 13,
+     "runway": 10,
+     "lipsync": 10
+    }
+   },
+   {
+    "name": "Charlie Hides",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Charlie.webp",
+    "stats": {
+     "acting": 10,
+     "comedy": 6,
+     "dance": 5,
+     "design": 7,
+     "improv": 4,
+     "runway": 9,
+     "lipsync": 2
+    }
+   },
+   {
+    "name": "Eureka!",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Eureka.webp",
+    "stats": {
+     "acting": 9,
+     "comedy": 11,
+     "dance": 8,
+     "design": 10,
+     "improv": 13,
+     "runway": 10,
+     "lipsync": 12
+    }
+   },
+   {
+    "name": "Farrah Moan",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Farrah.webp",
+    "stats": {
+     "acting": 9,
+     "comedy": 4,
+     "dance": 7,
+     "design": 3,
+     "improv": 6,
+     "runway": 8,
+     "lipsync": 7
+    }
+   },
+   {
+    "name": "Jaymes Mansfield",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Jaymes.webp",
+    "stats": {
+     "acting": 8,
+     "comedy": 9,
+     "dance": 5,
+     "design": 9,
+     "improv": 9,
+     "runway": 10,
+     "lipsync": 7
+    }
+   },
+   {
+    "name": "Kimora Blac",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Kimora.webp",
+    "stats": {
+     "acting": 5,
+     "comedy": 5,
+     "dance": 4,
+     "design": 6,
+     "improv": 5,
+     "runway": 8,
+     "lipsync": 7
+    }
+   },
+   {
+    "name": "Nina Bo'Nina Brown",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/NinaBB.webp",
+    "stats": {
+     "acting": 4,
+     "comedy": 8,
+     "dance": 10,
+     "design": 9,
+     "improv": 10,
+     "runway": 10,
+     "lipsync": 11
+    }
+   },
+   {
+    "name": "Peppermint",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Peppermint.webp",
+    "stats": {
+     "acting": 11,
+     "comedy": 9,
+     "dance": 10,
+     "design": 9,
+     "improv": 4,
+     "runway": 7,
+     "lipsync": 13
+    }
+   },
+   {
+    "name": "Sasha Velour",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Sasha.webp",
+    "stats": {
+     "acting": 9,
+     "comedy": 10,
+     "dance": 8,
+     "design": 10,
+     "improv": 11,
+     "runway": 13,
+     "lipsync": 11
+    }
+   },
+   {
+    "name": "Shea Couleé",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Shea.webp",
+    "stats": {
+     "acting": 11,
+     "comedy": 12,
+     "dance": 15,
+     "design": 12,
+     "improv": 11,
+     "runway": 15,
+     "lipsync": 15
+    }
+   },
+   {
+    "name": "Trinity The Tuck",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/TrinityTT.webp",
+    "stats": {
+     "acting": 13,
+     "comedy": 11,
+     "dance": 9,
+     "design": 15,
+     "improv": 10,
+     "runway": 13,
+     "lipsync": 11
+    }
+   },
+   {
+    "name": "Valentina",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Valentina.webp",
+    "stats": {
+     "acting": 11,
+     "comedy": 7,
+     "dance": 10,
+     "design": 9,
+     "improv": 9,
+     "runway": 9,
+     "lipsync": 10
+    }
+   },
+   {
+    "name": "Aquaria",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Aquaria.webp",
+    "stats": {
+     "acting": 6,
+     "comedy": 11,
+     "dance": 8,
+     "design": 15,
+     "improv": 12,
+     "runway": 14,
+     "lipsync": 11
+    }
+   },
+   {
+    "name": "Asia O'Hara",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Asia.webp",
+    "stats": {
+     "acting": 11,
+     "comedy": 9,
+     "dance": 6,
+     "design": 6,
+     "improv": 7,
+     "runway": 9,
+     "lipsync": 9
+    }
+   },
+   {
+    "name": "Blair St. Clair",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Blair.webp",
+    "stats": {
+     "acting": 9,
+     "comedy": 8,
+     "dance": 6,
+     "design": 10,
+     "improv": 8,
+     "runway": 8,
+     "lipsync": 7
+    }
+   },
+   {
+    "name": "Dusty Ray Bottoms",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Dusty.webp",
+    "stats": {
+     "acting": 8,
+     "comedy": 8,
+     "dance": 6,
+     "design": 7,
+     "improv": 6,
+     "runway": 7,
+     "lipsync": 6
+    }
+   },
+   {
+    "name": "Kalorie K. Williams",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Kalorie.webp",
+    "stats": {
+     "acting": 6,
+     "comedy": 6,
+     "dance": 6,
+     "design": 5,
+     "improv": 7,
+     "runway": 7,
+     "lipsync": 8
+    }
+   },
+   {
+    "name": "Kameron Michaels",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Kameron.webp",
+    "stats": {
+     "acting": 5,
+     "comedy": 8,
+     "dance": 14,
+     "design": 10,
+     "improv": 8,
+     "runway": 8,
+     "lipsync": 15
+    }
+   },
+   {
+    "name": "Mayhem Miller",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Mayhem.webp",
+    "stats": {
+     "acting": 4,
+     "comedy": 8,
+     "dance": 9,
+     "design": 13,
+     "improv": 7,
+     "runway": 9,
+     "lipsync": 10
+    }
+   },
+   {
+    "name": "Miz Cracker",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Miz.webp",
+    "stats": {
+     "acting": 13,
+     "comedy": 11,
+     "dance": 5,
+     "design": 12,
+     "improv": 15,
+     "runway": 9,
+     "lipsync": 8
+    }
+   },
+   {
+    "name": "Monét X Change",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Monet.webp",
+    "stats": {
+     "acting": 11,
+     "comedy": 11,
+     "dance": 14,
+     "design": 9,
+     "improv": 10,
+     "runway": 10,
+     "lipsync": 15
+    }
+   },
+   {
+    "name": "Mo Heart",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Monique.webp",
+    "stats": {
+     "acting": 12,
+     "comedy": 8,
+     "dance": 6,
+     "design": 10,
+     "improv": 13,
+     "runway": 12,
+     "lipsync": 10
+    }
+   },
+   {
+    "name": "Vanessa Vanjie",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Vanjie.webp",
+    "stats": {
+     "acting": 9,
+     "comedy": 7,
+     "dance": 13,
+     "design": 8,
+     "improv": 9,
+     "runway": 12,
+     "lipsync": 11
+    }
+   },
+   {
+    "name": "The Vixen",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Vixen.webp",
+    "stats": {
+     "acting": 5,
+     "comedy": 4,
+     "dance": 12,
+     "design": 9,
+     "improv": 3,
+     "runway": 8,
+     "lipsync": 12
+    }
+   },
+   {
+    "name": "Yuhua Hamasaki",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Yuhua.webp",
+    "stats": {
+     "acting": 4,
+     "comedy": 4,
+     "dance": 6,
+     "design": 9,
+     "improv": 6,
+     "runway": 7,
+     "lipsync": 7
+    }
+   },
+   {
+    "name": "A'keria C. Davenport",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Akeria.webp",
+    "stats": {
+     "acting": 11,
+     "comedy": 9,
+     "dance": 11,
+     "design": 8,
+     "improv": 10,
+     "runway": 13,
+     "lipsync": 10
+    }
+   },
+   {
+    "name": "Ariel Versace",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Ariel.webp",
+    "stats": {
+     "acting": 8,
+     "comedy": 6,
+     "dance": 8,
+     "design": 5,
+     "improv": 8,
+     "runway": 8,
+     "lipsync": 8
+    }
+   },
+   {
+    "name": "Brooke Lynn Hytes",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Brooke.webp",
+    "stats": {
+     "acting": 8,
+     "comedy": 8,
+     "dance": 13,
+     "design": 12,
+     "improv": 8,
+     "runway": 10,
+     "lipsync": 13
+    }
+   },
+   {
+    "name": "Honey Davenport",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/HoneyD.webp",
+    "stats": {
+     "acting": 4,
+     "comedy": 6,
+     "dance": 5,
+     "design": 7,
+     "improv": 4,
+     "runway": 9,
+     "lipsync": 4
+    }
+   },
+   {
+    "name": "Kahanna Montrese",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Kahanna.webp",
+    "stats": {
+     "acting": 6,
+     "comedy": 6,
+     "dance": 12,
+     "design": 8,
+     "improv": 6,
+     "runway": 13,
+     "lipsync": 11
+    }
+   },
+   {
+    "name": "Mercedes Iman Diamond",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Mercedes.webp",
+    "stats": {
+     "acting": 4,
+     "comedy": 6,
+     "dance": 4,
+     "design": 6,
+     "improv": 6,
+     "runway": 8,
+     "lipsync": 8
+    }
+   },
+   {
+    "name": "Nina West",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/NinaW.webp",
+    "stats": {
+     "acting": 14,
+     "comedy": 11,
+     "dance": 7,
+     "design": 9,
+     "improv": 11,
+     "runway": 9,
+     "lipsync": 6
+    }
+   },
+   {
+    "name": "Plastique Tiara",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Plastique.webp",
+    "stats": {
+     "acting": 11,
+     "comedy": 10,
+     "dance": 10,
+     "design": 15,
+     "improv": 8,
+     "runway": 15,
+     "lipsync": 9
+    }
+   },
+   {
+    "name": "Ra'Jah O'Hara",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Rajah.webp",
+    "stats": {
+     "acting": 8,
+     "comedy": 8,
+     "dance": 11,
+     "design": 12,
+     "improv": 9,
+     "runway": 12,
+     "lipsync": 13
+    }
+   },
+   {
+    "name": "Scarlet Envy",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Scarlet.webp",
+    "stats": {
+     "acting": 13,
+     "comedy": 9,
+     "dance": 6,
+     "design": 13,
+     "improv": 9,
+     "runway": 11,
+     "lipsync": 8
+    }
+   },
+   {
+    "name": "Shuga Cain",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Shuga.webp",
+    "stats": {
+     "acting": 10,
+     "comedy": 9,
+     "dance": 7,
+     "design": 6,
+     "improv": 7,
+     "runway": 10,
+     "lipsync": 7
+    }
+   },
+   {
+    "name": "Silky Nutmeg Ganache",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Silky.webp",
+    "stats": {
+     "acting": 10,
+     "comedy": 10,
+     "dance": 9,
+     "design": 8,
+     "improv": 10,
+     "runway": 10,
+     "lipsync": 12
+    }
+   },
+   {
+    "name": "Soju",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Soju.webp",
+    "stats": {
+     "acting": 4,
+     "comedy": 4,
+     "dance": 4,
+     "design": 4,
+     "improv": 4,
+     "runway": 4,
+     "lipsync": 4
+    }
+   },
+   {
+    "name": "Yvie Oddly",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Yvie.webp",
+    "stats": {
+     "acting": 12,
+     "comedy": 7,
+     "dance": 13,
+     "design": 12,
+     "improv": 9,
+     "runway": 12,
+     "lipsync": 15
+    }
+   },
+   {
+    "name": "Aiden Zhane",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Aiden.webp",
+    "stats": {
+     "acting": 9,
+     "comedy": 3,
+     "dance": 6,
+     "design": 4,
+     "improv": 3,
+     "runway": 6,
+     "lipsync": 6
+    }
+   },
+   {
+    "name": "Brita",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Brita.webp",
+    "stats": {
+     "acting": 7,
+     "comedy": 8,
+     "dance": 7,
+     "design": 4,
+     "improv": 6,
+     "runway": 8,
+     "lipsync": 11
+    }
+   },
+   {
+    "name": "Crystal Methyd",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/CrystalM.webp",
+    "stats": {
+     "acting": 6,
+     "comedy": 8,
+     "dance": 8,
+     "design": 9,
+     "improv": 8,
+     "runway": 12,
+     "lipsync": 6
+    }
+   },
+   {
+    "name": "Dahlia Sin",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Dahlia.webp",
+    "stats": {
+     "acting": 4,
+     "comedy": 4,
+     "dance": 6,
+     "design": 5,
+     "improv": 5,
+     "runway": 10,
+     "lipsync": 4
+    }
+   },
+   {
+    "name": "Gigi Goode",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Gigi.webp",
+    "stats": {
+     "acting": 10,
+     "comedy": 11,
+     "dance": 11,
+     "design": 13,
+     "improv": 9,
+     "runway": 12,
+     "lipsync": 8
+    }
+   },
+   {
+    "name": "Heidi N Closet",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Heidi.webp",
+    "stats": {
+     "acting": 9,
+     "comedy": 9,
+     "dance": 11,
+     "design": 9,
+     "improv": 12,
+     "runway": 10,
+     "lipsync": 13
+    }
+   },
+   {
+    "name": "Jackie Cox",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Jackie.webp",
+    "stats": {
+     "acting": 11,
+     "comedy": 12,
+     "dance": 6,
+     "design": 6,
+     "improv": 13,
+     "runway": 9,
+     "lipsync": 11
+    }
+   },
+   {
+    "name": "Jaida Essence Hall",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Jaida.webp",
+    "stats": {
+     "acting": 8,
+     "comedy": 5,
+     "dance": 10,
+     "design": 15,
+     "improv": 8,
+     "runway": 13,
+     "lipsync": 12
+    }
+   },
+   {
+    "name": "Jan",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Jan.webp",
+    "stats": {
+     "acting": 8,
+     "comedy": 4,
+     "dance": 12,
+     "design": 9,
+     "improv": 5,
+     "runway": 10,
+     "lipsync": 9
+    }
+   },
+   {
+    "name": "Nicky Doll",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Nicky.webp",
+    "stats": {
+     "acting": 4,
+     "comedy": 4,
+     "dance": 5,
+     "design": 12,
+     "improv": 3,
+     "runway": 11,
+     "lipsync": 5
+    }
+   },
+   {
+    "name": "Rock M. Sakura",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Rock.webp",
+    "stats": {
+     "acting": 6,
+     "comedy": 6,
+     "dance": 6,
+     "design": 4,
+     "improv": 8,
+     "runway": 8,
+     "lipsync": 7
+    }
+   },
+   {
+    "name": "Sherry Pie",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/SherryPie.webp",
+    "stats": {
+     "acting": 9,
+     "comedy": 8,
+     "dance": 9,
+     "design": 8,
+     "improv": 10,
+     "runway": 11,
+     "lipsync": 8
+    }
+   },
+   {
+    "name": "Widow Von'Du",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Widow.webp",
+    "stats": {
+     "acting": 11,
+     "comedy": 7,
+     "dance": 13,
+     "design": 8,
+     "improv": 11,
+     "runway": 10,
+     "lipsync": 15
+    }
+   },
+   {
+    "name": "Denali",
+    "image": "https://themothermouse.github.io/DR-Simulator/queens/DenaliAS10.webp",
+    "stats": {
+     "acting": 4,
+     "comedy": 8,
+     "dance": 14,
+     "design": 9,
+     "improv": 10,
+     "runway": 11,
+     "lipsync": 13
+    }
+   },
+   {
+    "name": "Elliott with 2 Ts",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Elliott.webp",
+    "stats": {
+     "acting": 5,
+     "comedy": 5,
+     "dance": 12,
+     "design": 9,
+     "improv": 3,
+     "runway": 8,
+     "lipsync": 11
+    }
+   },
+   {
+    "name": "Gottmik",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Gottmik.webp",
+    "stats": {
+     "acting": 9,
+     "comedy": 11,
+     "dance": 7,
+     "design": 14,
+     "improv": 14,
+     "runway": 15,
+     "lipsync": 9
+    }
+   },
+   {
+    "name": "Joey Jay",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Joey.webp",
+    "stats": {
+     "acting": 6,
+     "comedy": 7,
+     "dance": 6,
+     "design": 5,
+     "improv": 5,
+     "runway": 7,
+     "lipsync": 7
+    }
+   },
+   {
+    "name": "Kahmora Hall",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Kahmora.webp",
+    "stats": {
+     "acting": 3,
+     "comedy": 4,
+     "dance": 3,
+     "design": 5,
+     "improv": 4,
+     "runway": 12,
+     "lipsync": 4
+    }
+   },
+   {
+    "name": "Kandy Muse",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/KandyM.webp",
+    "stats": {
+     "acting": 11,
+     "comedy": 10,
+     "dance": 10,
+     "design": 7,
+     "improv": 8,
+     "runway": 10,
+     "lipsync": 14
+    }
+   },
+   {
+    "name": "LaLa Ri",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/LaLa.webp",
+    "stats": {
+     "acting": 6,
+     "comedy": 8,
+     "dance": 13,
+     "design": 7,
+     "improv": 10,
+     "runway": 9,
+     "lipsync": 14
+    }
+   },
+   {
+    "name": "Olivia Lux",
+    "image": "https://themothermouse.github.io/DR-Simulator/queens/OliviaLuxAS10.webp",
+    "stats": {
+     "acting": 11,
+     "comedy": 5,
+     "dance": 11,
+     "design": 10,
+     "improv": 8,
+     "runway": 11,
+     "lipsync": 8
+    }
+   },
+   {
+    "name": "Rosé",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Rose.webp",
+    "stats": {
+     "acting": 12,
+     "comedy": 11,
+     "dance": 13,
+     "design": 8,
+     "improv": 10,
+     "runway": 10,
+     "lipsync": 6
+    }
+   },
+   {
+    "name": "Symone",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Symone.webp",
+    "stats": {
+     "acting": 14,
+     "comedy": 7,
+     "dance": 7,
+     "design": 9,
+     "improv": 12,
+     "runway": 13,
+     "lipsync": 13
+    }
+   },
+   {
+    "name": "Tamisha Iman",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Tamisha.webp",
+    "stats": {
+     "acting": 7,
+     "comedy": 6,
+     "dance": 7,
+     "design": 5,
+     "improv": 6,
+     "runway": 7,
+     "lipsync": 7
+    }
+   },
+   {
+    "name": "Tina Burner",
+    "image": "https://themothermouse.github.io/DR-Simulator/queens/TinaBurnerAS10.webp",
+    "stats": {
+     "acting": 6,
+     "comedy": 6,
+     "dance": 10,
+     "design": 5,
+     "improv": 6,
+     "runway": 8,
+     "lipsync": 9
+    }
+   },
+   {
+    "name": "Utica Queen",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Utica.webp",
+    "stats": {
+     "acting": 7,
+     "comedy": 4,
+     "dance": 6,
+     "design": 15,
+     "improv": 5,
+     "runway": 12,
+     "lipsync": 11
+    }
+   },
+   {
+    "name": "Angeria Paris VanMichaels",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Angeria.webp",
+    "stats": {
+     "acting": 13,
+     "comedy": 11,
+     "dance": 10,
+     "design": 12,
+     "improv": 9,
+     "runway": 13,
+     "lipsync": 11
+    }
+   },
+   {
+    "name": "Lady Camden",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/LadyCamden.webp",
+    "stats": {
+     "acting": 12,
+     "comedy": 11,
+     "dance": 12,
+     "design": 11,
+     "improv": 7,
+     "runway": 10,
+     "lipsync": 11
+    }
+   },
+   {
+    "name": "Bosco",
+    "image": "https://themothermouse.github.io/DR-Simulator/queens/BoscoAS10.webp",
+    "stats": {
+     "acting": 12,
+     "comedy": 11,
+     "dance": 12,
+     "design": 11,
+     "improv": 7,
+     "runway": 10,
+     "lipsync": 11
+    }
+   },
+   {
+    "name": "Jorgeous",
+    "image": "https://themothermouse.github.io/DR-Simulator/queens/JorgeousAS10.webp",
+    "stats": {
+     "acting": 9,
+     "comedy": 7,
+     "dance": 15,
+     "design": 10,
+     "improv": 6,
+     "runway": 11,
+     "lipsync": 15
+    }
+   },
+   {
+    "name": "Willow Pill",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Willow.webp",
+    "stats": {
+     "acting": 11,
+     "comedy": 8,
+     "dance": 7,
+     "design": 10,
+     "improv": 10,
+     "runway": 12,
+     "lipsync": 8
+    }
+   },
+   {
+    "name": "DeJa Skye",
+    "image": "https://themothermouse.github.io/DR-Simulator/queens/DejaSkyeAS10.webp",
+    "stats": {
+     "acting": 9,
+     "comedy": 7,
+     "dance": 9,
+     "design": 8,
+     "improv": 13,
+     "runway": 8,
+     "lipsync": 8
+    }
+   },
+   {
+    "name": "Daya Betty",
+    "image": "https://themothermouse.github.io/DR-Simulator/queens/DayaBettyAS10.webp",
+    "stats": {
+     "acting": 9,
+     "comedy": 8,
+     "dance": 9,
+     "design": 9,
+     "improv": 10,
+     "runway": 10,
+     "lipsync": 8
+    }
+   },
+   {
+    "name": "Jasmine Kennedie",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Jasmine.webp",
+    "stats": {
+     "acting": 7,
+     "comedy": 6,
+     "dance": 13,
+     "design": 7,
+     "improv": 6,
+     "runway": 10,
+     "lipsync": 14
+    }
+   },
+   {
+    "name": "Alyssa Hunter",
+    "image": "https://themothermouse.github.io/DR-Simulator/queens/AlyssaHunterAS10.webp",
+    "stats": {
+     "acting": 5,
+     "comedy": 6,
+     "dance": 7,
+     "design": 10,
+     "improv": 7,
+     "runway": 13,
+     "lipsync": 8
+    }
+   },
+   {
+    "name": "Maddy Morphosis",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Maddy.webp",
+    "stats": {
+     "acting": 8,
+     "comedy": 7,
+     "dance": 6,
+     "design": 5,
+     "improv": 6,
+     "runway": 9,
+     "lipsync": 7
+    }
+   },
+   {
+    "name": "Kornbread Jeté",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Kornbread.webp",
+    "stats": {
+     "acting": 6,
+     "comedy": 7,
+     "dance": 6,
+     "design": 6,
+     "improv": 7,
+     "runway": 8,
+     "lipsync": 7
+    }
+   },
+   {
+    "name": "Kerri Colby",
+    "image": "https://themothermouse.github.io/DR-Simulator/queens/KerriColbyAS10.webp",
+    "stats": {
+     "acting": 6,
+     "comedy": 6,
+     "dance": 5,
+     "design": 5,
+     "improv": 6,
+     "runway": 9,
+     "lipsync": 6
+    }
+   },
+   {
+    "name": "Orion Story",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Orion.webp",
+    "stats": {
+     "acting": 4,
+     "comedy": 6,
+     "dance": 6,
+     "design": 5,
+     "improv": 6,
+     "runway": 6,
+     "lipsync": 5
+    }
+   },
+   {
+    "name": "June Jambalaya",
+    "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/June.webp",
+    "stats": {
+     "acting": 5,
+     "comedy": 6,
+     "dance": 6,
+     "design": 4,
+     "improv": 5,
+     "runway": 6,
+     "lipsync": 6
+    }
+   }
+  ]
+ }
