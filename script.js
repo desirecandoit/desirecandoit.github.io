@@ -1141,7 +1141,7 @@ function bottomLipsync() {
 
 async function loadSongs() {
     try {
-        const response = await fetch('songs.txt');
+        const response = await fetch('./data/songs.txt');
         if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
         const text = await response.text();
         return text.split('\n').filter(song => song.trim().length > 0);
@@ -1723,7 +1723,7 @@ const predefinedCasts = {
     season12: ["Jaida Essence Hall", "Crystal Methyd", "Gigi Goode", "Jackie Cox", "Heidi N Closet", "Widow Von'Du", "Jan", "Brita", "Aiden Zhane", "Nicky Doll", "Rock M. Sakura", "Dahlia Sin"],
     season13: ["Symone", "Kandy Muse", "Gottmik", "Rosé", "Olivia Lux", "Utica Queen", "Tina Burner", "Denali", "Elliott with 2 Ts", "LaLa Ri", "Joey Jay", "Tamisha Iman", "Kahmora Hall"],
     season14: ["Willow Pill", "Lady Camden", "Angeria Paris VanMicheals", "Bosco", "Daya Betty", "DeJa Skye", "Jorgeous", "Jasmine Kennedie", "Kerri Colby", "Maddy Morphosis", "Orion Story", "Alyssa Hunter", "Kornbread Jeté", "June Jambalaya"],
-    season15: ["Sasha Colby", "Anetra", "Luxx Noir London", "Mistress Isabelle Brooks", "Loosey LaDuca", "Marcia Marcia Marcia", "Malaysia Babydoll Foxx", "Salina EsTitties", "Spice", "Jax", "Aura Mayari", "Sugar", "Robin Fierce", "Amethyst", "Princess Poppy", "Irene Dubois"],
+    season15: ["Sasha Colby", "Anetra", "Luxx Noir London", "Mistress Isabelle Brooks", "Loosey LaDuca", "Marcia Marcia Marcia", "Malaysia Babydoll Foxx", "Salina EsTitties", "Spice", "Jax", "Aura Mayari", "Sugar", "Robin Fierce", "Amethyst", "Princess Poppy", "Irene The Alien"],
     season16: ["Nymphia Wind", "Sapphira Cristal", "Plane Jane", "Q", "Morphine Love Dion", "Dawn", "Mhi'ya Iman Le'Paige", "Plasma", "Xunami Muse", "Megami", "Geneva Karr", "Amanda Tori Meating", "Mirage", "Hershii LiqCour-Jeté"],
     season17: ["Onya Nurve", "Jewels Sparkles", "Lexi Love", "Sam Star", "Suzie Toot", "Lana Ja'Rae", "Lydia B Kollins", "Arrietty", "Kori King", "Acacia Forgot", "Crystal Envy", "Hormona Lisa", "Joella", "Lucky Starzzz"],
 
