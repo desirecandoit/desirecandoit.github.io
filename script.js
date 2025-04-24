@@ -1141,7 +1141,7 @@ function bottomLipsync() {
 
 async function loadSongs() {
     try {
-        const response = await fetch('./data/songs.txt');
+        const response = await fetch('songs.txt');
         if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
         const text = await response.text();
         return text.split('\n').filter(song => song.trim().length > 0);
