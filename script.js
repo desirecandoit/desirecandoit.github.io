@@ -7,8 +7,12 @@ let scene;
 let top2 = false;
 let top3 = false;
 let top4 = false;
+let top5 = false;
+let lsftc = false;
 let episodeNumber = 1;
 let maxiAdvantageQueen = null;
+
+let semiPairs = [[],[]]; // For the "pairs" twist, if it exists
 
 // Sverige immunity because apparently that's a thing
 let sverigeImmunity = false;
@@ -48,8 +52,11 @@ function getPlacementColor(placement) {
         case 'WINNER' : return 'yellow'; // Crown that bitch
         case 'DOUBLEWIN': return 'darkblue'; // Because one winner wasn't dramatic enough
         case 'RUNNER UP': return 'silver'; // First loser
+        case 'LOST R3' : return '#FFD100';
         case 'TOP2': return 'yellow'; // Almost but not quite
         case 'ELIMINATED' : return 'sienna'; // Sashay away hunty
+        case 'LOST R2' : return '#FFAE00';
+        case 'LOST R1' : return '##FF7C00';
         case 'HIGH': return 'lightblue'; // You did good but not good enough
         case 'SAFE': return 'white'; // Vanilla ass performance
         case 'LOW': return 'lightpink'; // Girl you better step it up
@@ -114,8 +121,14 @@ function displayTrackRecord() {
         // Sort by performance ranking
         const performanceRank = {
             'WIN': 1,
+            'WINNER' : 1,
             'TOP2': 2,
+            'RUNNER UP': 2,
+            'LOST R3': 2,
             'HIGH': 3,
+            'LOST R2': 3,
+            'LOST R1': 3,
+            'ELIMINATED': 3,
             'SAFE': 4,
             'LOW': 5,
             'BTM2': 6,
@@ -189,6 +202,8 @@ function updateFinaleFormatBools() {
     top2 = finaleFormat === 'top2';
     top3 = finaleFormat === 'top3';
     top4 = finaleFormat === 'top4';
+    top5 = finaleFormat === 'top5';
+    lsftc = finaleFormat === 'lsftc';
 }
 
 function updateTwistBools() {
@@ -607,9 +622,11 @@ document.getElementById('start-simulation').addEventListener('click', function()
     let finaleSize = 2;
     if (finaleFormat === 'top3') finaleSize = 3;
     if (finaleFormat === 'top4') finaleSize = 4;
+    if (finaleFormat === 'top5') finaleSize = 5;
+    if (finaleFormat === 'lsftc') finaleSize = 4;
     
-    if (chosenContestants.length <= finaleSize) {
-        showCornerPopup(`You must select more queens than the finale (${finaleSize}) to start the simulation.`, 'error');
+    if (chosenContestants.length < finaleSize) {
+        showCornerPopup(`You must select atleast the same number of queens than the finale needs (${finaleSize}) to start the simulation.`, 'error');
         return;
     }
     showSimulationCast();
@@ -629,7 +646,6 @@ function showSimulationCast() {
         scene.createParagraph(contestant.name);
     });
     
-    // Initialize track record for the season
     initializeTrackRecord();
     
     scene.createButton('Proceed', 'startEpisode()');
@@ -640,7 +656,9 @@ function startEpisode() {
     const castCount = chosenContestants.length;
     if ((top2 && castCount == 2) ||
         (top3 && castCount == 3) ||
-        (top4 && castCount == 4)) {
+        (top4 && castCount == 4) ||
+        (top5 && castCount == 5) ||
+        (lsftc && castCount == 4)){
         finale();
     } else {
         // Reset immunity after episode 1
@@ -1357,105 +1375,156 @@ async function finale() {
     
     // Final challenge performance
     scene.createHorizontalLine();
-    scene.createBigText("For the final challenge...");
-    scene.createParagraph("The queens will write and perform their own verse to RuPaul's latest hit!");
 
-    // Calculate final scores based on overall stats and track record
-    let finalScores = finalists.map(queen => {
-        // Get track record
-        const record = trackRecord.get(queen.name);
-        const wins = record.filter(p => p === 'WIN').length;
-        const highs = record.filter(p => p === 'HIGH').length;
-        const btms = record.filter(p => p === 'BTM2').length;
-        
-        // Calculate base score from stats
-        const stats = queen.stats || {};
-        const baseScore = (
-            (stats.acting || 5) + 
-            (stats.comedy || 5) + 
-            (stats.dance || 5) + 
-            (stats.design || 5) + 
-            (stats.improv || 5) + 
-            (stats.runway || 5)
-        ) / 6;
-        
-        // Add bonus points for track record
-        const trackScore = (wins * 2) + (highs * 1) - (btms * 1);
-        
-        return {
-            queen,
-            score: baseScore + trackScore + randomInt(-1, 1),
-            wins,
-            highs,
-            btms
-        };
-    });
+    if (lsftc) {
+        scene.createBigText("For the final lip sync...");
+        scene.createParagraph("The queens will lipsync to the finale!")
+
+        semiPairs = [[finalists[0], finalists[3]], [finalists[1], finalists[2]]];
+        const semiPairsDiv = document.createElement('div');
+
+        scene.createParagraph("The wheel has chosen your pairs...");
+        scene.createImage(semiPairs[0][0].image, 'gold');
+        scene.createImage(semiPairs[0][1].image, 'gold');
+        scene.createParagraph(semiPairs[0][0].name + " vs " + semiPairs[0][1].name);
+        const songs = await loadSongs();
+        const song1 = songs[randomInt(0, songs.length - 1)];
+        scene.createParagraph(`Lipsyncing to "${song1}"`);
+        scene.createImage(semiPairs[1][0].image, 'gold');
+        scene.createImage(semiPairs[1][1].image, 'gold');
+        scene.createParagraph(semiPairs[1][0].name + " vs " + semiPairs[1][1].name);
+        const song2 = songs[randomInt(0, songs.length - 1)];
+        scene.createParagraph(`Lipsyncing to "${song2}"`);
+        scene.createHorizontalLine();
+        scene.createParagraph("You will lip sync against your partner to the song of your choice.");
+        scene.createParagraph("The time has come... for you to lip sync... FOR THE CROWN!");
+
+        semiPairsDiv.style.display = 'flex';
+        semiPairsDiv.style.justifyContent = 'center';
+        semiPairsDiv.style.gap = '32px';
+        semiPairs.forEach(pair => {
+            const pairDiv = document.createElement('div');
+            pairDiv.style.display = 'flex';
+            pairDiv.style.justifyContent = 'center';
+            pairDiv.style.gap = '32px';
+            pair.forEach(queen => {
+                scene.createImage(queen.image, 'gold');
+            });
+            semiPairsDiv.appendChild(pairDiv);
+        });
+    }
+    else {
+        scene.createBigText("For the final challenge...");
+        scene.createParagraph("The queens will write and perform their own verse to RuPaul's latest hit!");
+
+        // Calculate final scores based on overall stats and track record
+        let finalScores = finalists.map(queen => {
+            // Get track record
+            const record = trackRecord.get(queen.name);
+            const wins = record.filter(p => p === 'WIN').length;
+            const highs = record.filter(p => p === 'HIGH').length;
+            const btms = record.filter(p => p === 'BTM2').length;
+            
+            // Calculate base score from stats
+            const stats = queen.stats || {};
+            const baseScore = (
+                (stats.acting || 5) + 
+                (stats.comedy || 5) + 
+                (stats.dance || 5) + 
+                (stats.design || 5) + 
+                (stats.improv || 5) + 
+                (stats.runway || 5)
+            ) / 6;
+            
+            // Add bonus points for track record
+            const trackScore = (wins * 2) + (highs * 1) - (btms * 1);
+            
+            return {
+                queen,
+                score: baseScore + trackScore + randomInt(-1, 1),
+                wins,
+                highs,
+                btms
+            };
+         });
+         finalScores.sort((a, b) => b.score - a.score);
     
-    finalScores.sort((a, b) => b.score - a.score);
-    
-    // Show final performances
-    scene.createHorizontalLine();
-    scene.createHeader("Final Performance");
-    finalScores.forEach(score => {
+        // Show final performances
+        scene.createHorizontalLine();
+        scene.createHeader("Final Performance");
+        finalScores.forEach(score => {
         scene.createImage(score.queen.image);
         scene.createBold(`${score.queen.name}`);
         scene.createParagraph(`Track Record: ${score.wins} WIN${score.wins !== 1 ? 's' : ''}, ${score.highs} HIGH${score.highs !== 1 ? 's' : ''}, ${score.btms} BTM2${score.btms !== 1 ? 's' : ''}`);
     });
+    }
     
-    scene.createButton("Proceed", "crownWinner()");
+    scene.createButton("Proceed", lsftc ? "lsftcF()" : "crownWinner()");
 }
 
-async function crownWinner() {
+async function lsftcF() {
     scene.clean();
-    scene.createHeader("The Winner Is...");
-    
-    const finalists = chosenContestants;
-    const songs = await loadSongs();
-    const finalSong = songs[randomInt(0, songs.length - 1)];
-    
-    if (finalists.length > 2) {
-        // For top 3/4, eliminate others first
-        const eliminated = finalists.slice(2);
-        eliminated.forEach(queen => {
-            scene.createImage(queen.image, 'sienna');
-            updateTrackRecord(queen, 'ELIMINATED');
-        });
-        const eliminatedNames = eliminated.map(q => q.name).join(' and ');
-        scene.createParagraph(`${eliminatedNames}, I'm sorry my ${eliminated.length === 1 ? 'dear' : 'dears'}, but it's not your time. Now, sashay away...`);
-        
+    scene.createHeader("💋 Lip Sync For The Crown");
+
+    let round = 1;
+    let finalists = [];
+
+    for (let [q1, q2] of semiPairs) {
+        scene.createHeader(`${q1.name} vs ${q2.name}`);
+        scene.createParagraph(`They're about to lip sync for their <b>lives</b>... and a spot in the final two!`);
+
+        scene.createImage(q1.image, 'gold');
+
+        const q1Score = finalScores.find(entry => entry.queen.name === q1.name).score;
+        const q2Score = finalScores.find(entry => entry.queen.name === q2.name).score;
+
+        const winner = q1Score >= q2Score ? q1 : q2;
+        const loser = winner === q1 ? q2 : q1;
+
+        scene.createBold(`${winner.name}, shantay you stay!`);
+        scene.createImage(loser.image, 'sienna');
+        scene.createParagraph(`${loser.name}, thank you for an incredible season. Now sashay away 💔`);
+
+        updateTrackRecord(loser, `LOST R${round}`);
+        finalScores = finalScores.filter(entry => entry.queen.name !== loser.name);
+
+        finalists.push(winner);
+        round++;
         scene.createHorizontalLine();
-        const top2 = finalists.slice(0, 2);
-        scene.createParagraph(`Two queens stand before me. Prior to tonight, you were asked to prepare a lip sync performance to "${finalSong}".`);
-        
-        const top2Div = document.createElement('div');
-        top2Div.style.display = 'flex';
-        top2Div.style.justifyContent = 'center';
-        top2Div.style.gap = '32px';
-        
-        top2.forEach(queen => {
-            scene.createImage(queen.image, 'gold');
-        });
-        
-        scene._MainBlock.appendChild(top2Div);
-        scene.createParagraph("The time has come... for you to lip sync... FOR THE CROWN!");
-        scene.createButton("Show Result", "announceWinner()");
-    } else {
-        scene.createParagraph(`Two queens stand before me. Prior to tonight, you were asked to prepare a lip sync performance to "${finalSong}".`);
-        
-        const finalistsDiv = document.createElement('div');
-        finalistsDiv.style.display = 'flex';
-        finalistsDiv.style.justifyContent = 'center';
-        finalistsDiv.style.gap = '32px';
-        
-        finalists.forEach(queen => {
-            scene.createImage(queen.image, 'gold');
-        });
-        
-        scene._MainBlock.appendChild(finalistsDiv);
-        scene.createParagraph("The time has come... for you to lip sync... FOR THE CROWN!");
-        scene.createButton("Show Result", "announceWinner()");
     }
+
+    // 💍 Final Round
+    const [final1, final2] = finalists;
+    const score1 = finalScores.find(entry => entry.queen.name === final1.name).score;
+    const score2 = finalScores.find(entry => entry.queen.name === final2.name).score;
+
+    scene.createHeader(`Final Showdown: ${final1.name} vs ${final2.name}`);
+    scene.createParagraph("This is it, the ultimate lip sync for the crown!");
+
+    scene.createImage(final1.image);
+    scene.createImage(final2.image);
+
+
+    const finalWinner = score1 >= score2 ? final1 : final2;
+    const finalLoser = finalWinner === final1 ? final2 : final1;
+
+    scene.createBigText(`${finalWinner.name}, you are the WINNER of the season! 👑`);
+    scene.createParagraph(`${finalLoser.name}, you are our fierce runner-up. Sashay away with pride 💖`);
+
+    updateTrackRecord(finalLoser, 'RUNNER-UP');
+    updateTrackRecord(finalWinner, 'WINNER');
+    finalScores = finalScores.filter(entry => entry.queen.name !== finalLoser.name);
+
+    crownedQueen = finalWinner;
 }
+
+
+async function lsftcF() {
+    showCornerPopup("The lipsync isn't implemented, sorry!", 'warn');
+    
+    announceWinner();
+}
+
 
 function announceWinner() {
     scene.clean();

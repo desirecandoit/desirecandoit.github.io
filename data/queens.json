@@ -2698,6 +2698,174 @@
        "improv": 4,
        "runway": 4,
        "lipsync":4
+    }},
+    {
+      "name": "Onya Nurve",
+      "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/OnyaNurve.webp",
+      "stats": {
+       "acting": 7,
+       "comedy": 7,
+       "dance": 7,
+       "design": 7,
+       "improv": 7,
+       "runway": 7,
+       "lipsync":7
+    }},
+    {
+      "name": "Jewels Sparkles",
+      "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/JewelsSparkles.webp",
+      "stats": {
+       "acting": 7,
+       "comedy": 7,
+       "dance": 7,
+       "design": 7,
+       "improv": 7,
+       "runway": 7,
+       "lipsync":7
+    }},
+    {
+      "name": "Sam Star",
+      "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/SamStar.webp",
+      "stats": {
+       "acting": 7,
+       "comedy": 7,
+       "dance": 7,
+       "design": 7,
+       "improv": 7,
+       "runway": 7,
+       "lipsync":7
+    }},
+    {
+      "name": "Lexi Love",
+      "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/LexiLove.webp",
+      "stats": {
+       "acting": 7,
+       "comedy": 7,
+       "dance": 7,
+       "design": 7,
+       "improv": 7,
+       "runway": 7,
+       "lipsync":7
+    }},
+    {
+      "name": "Suzie Toot",
+      "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/SuzieToot.webp",
+      "stats": {
+       "acting": 7,
+       "comedy": 7,
+       "dance": 7,
+       "design": 7,
+       "improv": 7,
+       "runway": 7,
+       "lipsync":7
+    }},
+    {
+      "name": "Lana Ja'Rae",
+      "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/LanaJaRae.webp",
+      "stats": {
+       "acting": 7,
+       "comedy": 7,
+       "dance": 7,
+       "design": 7,
+       "improv": 7,
+       "runway": 7,
+       "lipsync":7
+    }},
+    {
+      "name": "Lydia B. Kollins",
+      "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/LydiaBKollins.webp",
+      "stats": {
+       "acting": 7,
+       "comedy": 7,
+       "dance": 7,
+       "design": 7,
+       "improv": 7,
+       "runway": 7,
+       "lipsync":7
+    }},
+    {
+      "name": "Arrietty",
+      "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Arrietty.webp",
+      "stats": {
+       "acting": 7,
+       "comedy": 7,
+       "dance": 7,
+       "design": 7,
+       "improv": 7,
+       "runway": 7,
+       "lipsync":7
+    }},
+    {
+      "name": "Kori King",
+      "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/KoriKing.webp",
+      "stats": {
+       "acting": 7,
+       "comedy": 7,
+       "dance": 7,
+       "design": 7,
+       "improv": 7,
+       "runway": 7,
+       "lipsync":7
+    }},
+    {
+      "name": "Acacia Forgot",
+      "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/AcaciaForgot.webp",
+      "stats": {
+       "acting": 7,
+       "comedy": 7,
+       "dance": 7,
+       "design": 7,
+       "improv": 7,
+       "runway": 7,
+       "lipsync":7
+    }},
+    {
+      "name": "Crystal Envy",
+      "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/CrystalEnvy.webp",
+      "stats": {
+       "acting": 7,
+       "comedy": 7,
+       "dance": 7,
+       "design": 7,
+       "improv": 7,
+       "runway": 7,
+       "lipsync":7
+    }},
+    {
+      "name": "Hormona Lisa",
+      "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/HormonaLisa.webp",
+      "stats": {
+       "acting": 7,
+       "comedy": 7,
+       "dance": 7,
+       "design": 7,
+       "improv": 7,
+       "runway": 7,
+       "lipsync":7
+    }},
+    {
+      "name": "Joella",
+      "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/Joella.webp",
+      "stats": {
+       "acting": 7,
+       "comedy": 7,
+       "dance": 7,
+       "design": 7,
+       "improv": 7,
+       "runway": 7,
+       "lipsync":7
+    }},
+    {
+      "name": "Lucky Starzzz",
+      "image": "http://myrainboww.github.io/Drag-Race-Simulator/image/queens/LuckyStarzzz.webp",
+      "stats": {
+       "acting": 7,
+       "comedy": 7,
+       "dance": 7,
+       "design": 7,
+       "improv": 7,
+       "runway": 7,
+       "lipsync":7
     }
    }
   ]
