@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Marcia's Drag Race Simulator</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div id="wrapper">
+        <h2 id="glowy">RuPaul's Drag Race Simulator</h2>
+        <p style="color: #fff;">Simulate your Dream "RuPaul's Drag Race" season!</p>
+        <div>
+            <input type="number" id="castSize" min="3" max="18" placeholder="3-18" />
+            <button type="button" onclick="updateCast()">Select</button>
+        </div>
+        <p id="castSelection">
+        	
+        </p>
+        <button type="button" onclick="startSimulation()">Simulate now!</button>
+        <hr />
+        <h2 id="glowy">Predefined Casts</h2>
+        <p style="color: #fff;">Use these casts to simulate existing "RuPaul's Drag Race" seasons!</p>
+        <div>
+            <button type="button" onclick="startSimulation(seasonsData.us_season1)"> S01</button>
+            <button type="button" onclick="startSimulation(seasonsData.us_season2)"> S02</button>
+            <button type="button" onclick="startSimulation(seasonsData.us_season3)"> S03</button>
+            <button type="button" onclick="startSimulation(seasonsData.us_season4)"> S04</button>
+            <button type="button" onclick="startSimulation(seasonsData.us_season5)"> S05</button>
+            <button type="button" onclick="startSimulation(seasonsData.us_season6)"> S06</button>
+            <button type="button" onclick="startSimulation(seasonsData.us_season7)"> S07</button>
+            <button type="button" onclick="startSimulation(seasonsData.us_season8)"> S08</button>
+            <button type="button" onclick="startSimulation(seasonsData.us_season9)"> S09</button>
+            <button type="button" onclick="startSimulation(seasonsData.us_season10)"> S10</button>
+            <button type="button" onclick="startSimulation(seasonsData.us_season11)"> S11</button>
+            <button type="button" onclick="startSimulation(seasonsData.us_season12)"> S12</button>
+            <button type="button" onclick="startSimulation(seasonsData.us_season13)"> S13</button>
+            <button type="button" onclick="startSimulation(seasonsData.us_season14)"> S14</button>
+            <button type="button" onclick="startSimulation(seasonsData.us_season15)"> S15</button>
+            <button type="button" onclick="startSimulation(seasonsData.us_season16)"> S16</button>
+            <button type="button" onclick="startSimulation(seasonsData.us_season17)"> S17</button>
+        </div>
+        <div>
+            <button type="button" onclick="startSimulation(seasonsData.allstars_1)">AS1</button>
+            <button type="button" onclick="startSimulation(seasonsData.allstars_2)">AS2</button>
+            <button type="button" onclick="startSimulation(seasonsData.allstars_3)">AS3</button>
+            <button type="button" onclick="startSimulation(seasonsData.allstars_4)">AS4</button>
+            <button type="button" onclick="startSimulation(seasonsData.allstars_5)">AS5</button>
+            <button type="button" onclick="startSimulation(seasonsData.allstars_6)">AS6</button>
+            <button type="button" onclick="startSimulation(seasonsData.allstars_7)">AS7</button>
+            <button type="button" onclick="startSimulation(seasonsData.allstars_8)">AS8</button>
+            <button type="button" onclick="startSimulation(seasonsData.allstars_9)">AS9</button>
+            <button type="button" onclick="startSimulation(seasonsData.allstars_10)">AS10</button>
+        </div>
+    </div>
+    <script src="scripts.js" defer></script>
+</body>
+</html>
