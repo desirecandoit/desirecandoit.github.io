@@ -10,13 +10,29 @@
     <div id="wrapper">
         <h2 id="glowy">RuPaul's Drag Race Simulator</h2>
         <p style="color: #fff;">Simulate your Dream "RuPaul's Drag Race" season!</p>
-        <div>
-            <input type="number" id="castSize" min="3" max="18" placeholder="3-18" />
-            <button type="button" onclick="updateCast()">Select</button>
+        <div style="display: flex; gap: 24px; align-items: flex-end; margin-bottom: 12px; flex-wrap: wrap;">
+            <div class="format-selection" style="justify-content:center; ">
+                <label for="formatDropdown" style="color: #fff;">Format:</label>
+                <select id="formatDropdown" onchange="selectFormat(this.value)" class="format-dropdown">
+                    <option value="Regular">Regular Format</option>
+                    <option value="AllStars">All Stars Format</option>
+                </select>
+            </div>
+            <div class="finale-size-selection">
+                <label for="finaleSizeInput" style="color: #fff;">Finale Size:</label>
+                <input type="number" id="finaleSizeInput" min="2" max="10" value="3" style="width: 48px;" onchange="setFinaleSize(this.value)" />
+            </div>
         </div>
-        <p id="castSelection">
-        	
-        </p>
+        <div id="castSelectionArea" style="display: flex; flex-direction: column; gap: 10px; align-items: center;">
+            <p style="color: #fff;">Select your queens:</p>
+            <div style="display: flex; gap: 8px; align-items: center; flex-wrap: wrap; position: relative;">
+                <input type="text" id="queenSearchInput" placeholder="Type queen name..." style="width: 180px;" autocomplete="off" oninput="showQueenSuggestions(this.value)" />
+                <div id="queenSuggestions" style="position: absolute; top: 36px; left: 0; width: 180px; background: #fff; color: #222; border-radius: 6px; box-shadow: 0 2px 8px #0002; z-index: 10; display: none;"></div>
+                <button type="button" onclick="addQueenFromSearch()">Add Queen</button>
+                <button type="button" onclick="addRandomQueens()">Random Queen</button>
+            </div>
+            <div id="castSelection" style="margin-top: 10px; display: flex; flex-wrap: wrap; gap: 10px;"></div>
+        </div>
         <button type="button" onclick="startSimulation()">Simulate now!</button>
         <hr />
         <h2 id="glowy">Predefined Casts</h2>
@@ -52,6 +68,17 @@
             <button type="button" onclick="startSimulation(seasonsData.allstars_9)">AS9</button>
             <button type="button" onclick="startSimulation(seasonsData.allstars_10)">AS10</button>
         </div>
+        <hr>
+        <h2 id="glowy">Changelog</h2>
+        <p style="color: #fff;">Version 1.0.3</p>
+        <ul style="color: #fff; text-align:left">
+            <li>Implemented a new feature to allow users to select the format of the season.</li>
+            <li>Added a new input field to allow users to specify the number of queens in the finale.</li>
+            <li>Improved the queen search functionality to provide better suggestions.</li>
+            <li>Added a button to allow users to add random queens to the cast.</li>
+            <li>Fixed the track record and gave it a more sleek look (thanks sohye for the advice)</li>
+            <li>Like 9 lipsync songs? I'm too lazy to write any longer GOD</li>
+        </ul>
     </div>
     <script src="scripts.js" defer></script>
 </body>

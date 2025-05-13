@@ -1,1 +1,1875 @@
-function _0xc19b(_0x791e64,_0x6f62a0){const _0x478fe8=_0x478f();return _0xc19b=function(_0xc19bbe,_0xf1e410){_0xc19bbe=_0xc19bbe-0xa4;let _0x30fe53=_0x478fe8[_0xc19bbe];return _0x30fe53;},_0xc19b(_0x791e64,_0x6f62a0);}const _0x3799e7=_0xc19b;(function(_0x26fad0,_0x304fc9){const _0x3cb7f0=_0xc19b,_0x5cc387=_0x26fad0();while(!![]){try{const _0x9881c8=parseInt(_0x3cb7f0(0x1cd))/0x1+-parseInt(_0x3cb7f0(0x2b9))/0x2*(-parseInt(_0x3cb7f0(0x166))/0x3)+parseInt(_0x3cb7f0(0x13d))/0x4*(-parseInt(_0x3cb7f0(0xc2))/0x5)+parseInt(_0x3cb7f0(0x1dd))/0x6*(parseInt(_0x3cb7f0(0xab))/0x7)+-parseInt(_0x3cb7f0(0x236))/0x8+-parseInt(_0x3cb7f0(0xc1))/0x9*(-parseInt(_0x3cb7f0(0x1b2))/0xa)+parseInt(_0x3cb7f0(0x227))/0xb*(-parseInt(_0x3cb7f0(0x255))/0xc);if(_0x9881c8===_0x304fc9)break;else _0x5cc387['push'](_0x5cc387['shift']());}catch(_0x3320fc){_0x5cc387['push'](_0x5cc387['shift']());}}}(_0x478f,0x8a8ef));let simulatorGlobals={'castSize':0x0,'fullCast':[],'currentCast':[],'eliminatedCast':[],'topQueens':[],'topAllStars':[],'safeQueens':[],'bottomQueens':[],'doubleShantay':![],'doubleSashay':![],'episodeCount':0x0,'runwayEpisode':![],'finaleSize':0x3,'winner':undefined,'format':_0x3799e7(0xcc),'isAllStars':![]};function selectFormat(_0x54ca77){const _0xe4db85=_0x3799e7;simulatorGlobals[_0xe4db85(0x1b5)]=_0x54ca77,simulatorGlobals[_0xe4db85(0x110)]=_0x54ca77===_0xe4db85(0xfe);}function randomNumber(_0x3ec824,_0x475bb2){const _0x513045=_0x3799e7,_0x452046=Math[_0x513045(0x2b1)](Math[_0x513045(0x1ca)]()*(_0x475bb2-_0x3ec824+0x1))+_0x3ec824;return _0x452046;}function sortPerformances(_0x438341){_0x438341['sort'](function(_0xc0012c,_0x563074){const _0x635776=_0xc19b;return _0xc0012c['performanceScore']-_0x563074[_0x635776(0x204)];});}function sortRunwayPerformances(_0x4588e2){_0x4588e2['sort'](function(_0x29b2c5,_0x376e54){const _0x435bcc=_0xc19b;return _0x29b2c5[_0x435bcc(0x212)]-_0x376e54[_0x435bcc(0x212)];});}function shuffle(_0xef9bc0){const _0x7d011a=_0x3799e7;let _0x57535a=_0xef9bc0[_0x7d011a(0x284)],_0x160ea0,_0x28033b;while(_0x57535a!==0x0){_0x160ea0=Math['floor'](Math[_0x7d011a(0x1ca)]()*_0x57535a),_0x57535a--,_0x28033b=_0xef9bc0[_0x57535a],_0xef9bc0[_0x57535a]=_0xef9bc0[_0x160ea0],_0xef9bc0[_0x160ea0]=_0x28033b;}return _0xef9bc0;}class Challenge{constructor(){const _0x146f04=_0x3799e7;this[_0x146f04(0x1cf)]=document[_0x146f04(0x215)](_0x146f04(0x1bd));}[_0x3799e7(0x20c)](){}[_0x3799e7(0x28a)](){}};class MiniChallenge extends Challenge{[_0x3799e7(0x20c)](){const _0x41eff4=_0x3799e7,_0x4cf9d0=document[_0x41eff4(0x215)](_0x41eff4(0x1bd)),_0xa09812=['make\x20wigs\x20with',_0x41eff4(0x27b),'make\x20nails\x20with',_0x41eff4(0x2ae),_0x41eff4(0x238),_0x41eff4(0x244)],_0xb20645=[_0x41eff4(0x30d),_0x41eff4(0x18f),_0x41eff4(0x134)];if(simulatorGlobals[_0x41eff4(0x289)]==0x8&&simulatorGlobals[_0x41eff4(0xce)][_0x41eff4(0x284)]==0x8)_0x4cf9d0[_0x41eff4(0x21b)]=_0x41eff4(0x1bb);else simulatorGlobals[_0x41eff4(0x289)]!=0x5&&simulatorGlobals[_0x41eff4(0xce)]['length']==0x5?_0x4cf9d0[_0x41eff4(0x21b)]=_0x41eff4(0x1b8):_0x4cf9d0[_0x41eff4(0x21b)]=_0x41eff4(0x2f2)+_0xa09812[randomNumber(0x0,_0xa09812[_0x41eff4(0x284)]-0x1)]+_0xb20645[randomNumber(0x0,_0xb20645['length']-0x1)];}[_0x3799e7(0x28a)](){const _0x149417=_0x3799e7,_0x575958=document[_0x149417(0x215)](_0x149417(0x1ee)),_0x40afbb=document[_0x149417(0x215)](_0x149417(0x285)),_0x29b1db=simulatorGlobals[_0x149417(0xce)][randomNumber(0x0,simulatorGlobals['currentCast'][_0x149417(0x284)]-0x1)];_0x40afbb['innerHTML']=_0x29b1db[_0x149417(0x2c8)]()+_0x149417(0x27a),_0x575958[_0x149417(0x26a)]=_0x29b1db['image'];}};class ActingChallenge extends Challenge{['generateDescription'](){const _0x2cf5f7=_0x3799e7,_0xeb023c=[_0x2cf5f7(0x2d7),_0x2cf5f7(0x2ca)],_0x2b3c93=[_0x2cf5f7(0x1d8),'idk\x20something.'];this[_0x2cf5f7(0x1cf)]['innerHTML']=_0x2cf5f7(0x23b)+_0xeb023c[randomNumber(0x0,_0xeb023c[_0x2cf5f7(0x284)]-0x1)]+_0x2b3c93[randomNumber(0x0,_0x2b3c93[_0x2cf5f7(0x284)]-0x1)];}['rankPerformances'](){const _0x415353=_0x3799e7;for(let _0x49f948=0x0;_0x49f948<simulatorGlobals['currentCast']['length'];_0x49f948++){simulatorGlobals['currentCast'][_0x49f948][_0x415353(0xe4)]();}sortPerformances(simulatorGlobals[_0x415353(0xce)]);}};class ComedyChallenge extends Challenge{[_0x3799e7(0x20c)](){const _0x7c369c=_0x3799e7,_0x4ffbd9=['a\x20comedy\x20routine\x20about\x20',_0x7c369c(0xf4)],_0x13659f=[_0x7c369c(0x2e3),_0x7c369c(0x1ef),_0x7c369c(0x274),_0x7c369c(0xb3),'sex.'];this['descriptionElement'][_0x7c369c(0x21b)]=_0x7c369c(0x299)+_0x4ffbd9[randomNumber(0x0,_0x4ffbd9[_0x7c369c(0x284)]-0x1)]+_0x13659f[randomNumber(0x0,_0x13659f[_0x7c369c(0x284)]-0x1)];}[_0x3799e7(0x28a)](){const _0x318440=_0x3799e7;for(let _0x54ff75=0x0;_0x54ff75<simulatorGlobals[_0x318440(0xce)][_0x318440(0x284)];_0x54ff75++){simulatorGlobals[_0x318440(0xce)][_0x54ff75][_0x318440(0x13b)]();}sortPerformances(simulatorGlobals[_0x318440(0xce)]);}}class DanceChallenge extends Challenge{[_0x3799e7(0x20c)](){const _0x191d15=_0x3799e7,_0x3811d4=[_0x191d15(0xde),'a\x20dance\x20routine\x20about\x20','idk\x20about\x20'],_0x48c336=[_0x191d15(0x1d1),_0x191d15(0x16b),_0x191d15(0x196),'RuPaul\x27s\x20biography.'];this[_0x191d15(0x1cf)][_0x191d15(0x21b)]='The\x20queens\x20will\x20participate\x20in\x20'+_0x3811d4[randomNumber(0x0,_0x3811d4[_0x191d15(0x284)]-0x1)]+_0x48c336[randomNumber(0x0,_0x48c336[_0x191d15(0x284)]-0x1)];}[_0x3799e7(0x28a)](){const _0xb36c72=_0x3799e7;for(let _0x16cb81=0x0;_0x16cb81<simulatorGlobals[_0xb36c72(0xce)][_0xb36c72(0x284)];_0x16cb81++){simulatorGlobals['currentCast'][_0x16cb81][_0xb36c72(0xea)]();}sortPerformances(simulatorGlobals[_0xb36c72(0xce)]);}}class DesignChallenge extends Challenge{[_0x3799e7(0x20c)](){const _0x227e90=_0x3799e7,_0x574434=[_0x227e90(0x100),'random\x20materials.',_0x227e90(0x129),_0x227e90(0x29a)];this['descriptionElement']['innerHTML']=_0x227e90(0x299)+_0x574434[randomNumber(0x0,_0x574434['length']-0x1)];}[_0x3799e7(0x28a)](){const _0x1d6257=_0x3799e7;for(let _0x5da25c=0x0;_0x5da25c<simulatorGlobals[_0x1d6257(0xce)][_0x1d6257(0x284)];_0x5da25c++){simulatorGlobals[_0x1d6257(0xce)][_0x5da25c]['getDesign']();}sortPerformances(simulatorGlobals['currentCast']);}}class ImprovChallenge extends Challenge{[_0x3799e7(0x20c)](){const _0x29953a=_0x3799e7,_0x55ba7a=[_0x29953a(0x1f7),_0x29953a(0x288),_0x29953a(0x2bd)];this[_0x29953a(0x1cf)]['innerHTML']=_0x29953a(0xaf)+_0x55ba7a[randomNumber(0x0,_0x55ba7a[_0x29953a(0x284)]-0x1)];}[_0x3799e7(0x28a)](){const _0x2e3f5f=_0x3799e7;for(let _0x50d09d=0x0;_0x50d09d<simulatorGlobals[_0x2e3f5f(0xce)][_0x2e3f5f(0x284)];_0x50d09d++){simulatorGlobals['currentCast'][_0x50d09d][_0x2e3f5f(0x309)]();}sortPerformances(simulatorGlobals['currentCast']);}}class BallChallenge extends Challenge{[_0x3799e7(0x20c)](){const _0x3d945d=_0x3799e7,_0x2bb492=[_0x3d945d(0x316),_0x3d945d(0x1f8),_0x3d945d(0x2b6),'AI'],_0x270faf=[_0x3d945d(0xe5),_0x3d945d(0x259),_0x3d945d(0x16c),'Spring\x20Fling,',_0x3d945d(0x2c6),_0x3d945d(0xa5)],_0x4e28b9=[_0x3d945d(0x19e),_0x3d945d(0x27e),_0x3d945d(0x19f),_0x3d945d(0x2e7),_0x3d945d(0x126),_0x3d945d(0x293)],_0x1cf952=[_0x3d945d(0x2ef),_0x3d945d(0x315),'Water.','Earth.',_0x3d945d(0x10e)];this[_0x3d945d(0x1cf)][_0x3d945d(0x21b)]='Tonight\x20we\x20are\x20having\x20the...\x20'+_0x2bb492[randomNumber(0x0,_0x2bb492[_0x3d945d(0x284)]-0x1)]+_0x3d945d(0x112)+_0x270faf[randomNumber(0x0,_0x270faf[_0x3d945d(0x284)]-0x1)]+_0x4e28b9[randomNumber(0x0,_0x4e28b9[_0x3d945d(0x284)]-0x1)]+_0x1cf952[randomNumber(0x0,_0x1cf952['length']-0x1)];}['rankPerformances'](){const _0x5842c4=_0x3799e7;for(let _0x732be4=0x0;_0x732be4<simulatorGlobals[_0x5842c4(0xce)]['length'];_0x732be4++){simulatorGlobals['currentCast'][_0x732be4][_0x5842c4(0x2b0)]();}sortPerformances(simulatorGlobals[_0x5842c4(0xce)]);}}class Queen{constructor(_0x299035,_0x4700ab,_0x550103,_0x196650,_0x292c41,_0x949864,_0x2bef16,_0x34bd93,_0x10ee95=_0x3799e7(0x1d2)){const _0x295641=_0x3799e7;this[_0x295641(0x189)]=[],this[_0x295641(0x204)]=0x0,this[_0x295641(0x212)]=0x0,this['lipsyncPerformanceScore']=0x0,this[_0x295641(0xb5)]=0x0,this[_0x295641(0x103)]=0x0,this[_0x295641(0x13a)]=0x0,this[_0x295641(0x237)]=0x0,this['unfavoritism']=0x0,this[_0x295641(0x219)]=undefined,this[_0x295641(0xc5)]=_0x299035,this['_acting']=_0x4700ab,this[_0x295641(0x2cb)]=_0x550103,this[_0x295641(0x15e)]=_0x196650,this[_0x295641(0xf0)]=_0x292c41,this[_0x295641(0xee)]=_0x949864,this[_0x295641(0x1dc)]=_0x2bef16,this[_0x295641(0x149)]=_0x34bd93,this[_0x295641(0x1c8)]=_0x295641(0x16e)+_0x10ee95+_0x295641(0x1c3);}['_calculateScores'](_0x3aa2e5,_0x4c1075,_0x170f0f=0x0){const _0x24faab=randomNumber(_0x3aa2e5,_0x4c1075);return _0x24faab-_0x170f0f;}[_0x3799e7(0x2c8)](){const _0x1cc308=_0x3799e7;return this[_0x1cc308(0xc5)];}[_0x3799e7(0xe4)](){const _0xfebd6d=_0x3799e7;this[_0xfebd6d(0x204)]=this[_0xfebd6d(0x2eb)](0xf,0x23,this[_0xfebd6d(0x2e2)]);}['getComedy'](){const _0x56faad=_0x3799e7;this['performanceScore']=this[_0x56faad(0x2eb)](0xf,0x23,this[_0x56faad(0x2cb)]);}[_0x3799e7(0xea)](){const _0x5a3c34=_0x3799e7;this[_0x5a3c34(0x204)]=this[_0x5a3c34(0x2eb)](0xf,0x23,this[_0x5a3c34(0x15e)]);}['getDesign'](){const _0x57e31b=_0x3799e7;this[_0x57e31b(0x204)]=this[_0x57e31b(0x2eb)](0xf,0x23,this[_0x57e31b(0xf0)]);}[_0x3799e7(0x309)](){const _0x2b21d0=_0x3799e7;this[_0x2b21d0(0x204)]=this[_0x2b21d0(0x2eb)](0xf,0x23,this[_0x2b21d0(0xee)]);}['getRunway'](){const _0x350d7=_0x3799e7;this['runwayPerformanceScore']=this[_0x350d7(0x2eb)](0xf,0x23,this[_0x350d7(0x1dc)]);}[_0x3799e7(0x273)](){const _0x3ac378=_0x3799e7;this['performanceScore']=this[_0x3ac378(0x2eb)](0x19,0x2d,this[_0x3ac378(0x2cb)]+this[_0x3ac378(0x2e2)]);}['getBall'](){const _0x3f2793=_0x3799e7;this['performanceScore']=this[_0x3f2793(0x2eb)](0x19,0x2d,this[_0x3f2793(0xf0)]+this[_0x3f2793(0x1dc)]);}['getLipsync'](){const _0x572f6f=_0x3799e7;this[_0x572f6f(0x10a)]=this['_calculateScores'](0x0,0x28,this[_0x572f6f(0x149)]);}['getFinalePerformance'](){const _0x537dd6=_0x3799e7;this['finalePerformanceScore']=this[_0x537dd6(0x15e)]+this[_0x537dd6(0x1dc)]+this[_0x537dd6(0x149)];let _0x5ca071=this[_0x537dd6(0x189)][_0x537dd6(0x17e)](_0x5e46b1=>_0x5e46b1===_0x537dd6(0x17c))[_0x537dd6(0x284)];this[_0x537dd6(0xb5)]+=_0x5ca071*0x3,this['finalePerformanceScore']+=randomNumber(0x0,0xa),this['finalePerformanceScore']=Math['min'](0x64,Math[_0x537dd6(0x1f2)](0x0,this[_0x537dd6(0xb5)]));}}class Scene{constructor(_0xfd8d4e){const _0xfe04df=_0x3799e7;this[_0xfe04df(0x17f)]=document[_0xfe04df(0x215)]('div#wrapper');}[_0x3799e7(0xd7)](){const _0x302fdb=_0x3799e7;this[_0x302fdb(0x17f)]['innerHTML']='';}['changeRoom'](_0x5ab421){const _0x57ef59=_0x3799e7;if(_0x5ab421==_0x57ef59(0x314))document[_0x57ef59(0x1a4)][_0x57ef59(0x1e1)][_0x57ef59(0x248)]=_0x57ef59(0x167);else{if(_0x5ab421==_0x57ef59(0x155))document[_0x57ef59(0x1a4)]['style']['backgroundImage']='url(\x27images/werkroombg.webp\x27)';else{if(_0x5ab421=='mainstage')document[_0x57ef59(0x1a4)][_0x57ef59(0x1e1)][_0x57ef59(0x248)]=_0x57ef59(0x178);else _0x5ab421=='mainstagelipsync'&&(document[_0x57ef59(0x1a4)][_0x57ef59(0x1e1)][_0x57ef59(0x248)]='url(\x27images/stagelipsyncbg.webp\x27)');}}}[_0x3799e7(0xb1)](_0xd9e7d8){const _0x2025fd=_0x3799e7,_0x4d7e0e=document['createElement']('h1');_0x4d7e0e['innerHTML']=_0xd9e7d8,this[_0x2025fd(0x17f)][_0x2025fd(0x250)](_0x4d7e0e);}[_0x3799e7(0x141)](_0x102719){const _0x2956f=_0x3799e7,_0x5980bc=document[_0x2956f(0x1a9)](_0x2956f(0x239));_0x5980bc[_0x2956f(0x21b)]=_0x102719,this[_0x2956f(0x17f)]['appendChild'](_0x5980bc);}[_0x3799e7(0x1ab)](_0x2c8f08,_0x284f02=0x0){const _0x37d1ff=_0x3799e7,_0x9bc552=document[_0x37d1ff(0x1a9)]('p');_0x9bc552[_0x37d1ff(0x21b)]=_0x2c8f08,_0x9bc552[_0x37d1ff(0x24b)]('id',_0x284f02),this[_0x37d1ff(0x17f)][_0x37d1ff(0x250)](_0x9bc552);}[_0x3799e7(0x2ab)](_0x158210,_0x26d143=0x0){const _0x2c5e3c=_0x3799e7,_0x3cc361=document[_0x2c5e3c(0x1a9)]('p'),_0x5cad42=document['createElement']('b');_0x5cad42[_0x2c5e3c(0x21b)]=_0x158210,_0x5cad42[_0x2c5e3c(0x24b)]('id',_0x26d143),_0x3cc361['appendChild'](_0x5cad42),this[_0x2c5e3c(0x17f)][_0x2c5e3c(0x250)](_0x3cc361);}[_0x3799e7(0x206)](_0x20c769,_0x325c15=_0x3799e7(0x28d),_0x139a8f=0x0){const _0x5925aa=_0x3799e7,_0x3038d0=document[_0x5925aa(0x1a9)]('img');_0x3038d0[_0x5925aa(0x26a)]=_0x20c769,_0x3038d0[_0x5925aa(0x24b)]('id',_0x139a8f),_0x3038d0[_0x5925aa(0x24b)](_0x5925aa(0x1e1),'outline-color:\x20'+_0x325c15+';\x20width:\x2085px;\x20height:\x2085px;'),this[_0x5925aa(0x17f)][_0x5925aa(0x250)](_0x3038d0);}[_0x3799e7(0x20d)](_0x13fb29,_0x54981e,_0x598c3b=0x0){const _0x16fed1=_0x3799e7,_0x4c7c91=document[_0x16fed1(0x1a9)]('button');_0x4c7c91[_0x16fed1(0x21b)]=_0x13fb29,_0x4c7c91['setAttribute'](_0x16fed1(0xd9),_0x54981e),_0x4c7c91[_0x16fed1(0x24b)]('id',_0x598c3b),this[_0x16fed1(0x17f)]['appendChild'](_0x4c7c91);}[_0x3799e7(0x23e)](){const _0x520b6d=_0x3799e7,_0x26a33a=document[_0x520b6d(0x1a9)]('hr');this['_wrapper'][_0x520b6d(0x250)](_0x26a33a);}}const akashia=new Queen('Akashia',0x3,0x2,0x7,0x3,0x2,0x7,0xb,_0x3799e7(0x303)),bebe=new Queen('BeBe\x20Zahara\x20Benet',0x6,0x7,0x8,0xc,0x6,0xa,0x9,_0x3799e7(0x2f1)),jade=new Queen(_0x3799e7(0x275),0x3,0x3,0x8,0x7,0x3,0x7,0x7,_0x3799e7(0x102)),ninaf=new Queen(_0x3799e7(0x246),0x7,0x5,0x5,0xb,0x6,0xa,0x6,'NinaFlowers'),ongina=new Queen(_0x3799e7(0x29b),0x9,0x8,0x7,0x9,0xa,0x9,0x8,_0x3799e7(0x29b)),rebecca=new Queen('Rebecca\x20Glasscock',0x3,0x3,0x6,0x4,0x2,0x6,0x5,_0x3799e7(0x22e)),shannel=new Queen('Shannel',0x7,0x8,0x7,0x9,0x9,0xd,0xa,_0x3799e7(0x143)),tammie=new Queen('Tammie\x20Brown',0x6,0x7,0x5,0x7,0x6,0x7,0x6,_0x3799e7(0x16a)),victoria=new Queen(_0x3799e7(0xd3),0x3,0x6,0x4,0x3,0x6,0x5,0x4,_0x3799e7(0x209)),jessica=new Queen(_0x3799e7(0x2fd),0x9,0x8,0xa,0xb,0x8,0x9,0xb,_0x3799e7(0x1e5)),jujubee=new Queen('Jujubee',0x9,0xb,0x7,0x8,0xc,0x6,0xc,_0x3799e7(0x302)),morgan=new Queen(_0x3799e7(0x1a3),0x6,0x6,0xa,0x9,0x5,0xa,0xa,_0x3799e7(0x195)),mystique=new Queen(_0x3799e7(0xe6),0x4,0x5,0x3,0x3,0x3,0x5,0x6,_0x3799e7(0x233)),nicole=new Queen(_0x3799e7(0x19b),0x4,0x4,0x4,0x6,0x4,0x7,0x6,'Nicole'),pandora=new Queen(_0x3799e7(0xb6),0xc,0xb,0x6,0x8,0xa,0x8,0x7,_0x3799e7(0xf5)),raven=new Queen(_0x3799e7(0xbc),0x5,0x8,0x9,0xa,0x5,0x8,0xb,'Raven'),sahara=new Queen(_0x3799e7(0x1df),0x6,0x6,0xa,0x4,0x6,0x7,0xa,_0x3799e7(0xf3)),shangela=new Queen(_0x3799e7(0x1e9),0xe,0xd,0xa,0x3,0x9,0x9,0xc,_0x3799e7(0x1e9)),sonique=new Queen('Kylie\x20Sonique\x20Love',0xb,0x9,0xa,0x9,0x8,0xb,0xb,'Kylie'),tatianna=new Queen(_0x3799e7(0x1fc),0x8,0xb,0x8,0x8,0xa,0x8,0xa,_0x3799e7(0x1fc)),tyra=new Queen(_0x3799e7(0x312),0xb,0x7,0x8,0xb,0x8,0x9,0xa,_0x3799e7(0x1f4)),alexis=new Queen(_0x3799e7(0x1cb),0xe,0xc,0x9,0x7,0xa,0x8,0xc,_0x3799e7(0x176)),carmen=new Queen(_0x3799e7(0x258),0x3,0x8,0x6,0x4,0x3,0x7,0x7,_0x3799e7(0x2f8)),delta=new Queen(_0x3799e7(0x1bc),0x4,0x6,0x5,0x5,0x5,0x7,0x7,_0x3799e7(0x1e7)),india=new Queen(_0x3799e7(0x150),0x6,0x4,0x8,0x6,0x3,0xa,0x9,_0x3799e7(0x2cd)),manila=new Queen(_0x3799e7(0x16f),0xc,0xb,0x7,0xe,0xa,0xd,0xb,_0x3799e7(0x16d)),mariah=new Queen('Mariah\x20Paris\x20Balenciaga',0x6,0x4,0x7,0x8,0x4,0x9,0x8,_0x3799e7(0x1d3)),mimi=new Queen(_0x3799e7(0x2ed),0xb,0x6,0x6,0xa,0x7,0x8,0x6,_0x3799e7(0x12c)),phoenix=new Queen(_0x3799e7(0x307),0x3,0x3,0x6,0x5,0x3,0x5,0x4,_0x3799e7(0x307)),raja=new Queen(_0x3799e7(0xd2),0xb,0xd,0x6,0xe,0xc,0xe,0x9,_0x3799e7(0xd2)),stacey=new Queen('Stacy\x20Layne\x20Matthews',0x6,0x7,0x5,0x4,0xa,0x5,0x6,_0x3799e7(0xd0)),venus=new Queen(_0x3799e7(0x1a7),0x4,0x5,0x8,0x2,0x3,0x5,0x2,'Venus'),yara=new Queen(_0x3799e7(0x294),0xb,0x9,0x9,0xd,0x7,0xa,0x8,_0x3799e7(0x1e0)),alisa=new Queen(_0x3799e7(0x12b),0x4,0x4,0x5,0x2,0x3,0x5,0x4,_0x3799e7(0x15a)),chad=new Queen('Chad\x20Michaels',0xb,0xa,0x8,0x9,0xc,0xa,0x8,'Chad'),dida=new Queen(_0x3799e7(0x186),0x8,0x7,0x8,0x5,0x7,0x7,0xc,_0x3799e7(0x203)),jiggly=new Queen(_0x3799e7(0xb2),0x4,0x6,0x9,0x4,0x4,0x7,0xa,_0x3799e7(0xdc)),kenya=new Queen('Kenya\x20Olivera',0x9,0x6,0x6,0x6,0x8,0x7,0x8,_0x3799e7(0x277)),leshauwn=new Queen(_0x3799e7(0xba),0x4,0x4,0x6,0xb,0x5,0x7,0x7,_0x3799e7(0x140)),latrice=new Queen(_0x3799e7(0x1e2),0xb,0x8,0x9,0x8,0x7,0x9,0xd,_0x3799e7(0x18d)),madame=new Queen(_0x3799e7(0x2a8),0x4,0x7,0x6,0x5,0x9,0x7,0x6,'Madame'),milan=new Queen(_0x3799e7(0x2bc),0x4,0x5,0x9,0x7,0x5,0x8,0xa,_0x3799e7(0x2bc)),phiphi=new Queen(_0x3799e7(0xed),0xd,0x9,0x8,0xa,0xa,0xa,0x8,_0x3799e7(0x2fe)),sharon=new Queen(_0x3799e7(0x21e),0xc,0xc,0x8,0xc,0xb,0xa,0x8,_0x3799e7(0x1ae)),princess=new Queen(_0x3799e7(0x2c9),0x4,0x4,0x5,0x7,0x4,0x7,0x7,_0x3799e7(0x111)),willam=new Queen(_0x3799e7(0x2d0),0xa,0x8,0x7,0xa,0xa,0x9,0x8,'Willam'),alaska=new Queen('Alaska',0xf,0xe,0x7,0x8,0xe,0xa,0xb,_0x3799e7(0x14e)),alyssa=new Queen(_0x3799e7(0x25b),0x4,0x6,0xf,0x6,0xa,0x9,0xc,'Alyssa'),coco=new Queen(_0x3799e7(0x26f),0xa,0xa,0xb,0x9,0x7,0x9,0xf,'Coco'),detox=new Queen(_0x3799e7(0x249),0xa,0x9,0x9,0x9,0x8,0xc,0xb,_0x3799e7(0x249)),honey=new Queen(_0x3799e7(0x188),0xa,0x3,0x3,0x6,0x6,0x8,0x4,_0x3799e7(0x182)),ivy=new Queen(_0x3799e7(0x205),0xb,0x4,0x8,0xc,0x7,0xa,0x7,'Ivy'),jadejolie=new Queen(_0x3799e7(0x2dd),0x5,0x7,0x8,0x7,0x8,0x7,0x8,_0x3799e7(0x264)),jinkx=new Queen(_0x3799e7(0x1f9),0xf,0xf,0x9,0x8,0xf,0x9,0x8,_0x3799e7(0x28e)),lineysha=new Queen('Lineysha\x20Sparx',0xa,0x4,0x7,0xb,0x5,0x9,0x8,'Lineysha'),monica=new Queen(_0x3799e7(0x21a),0x4,0x4,0x6,0x6,0x4,0x9,0x8,_0x3799e7(0xa6)),penny=new Queen(_0x3799e7(0x25f),0x4,0x5,0x4,0x5,0x5,0x5,0x4,_0x3799e7(0x1c5)),roxxxy=new Queen(_0x3799e7(0x1b0),0x8,0x9,0x7,0xd,0x8,0xb,0xf,_0x3799e7(0x2cf)),serena=new Queen(_0x3799e7(0x235),0x3,0x3,0x7,0x4,0x5,0x5,0x8,_0x3799e7(0x29d)),vivienne=new Queen(_0x3799e7(0x29f),0x7,0x3,0x4,0x5,0x3,0x6,0x4,_0x3799e7(0x1a1)),adore=new Queen('Adore\x20Delano',0x9,0xb,0x9,0x6,0x9,0x8,0xb,_0x3799e7(0xb7)),april=new Queen(_0x3799e7(0x193),0x5,0x5,0x6,0x9,0x5,0x9,0x8,_0x3799e7(0xe2)),bendelacreme=new Queen(_0x3799e7(0x304),0xc,0xc,0xb,0xa,0xf,0xa,0x9,_0x3799e7(0x304)),bianca=new Queen(_0x3799e7(0x2ec),0xb,0xf,0x7,0xd,0xf,0xa,0x5,_0x3799e7(0x185)),courtney=new Queen(_0x3799e7(0x124),0xb,0x8,0xa,0xa,0xa,0xc,0x9,_0x3799e7(0x2aa)),darienne=new Queen(_0x3799e7(0x291),0xa,0x8,0x6,0x5,0x9,0x9,0xd,_0x3799e7(0x269)),gia=new Queen('Gia\x20Gunn',0xa,0x4,0x8,0x8,0x4,0x8,0x9,_0x3799e7(0x2ac)),joslyn=new Queen(_0x3799e7(0x20f),0x6,0x7,0x8,0x6,0x8,0x8,0xb,'Joslyn'),kelly=new Queen(_0x3799e7(0x122),0x6,0x6,0x5,0x5,0x4,0x7,0x4,'Kellu'),laganja=new Queen(_0x3799e7(0xbe),0x9,0x5,0xe,0x8,0x6,0xa,0xf,_0x3799e7(0x21f)),magnolia=new Queen('Magnolia\x20Crawford',0x4,0x5,0x6,0x4,0x5,0x7,0x4,_0x3799e7(0x240)),milk=new Queen('Milk',0x6,0x6,0x7,0x8,0x8,0x7,0x7,_0x3799e7(0x1af)),trinityk=new Queen(_0x3799e7(0x1ac),0x9,0x9,0xd,0xc,0x4,0xa,0xf,_0x3799e7(0x114)),vivacious=new Queen(_0x3799e7(0xcd),0x4,0x5,0x5,0x4,0x4,0x7,0x7,_0x3799e7(0xcd)),ginger=new Queen(_0x3799e7(0x234),0xe,0xc,0x8,0x9,0xf,0x7,0xc,_0x3799e7(0x15f)),jaidynn=new Queen(_0x3799e7(0x1d5),0x9,0x7,0x8,0x6,0x6,0x7,0xb,_0x3799e7(0x200)),jasmine=new Queen(_0x3799e7(0x2fa),0x3,0x4,0x6,0x5,0x2,0x7,0x6,'Jasmine'),kandy=new Queen(_0x3799e7(0xf1),0x4,0x4,0x7,0x5,0x4,0x7,0xa,_0x3799e7(0x2f5)),katya=new Queen(_0x3799e7(0x2f3),0x9,0xc,0x9,0x7,0xc,0xa,0xa,_0x3799e7(0x2f3)),kennedy=new Queen(_0x3799e7(0x26d),0x9,0x8,0xa,0x8,0xb,0xa,0xe,'Kennedy'),max=new Queen(_0x3799e7(0x313),0xa,0x7,0x5,0x8,0x4,0x8,0x5,'Max'),fame=new Queen(_0x3799e7(0x1ba),0x8,0x4,0x5,0xb,0x3,0xa,0x5,_0x3799e7(0x123)),kasha=new Queen(_0x3799e7(0x2c4),0xb,0x8,0xa,0x7,0x6,0x9,0x7,'Kasha'),pearl=new Queen(_0x3799e7(0x28b),0x7,0xa,0x8,0x9,0xa,0x9,0x5,_0x3799e7(0x28b)),sashab=new Queen('Frisbee\x20Jenkins',0x6,0x6,0x4,0x4,0x6,0x6,0x4,_0x3799e7(0x198)),tempest=new Queen(_0x3799e7(0x298),0x6,0x6,0x5,0x3,0x6,0x7,0x4,_0x3799e7(0x181)),trixie=new Queen(_0x3799e7(0x11b),0xd,0xa,0x6,0xa,0xb,0xa,0x5,_0x3799e7(0x138)),violet=new Queen('Violet\x20Chachki',0x6,0x7,0x8,0xf,0x8,0xd,0x8,'Violet'),acid=new Queen(_0x3799e7(0xfb),0x9,0x4,0x7,0xa,0x5,0xb,0x7,'Acid'),bob=new Queen('Bob\x20The\x20Drag\x20Queen',0xf,0xf,0x8,0x9,0xf,0x8,0xc,'Bob'),chichi=new Queen('Chi\x20Chi\x20DeVayne',0x8,0x4,0xd,0x8,0x6,0x8,0xd,_0x3799e7(0x25d)),cynthia=new Queen(_0x3799e7(0xe7),0x4,0x4,0x7,0x6,0x4,0x7,0x6,_0x3799e7(0x158)),dax=new Queen(_0x3799e7(0x12e),0x5,0x6,0x6,0x5,0x6,0x5,0x4,_0x3799e7(0x1d4)),derrick=new Queen(_0x3799e7(0x128),0x7,0x7,0x8,0x8,0x9,0x7,0x8,_0x3799e7(0x23f)),kim=new Queen(_0x3799e7(0xe9),0xa,0x7,0x4,0xf,0x8,0xd,0x4,_0x3799e7(0x230)),laila=new Queen(_0x3799e7(0x1c0),0x6,0x6,0x4,0x7,0x6,0x8,0x7,'Laila'),naomi=new Queen(_0x3799e7(0xc3),0x9,0x7,0xa,0xe,0xa,0xc,0xb,_0x3799e7(0x1c4)),naysha=new Queen(_0x3799e7(0x2d9),0x7,0x5,0x7,0x5,0x4,0xa,0x7,'Naysha'),robbie=new Queen(_0x3799e7(0x20a),0x4,0x5,0x6,0x4,0x3,0x6,0x6,_0x3799e7(0x295)),thorgy=new Queen('Thorgy\x20Thor',0xe,0x9,0x6,0x9,0xd,0x9,0x8,_0x3799e7(0x161)),aja=new Queen(_0x3799e7(0x228),0x4,0x8,0xc,0xb,0x9,0xa,0xb,_0x3799e7(0x228)),alexism=new Queen(_0x3799e7(0x135),0x8,0x8,0xb,0xa,0xd,0xa,0xa,'AlexisM'),charlie=new Queen(_0x3799e7(0x2a4),0xa,0x6,0x5,0x7,0x4,0x9,0x2,_0x3799e7(0x1da)),eureka=new Queen('Eureka!',0x9,0xb,0x8,0xa,0xd,0xa,0xc,_0x3799e7(0x20e)),farrah=new Queen(_0x3799e7(0x216),0x9,0x4,0x7,0x3,0x6,0x8,0x7,_0x3799e7(0x18e)),jaymes=new Queen(_0x3799e7(0x2d8),0x8,0x9,0x5,0x9,0x9,0xa,0x7,_0x3799e7(0x13c)),kimora=new Queen(_0x3799e7(0x117),0x5,0x5,0x4,0x6,0x5,0x8,0x7,'Kimora'),ninab=new Queen('Nina\x20Bo\x27Nina\x20Brown',0x4,0x8,0xa,0x9,0xa,0xa,0xb,_0x3799e7(0x296)),peppermint=new Queen(_0x3799e7(0x2f6),0xb,0x9,0xa,0x9,0x4,0x7,0xd,_0x3799e7(0x2f6)),sasha=new Queen(_0x3799e7(0x169),0x9,0xa,0x8,0xa,0xb,0xd,0xb,_0x3799e7(0x17b)),shea=new Queen(_0x3799e7(0x17a),0xb,0xc,0xf,0xc,0xb,0xf,0xf,_0x3799e7(0x11f)),trinity=new Queen(_0x3799e7(0x142),0xd,0xb,0x9,0xf,0xa,0xd,0xb,_0x3799e7(0x1a0)),valentina=new Queen(_0x3799e7(0x165),0xb,0x7,0xa,0x9,0x9,0x9,0xa,_0x3799e7(0x165)),aquaria=new Queen(_0x3799e7(0x261),0x6,0xb,0x8,0xf,0xc,0xe,0xb,_0x3799e7(0x261)),asia=new Queen(_0x3799e7(0x22f),0xb,0x9,0x6,0x6,0x7,0x9,0x9,_0x3799e7(0x2ee)),blair=new Queen(_0x3799e7(0x292),0x9,0x8,0x6,0xa,0x8,0x8,0x7,_0x3799e7(0x28f)),dusty=new Queen(_0x3799e7(0xac),0x8,0x8,0x6,0x7,0x6,0x7,0x6,_0x3799e7(0x11c)),kalorie=new Queen(_0x3799e7(0x160),0x6,0x6,0x6,0x5,0x7,0x7,0x8,_0x3799e7(0x2be)),kameron=new Queen(_0x3799e7(0xda),0x5,0x8,0xe,0xa,0x8,0x8,0xf,_0x3799e7(0x257)),mayhem=new Queen(_0x3799e7(0x210),0x4,0x8,0x9,0xd,0x7,0x9,0xa,_0x3799e7(0x25e)),miz=new Queen(_0x3799e7(0xfa),0xd,0xb,0x5,0xc,0xf,0x9,0x8,_0x3799e7(0x145)),monet=new Queen(_0x3799e7(0x152),0xb,0xb,0xe,0x9,0xa,0xa,0xf,_0x3799e7(0x229)),monique=new Queen('Mo\x20Heart',0xc,0x8,0x6,0xa,0xd,0xc,0xa,_0x3799e7(0x226)),vanessa=new Queen(_0x3799e7(0x26c),0x9,0x7,0xd,0x8,0x9,0xc,0xb,'Vanjie'),vixen=new Queen('The\x20Vixen',0x5,0x4,0xc,0x9,0x3,0x8,0xc,_0x3799e7(0x168)),yuhua=new Queen(_0x3799e7(0x144),0x4,0x4,0x6,0x9,0x6,0x7,0x7,_0x3799e7(0x2e0)),akeria=new Queen(_0x3799e7(0x23a),0xb,0x9,0xb,0x8,0xa,0xd,0xa,'Akeria'),ariel=new Queen(_0x3799e7(0x2a1),0x8,0x6,0x8,0x5,0x8,0x8,0x8,'Ariel'),brooke=new Queen('Brooke\x20Lynn\x20Hytes',0x8,0x8,0xd,0xc,0x8,0xa,0xd,'Brooke'),honeyd=new Queen(_0x3799e7(0x2a6),0x4,0x6,0x5,0x7,0x4,0x9,0x4,_0x3799e7(0x1de)),kahanna=new Queen('Kahanna\x20Montrese',0x6,0x6,0xc,0x8,0x6,0xd,0xb,_0x3799e7(0xdf)),mercedes=new Queen(_0x3799e7(0x2e1),0x4,0x6,0x4,0x6,0x6,0x8,0x8,'Mercedes'),ninaw=new Queen(_0x3799e7(0x2c7),0xe,0xb,0x7,0x9,0xb,0x9,0x6,_0x3799e7(0x287)),plastique=new Queen(_0x3799e7(0xd4),0xb,0xa,0xa,0xf,0x8,0xf,0x9,_0x3799e7(0xad)),rajah=new Queen('Ra\x27Jah\x20O\x27Hara',0x8,0x8,0xb,0xc,0x9,0xc,0xd,_0x3799e7(0x282)),scarlet=new Queen(_0x3799e7(0x1a2),0xd,0x9,0x6,0xd,0x9,0xb,0x8,_0x3799e7(0x266)),shuga=new Queen(_0x3799e7(0x14b),0xa,0x9,0x7,0x6,0x7,0xa,0x7,_0x3799e7(0x10d)),silky=new Queen('Silky\x20Nutmeg\x20Ganache',0xa,0xa,0x9,0x8,0xa,0xa,0xc,_0x3799e7(0x2af)),soju=new Queen('Soju',0x4,0x4,0x4,0x4,0x4,0x4,0x4,_0x3799e7(0x1aa)),yvie=new Queen('Yvie\x20Oddly',0xc,0x7,0xd,0xc,0x9,0xc,0xf,_0x3799e7(0x104)),aiden=new Queen(_0x3799e7(0x27c),0x9,0x3,0x6,0x4,0x3,0x6,0x6,'Aiden'),brita=new Queen(_0x3799e7(0x192),0x7,0x8,0x7,0x4,0x6,0x8,0xb,_0x3799e7(0x192)),crystal=new Queen('Crystal\x20Methyd',0x6,0x8,0x8,0x9,0x8,0xc,0x6,'CrystalM'),dahlia=new Queen(_0x3799e7(0xf7),0x4,0x4,0x6,0x5,0x5,0xa,0x4,'Dahlia'),gigi=new Queen(_0x3799e7(0xca),0xa,0xb,0xb,0xd,0x9,0xc,0x8,_0x3799e7(0x22b)),heidi=new Queen(_0x3799e7(0xa7),0x9,0x9,0xb,0x9,0xc,0xa,0xd,'Heidi'),jackie=new Queen('Jackie\x20Cox',0xb,0xc,0x6,0x6,0xd,0x9,0xb,'Jackie'),jaida=new Queen(_0x3799e7(0x175),0x8,0x5,0xa,0xf,0x8,0xd,0xc,_0x3799e7(0xc9)),jan=new Queen(_0x3799e7(0x22a),0x8,0x4,0xc,0x9,0x5,0xa,0x9,_0x3799e7(0x22a)),nicky=new Queen(_0x3799e7(0x1d7),0x4,0x4,0x5,0xc,0x3,0xb,0x5,_0x3799e7(0x11e)),rock=new Queen(_0x3799e7(0x225),0x6,0x6,0x6,0x4,0x8,0x8,0x7,_0x3799e7(0x116)),sherry=new Queen('Sherry\x20Pie',0x9,0x8,0x9,0x8,0xa,0xb,0x8,'SherryPie'),widow=new Queen('Widow\x20Von\x27Du',0xb,0x7,0xd,0x8,0xb,0xa,0xf,_0x3799e7(0x1f6)),denali=new Queen(_0x3799e7(0xd8),0x4,0x8,0xe,0x9,0xa,0xb,0xd,'Denali'),elliott=new Queen(_0x3799e7(0x1c9),0x5,0x5,0xc,0x9,0x3,0x8,0xb,_0x3799e7(0x308)),mik=new Queen(_0x3799e7(0xbf),0x9,0xb,0x7,0xe,0xe,0xf,0x9,_0x3799e7(0xbf)),joey=new Queen(_0x3799e7(0x243),0x6,0x7,0x6,0x5,0x5,0x7,0x7,_0x3799e7(0x1f1)),kahmora=new Queen(_0x3799e7(0x1ff),0x3,0x4,0x3,0x5,0x4,0xc,0x4,_0x3799e7(0x199)),kandym=new Queen(_0x3799e7(0x14a),0xb,0xa,0xa,0x7,0x8,0xa,0xe,_0x3799e7(0x119)),lala=new Queen(_0x3799e7(0xae),0x6,0x8,0xd,0x7,0xa,0x9,0xe,'LaLa'),olivia=new Queen('Olivia\x20Lux',0xb,0x5,0xb,0xa,0x8,0xb,0x8,_0x3799e7(0x130)),rose=new Queen(_0x3799e7(0xcf),0xc,0xb,0xd,0x8,0xa,0xa,0x6,'Rose'),symone=new Queen(_0x3799e7(0x279),0xe,0x7,0x7,0x9,0xc,0xd,0xd,'Symone'),tamisha=new Queen(_0x3799e7(0x2f0),0x7,0x6,0x7,0x5,0x6,0x7,0x7,'Tamisha'),tina=new Queen(_0x3799e7(0x27f),0x6,0x6,0xa,0x5,0x6,0x8,0x9,_0x3799e7(0x217)),utica=new Queen(_0x3799e7(0x1e3),0x7,0x4,0x6,0xf,0x5,0xc,0xb,_0x3799e7(0x268)),alyssaH=new Queen('Alyssa\x20Hunter',0x5,0x6,0x7,0xa,0x7,0xd,0x8,_0x3799e7(0x21d)),angeria=new Queen(_0x3799e7(0x164),0xd,0xb,0xa,0xc,0x9,0xd,0xb,'Angeria'),bosco=new Queen(_0x3799e7(0x1fd),0xb,0xc,0x6,0x7,0xc,0xb,0x6,_0x3799e7(0x1fd)),daya=new Queen(_0x3799e7(0x1fe),0x9,0x8,0x9,0x9,0xa,0xa,0x8,_0x3799e7(0x127)),deja=new Queen('DeJa\x20Skye',0x9,0x7,0x9,0x8,0xd,0x8,0x8,_0x3799e7(0x11d)),jasmineK=new Queen(_0x3799e7(0x1ed),0x7,0x6,0xd,0x7,0x6,0xa,0xe,_0x3799e7(0x2d4)),jorgeous=new Queen(_0x3799e7(0x13e),0x9,0x7,0xf,0xa,0x6,0xb,0xf,_0x3799e7(0x13e)),june=new Queen('June\x20Jambalaya',0x5,0x6,0x6,0x4,0x5,0x6,0x6,_0x3799e7(0xf2)),kerri=new Queen(_0x3799e7(0xc6),0x6,0x6,0x5,0x5,0x6,0x9,0x6,_0x3799e7(0x263)),kornbread=new Queen(_0x3799e7(0x177),0x6,0x7,0x6,0x6,0x7,0x8,0x7,_0x3799e7(0x133)),cadmen=new Queen(_0x3799e7(0x131),0xc,0xb,0xc,0xb,0x7,0xa,0xb,_0x3799e7(0x262)),maddy=new Queen('Maddy\x20Morphosis',0x8,0x7,0x6,0x5,0x6,0x9,0x7,_0x3799e7(0x147)),orion=new Queen(_0x3799e7(0x180),0x4,0x6,0x6,0x5,0x6,0x6,0x5,_0x3799e7(0x2b5)),willow=new Queen(_0x3799e7(0x2f7),0xb,0x8,0x7,0xa,0xa,0xc,0x8,_0x3799e7(0x251)),amethyst=new Queen('Amethyst',0x4,0x8,0x6,0x5,0x9,0x8,0xa,'Amethyst'),anetra=new Queen(_0x3799e7(0x2a0),0x9,0x7,0xd,0xb,0x8,0xb,0xd,_0x3799e7(0x2a0)),auraMayari=new Queen(_0x3799e7(0xdb),0x5,0x5,0x9,0x7,0x6,0x9,0x7,_0x3799e7(0x26b)),irene=new Queen(_0x3799e7(0x162),0x4,0x5,0x4,0x4,0x4,0x8,0x6,_0x3799e7(0x222)),jax=new Queen(_0x3799e7(0x245),0x5,0x6,0x9,0x8,0x6,0x8,0xe,'Jax'),loosey=new Queen(_0x3799e7(0x2d2),0xa,0xe,0x9,0x8,0xd,0xb,0x9,_0x3799e7(0xef)),luxx=new Queen(_0x3799e7(0x2ff),0xa,0xa,0x9,0xd,0x9,0xe,0x9,'LuxxNoirLondon'),malaysia=new Queen('Malaysia\x20Babydoll\x20Foxx',0x9,0x7,0x7,0x8,0x6,0x9,0x8,'MalaysiaBabydollFoxx'),marcia=new Queen(_0x3799e7(0x170),0x9,0x9,0xa,0x8,0x9,0x8,0xc,_0x3799e7(0x242)),mistress=new Queen(_0x3799e7(0x197),0xb,0xa,0xa,0xa,0xa,0xd,0x9,_0x3799e7(0x1b6)),poppy=new Queen(_0x3799e7(0x1be),0x5,0x6,0x5,0x5,0x6,0x6,0x8,_0x3799e7(0x183)),robin=new Queen(_0x3799e7(0x202),0x7,0x7,0x6,0xb,0x7,0xa,0x9,_0x3799e7(0xf8)),salina=new Queen('Salina\x20EsTitties',0x9,0x9,0x9,0x5,0x7,0x7,0xb,_0x3799e7(0xfc)),sashaColby=new Queen(_0x3799e7(0x1b1),0xc,0x8,0xd,0xb,0xb,0xf,0xd,_0x3799e7(0x2ea)),spice=new Queen('Spice',0x8,0x6,0x7,0x8,0x5,0xb,0x7,_0x3799e7(0x247)),sugar=new Queen('Sugar',0x9,0x7,0x6,0x6,0x5,0xb,0x7,'Sugar'),amandaTori=new Queen(_0x3799e7(0x2de),0x9,0x7,0x7,0x7,0x7,0x7,0x9,_0x3799e7(0xaa)),dawn=new Queen(_0x3799e7(0xbb),0x8,0x8,0x8,0xd,0x8,0xd,0x7,_0x3799e7(0xbb)),geneva=new Queen(_0x3799e7(0x2a5),0x5,0x7,0xa,0x6,0x8,0x8,0xb,_0x3799e7(0x2b3)),hershii=new Queen(_0x3799e7(0x2a7),0x4,0x4,0x4,0x4,0x4,0x4,0x4,'HershiiLiqCourJete'),megami=new Queen('Megami',0x9,0x7,0xa,0xa,0x9,0xa,0xc,_0x3799e7(0x159)),mhiya=new Queen(_0x3799e7(0xb0),0x8,0x6,0x9,0x9,0x9,0x9,0xf,_0x3799e7(0xff)),mirage=new Queen('Mirage',0x6,0x7,0x8,0x7,0x6,0x9,0xa,_0x3799e7(0x173)),morphine=new Queen(_0x3799e7(0x15b),0x7,0x6,0xa,0xa,0x7,0xb,0xf,_0x3799e7(0x301)),nymphia=new Queen(_0x3799e7(0x172),0xa,0xb,0xc,0xf,0x8,0xf,0xc,'NymphiaWind'),jane=new Queen(_0x3799e7(0x2bb),0xc,0xc,0x9,0x9,0xd,0xb,0xa,_0x3799e7(0x2d6)),plasma=new Queen(_0x3799e7(0x136),0xd,0x9,0x9,0x7,0x8,0x9,0xa,_0x3799e7(0x136)),qQueen=new Queen('Q',0xc,0xa,0x8,0xf,0x8,0xf,0x8,'Q'),sapphira=new Queen(_0x3799e7(0x29c),0x8,0xb,0xc,0xa,0xb,0xd,0xd,_0x3799e7(0x120)),xunami=new Queen(_0x3799e7(0x154),0x7,0x6,0x8,0x8,0x6,0xa,0x8,_0x3799e7(0x1b3)),acacia=new Queen(_0x3799e7(0x1e8),0x7,0x7,0x7,0x7,0x7,0x7,0x7,_0x3799e7(0x2b7)),arrietty=new Queen(_0x3799e7(0x1fa),0x7,0x7,0x7,0x7,0x7,0x7,0x7,_0x3799e7(0x1fa)),crystalE=new Queen(_0x3799e7(0x108),0x7,0x7,0x7,0x7,0x7,0x7,0x7,_0x3799e7(0x211)),hormona=new Queen(_0x3799e7(0x1f3),0x7,0x7,0x7,0x7,0x7,0x7,0x7,'HormonaLisa'),jewels=new Queen(_0x3799e7(0x24d),0x7,0x7,0x7,0x7,0x7,0x7,0x7,_0x3799e7(0x2fc)),joella=new Queen(_0x3799e7(0x14c),0x7,0x7,0x7,0x7,0x7,0x7,0x7,_0x3799e7(0x14c)),kori=new Queen('Kori\x20King',0x7,0x7,0x7,0x7,0x7,0x7,0x7,'KoriKing'),lana=new Queen('Lana\x20Ja\x27Rae',0x7,0x7,0x7,0x7,0x7,0x7,0x7,_0x3799e7(0x148)),lexi=new Queen(_0x3799e7(0x10c),0x7,0x7,0x7,0x7,0x7,0x7,0x7,'LexiLove'),lucky=new Queen('Lucky\x20Starzzz',0x7,0x7,0x7,0x7,0x7,0x7,0x7,_0x3799e7(0x271)),lydia=new Queen(_0x3799e7(0x13f),0x7,0x7,0x7,0x7,0x7,0x7,0x7,_0x3799e7(0x106)),onya=new Queen(_0x3799e7(0xb8),0x7,0x7,0x7,0x7,0x7,0x7,0x7,'OnyaNurve'),samStar=new Queen('Sam\x20Star',0x7,0x7,0x7,0x7,0x7,0x7,0x7,_0x3799e7(0x213)),suzie=new Queen('Suzie\x20Toot',0x7,0x7,0x7,0x7,0x7,0x7,0x7,_0x3799e7(0x2c0)),seasonsData={'us_season1':[akashia,bebe,jade,ninaf,ongina,rebecca,shannel,tammie,victoria],'us_season2':[jessica,jujubee,morgan,mystique,nicole,pandora,raven,sahara,shangela,sonique,tatianna,tyra],'us_season3':[alexis,carmen,delta,india,manila,mariah,mimi,phoenix,raja,shangela,stacey,venus,yara],'us_season4':[alisa,chad,dida,jiggly,kenya,leshauwn,latrice,madame,milan,phiphi,sharon,princess,willam],'us_season5':[alaska,alyssa,coco,detox,honey,ivy,jadejolie,jinkx,lineysha,monica,penny,roxxxy,serena,vivienne],'us_season6':[adore,april,bendelacreme,bianca,courtney,darienne,gia,joslyn,kelly,laganja,magnolia,milk,trinityk,vivacious],'us_season7':[ginger,jaidynn,jasmine,kandy,katya,kennedy,max,fame,kasha,pearl,sashab,tempest,trixie,violet],'us_season8':[acid,bob,chichi,cynthia,dax,derrick,kim,laila,naomi,naysha,robbie,thorgy],'all_stars8':[aja,alexism,charlie,cynthia,eureka,farrah,jaymes,kimora,ninab,peppermint,sasha,shea,trinity,valentina],'us_season10':[aquaria,asia,blair,dusty,eureka,kalorie,kameron,mayhem,miz,monet,monique,vanessa,vixen,yuhua],'us_season11':[akeria,ariel,brooke,honeyd,kahanna,mercedes,ninaw,plastique,rajah,scarlet,shuga,silky,soju,vanessa,yvie],'us_Season12':[aiden,brita,crystal,dahlia,gigi,heidi,jackie,jaida,jan,nicky,rock,sherry,widow],'us_season13':[denali,elliott,mik,joey,kahmora,kandym,lala,olivia,rose,symone,tamisha,tina,utica],'us_season14':[alyssaH,angeria,bosco,daya,deja,jasmineK,jorgeous,june,kerri,kornbread,cadmen,maddy,orion,willow],'us_season15':[amethyst,anetra,auraMayari,irene,jax,loosey,luxx,malaysia,marcia,mistress,poppy,robin,salina,sashaColby,spice,sugar],'us_season16':[amandaTori,dawn,geneva,hershii,megami,mhiya,mirage,morphine,nymphia,jane,plasma,qQueen,sapphira,xunami],'us_season17':[acacia,arrietty,crystalE,hormona,jewels,joella,kori,lana,lexi,lucky,lydia,onya,samStar,suzie],'allstars_1':[alexis,chad,jujubee,latrice,manila,mimi,ninaf,pandora,raven,shannel,tammie,yara],'allstars_2':[adore,alaska,alyssa,coco,detox,ginger,katya,phiphi,roxxxy,tatianna],'allstars_3':[aja,bebe,bendelacreme,chichi,kennedy,milk,morgan,shangela,thorgy,trixie],'allstars_4':[farrah,gia,jasmine,latrice,manila,monet,monique,naomi,trinity,valentina],'allstars_5':[alexis,blair,derrick,india,jujubee,mariah,mayhem,miz,ongina,shea],'allstars_9':[angeria,mik,jorgeous,ninaw,plastique,roxxxy,shannel,vanessa],'allstars_10':[acid,aja,bosco,alyssaH,cynthia,daya,olivia,phoenix,tina,deja,denali,ginger,irene,jorgeous,kerri,nicole,mistress,lydia],'allQueens':[akashia,bebe,jade,ninaf,ongina,rebecca,shannel,tammie,victoria,jessica,jujubee,morgan,mystique,nicole,pandora,raven,sahara,shangela,sonique,tatianna,tyra,alexis,carmen,delta,india,manila,mariah,mimi,phoenix,raja,stacey,venus,yara,alisa,chad,dida,jiggly,kenya,leshauwn,latrice,madame,milan,phiphi,sharon,princess,willam,alaska,alyssa,coco,detox,honey,ivy,jadejolie,jinkx,lineysha,monica,penny,roxxxy,serena,vivienne,adore,april,bendelacreme,bianca,courtney,darienne,gia,joslyn,kelly,laganja,magnolia,milk,trinityk,vivacious,ginger,jaidynn,jasmine,kandy,katya,kennedy,max,fame,kasha,pearl,sashab,tempest,trixie,violet,acid,bob,chichi,cynthia,dax,derrick,kim,laila,naomi,naysha,robbie,thorgy,aja,alexism,charlie,eureka,farrah,jaymes,kimora,ninab,peppermint,sasha,shea,trinity,valentina,aquaria,asia,blair,dusty,kalorie,kameron,mayhem,miz,monet,monique,vanessa,vixen,yuhua,akeria,ariel,brooke,honeyd,kahanna,mercedes,ninaw,plastique,rajah,scarlet,shuga,silky,soju,yvie,aiden,brita,crystal,dahlia,gigi,heidi,jackie,jaida,jan,nicky,rock,sherry,widow,denali,elliott,mik,joey,kahmora,kandym,lala,olivia,rose,symone,tamisha,tina,utica,alyssaH,angeria,bosco,daya,deja,jasmineK,jorgeous,june,kerri,kornbread,cadmen,maddy,orion,willow,amethyst,anetra,auraMayari,irene,jax,loosey,luxx,malaysia,marcia,mistress,poppy,robin,salina,sashaColby,spice,sugar,amandaTori,dawn,geneva,hershii,megami,mhiya,mirage,morphine,nymphia,jane,plasma,qQueen,sapphira,xunami,acacia,arrietty,crystalE,hormona,jewels,joella,kori,lana,lexi,lucky,lydia,onya,samStar,suzie]};function updateCast(){const _0xc46027=_0x3799e7;simulatorGlobals['castSize']=document[_0xc46027(0x215)](_0xc46027(0x22d))[_0xc46027(0x2c3)];const _0x5cd6d9=document[_0xc46027(0x215)](_0xc46027(0x1d9));_0x5cd6d9[_0xc46027(0x21b)]='';for(let _0x4588e4=0x0;_0x4588e4<simulatorGlobals[_0xc46027(0x289)];_0x4588e4++){const _0x7df136=document[_0xc46027(0x1a9)](_0xc46027(0xc0));_0x7df136[_0xc46027(0x24b)]('id',_0x4588e4['toString']()),_0x7df136['addEventListener'](_0xc46027(0x2a2),preventDuplicates);for(let _0x6c285f=0x0;_0x6c285f<seasonsData[_0xc46027(0x1b4)][_0xc46027(0x284)];_0x6c285f++){const _0x28ce4e=document[_0xc46027(0x1a9)]('option');_0x28ce4e[_0xc46027(0x14d)]=seasonsData['allQueens'][_0x6c285f][_0xc46027(0x2c8)](),_0x28ce4e[_0xc46027(0x21b)]=seasonsData[_0xc46027(0x1b4)][_0x6c285f][_0xc46027(0x2c8)](),_0x7df136[_0xc46027(0xd5)](_0x28ce4e);}const _0x2fcbdf=document['createElement']('br');_0x5cd6d9['appendChild'](_0x7df136),_0x5cd6d9['appendChild'](_0x2fcbdf);}preventDuplicates();}function _0x478f(){const _0x3e9963=[',\x20good\x20work\x20this\x20week,\x20you\x27re\x20safe.','Kameron','Carmen\x20Carrera','Party\x20night,','reload','Alyssa\x20Edwards','error','ChiChi','Mayhem','Penny\x20Tration','None\x20of\x20you\x20survived\x20that\x20lipsync...\x20I\x20must\x20ask\x20you\x20both\x20to\x20sashay\x20away.','Aquaria','LadyCamden','Kerri','JadeJ','TOP\x20','Scarlet','bold','Utica','Darienne','src','AuraMayari','Vanessa\x20Vanjie','Kennedy\x20Davenport','hotpink','Coco\x20Montrese','Our\x20finalists\x20will\x20now\x20perform\x20in\x20a\x20lip-sync\x20smackdown\x20for\x20the\x20crown!','LuckyStarzzz','topAllStars','getMarketing','the\x20season.','Jade\x20Sotomayor','Error\x20during\x20lip-sync:','Kenya','announceWinner()','Symone','\x20won\x20the\x20mini-challenge!','do\x20a\x20quiz\x20about','Aiden\x20Zhane','Tonight\x20you\x20will\x20be\x20lip-syncing\x20to...\x20Born\x20Naked\x20by\x20RuPaul','Futuristic,','Tina\x20Burner','100%','width','Rajah','options','length','b#MCWinner','IDK-\x20Something','NinaW','celebrity\x20interview.','castSize','rankPerformances','Pearl','color','#ECA9B1','Jinkx','Blair','unfavoritism','Darienne\x20Lake','Blair\x20St.\x20Clair','Vintage,','Yara\x20Sofia','Robbie','NinaBB','MCWinner','Tempest\x20DuJour','The\x20queens\x20will\x20participate\x20in\x20','random\x20items.','Ongina','Sapphira\x20Cristál','Serena','bottomQueens','Vivienne\x20Pinay','Anetra','Ariel\x20Versace','change','flop','Charlie\x20Hides','Geneva\x20Karr','Honey\x20Davenport','Hershii\x20LiqCour-Jeté','Madame\x20LaQueer','backstage','Courtney','createBold','Gia','Ladies,\x20this\x20is\x20your\x20last\x20chance\x20to\x20impress\x20me\x20and\x20earn\x20the\x20crown.','invent\x20a\x20competition\x20about','Silky','getBall','floor','TOP','GenevaKarr','textAlign','Orion','Crystalized\x20Eleganza','AcaciaForgot','changeRoom','19590oafdDY','runway()','Plane\x20Jane','Milan','political\x20debate.','Kalorie','bad','SuzieToot','Executive\x20Realness','darkblue','valueAsNumber','Mrs.\x20Kasha\x20Davis','black','Winter\x20Wonderland,','Nina\x20West','getName','The\x20Princess','a\x20parody\x20film\x20about\x20','_comedy','split','India','Error\x20loading\x20lip-sync\x20song:','Roxxxy','Willam','tomato','Loosey\x20LaDuca','flopped\x20the\x20runway...','JasmineK','Now...\x20Who\x20will\x20you\x20send\x20home?','PlaneJane','theater\x20piece\x20about\x20','Jaymes\x20Mansfield','Naysha\x20Lopez','Come\x20in\x20your\x20Best\x20Drag','The\x20queens\x20will\x20walk\x20the\x20runway\x20in\x20their\x20looks!','judging()','Jade\x20Jolie','Amanda\x20Tori\x20Meating','The\x20song\x20is...\x20','Yuhua','Mercedes\x20Iman\x20Diamond','_acting','the\x20queens.','TOP2','Ep.\x20','actingChallenge()','Modern,','danceChallenge()','mainstagelipsync','SashaColby','_calculateScores','Bianca\x20Del\x20Rio','Mimi\x20Imfurst','Asia','Ice.','Tamisha\x20Iman','BeBe','In\x20today\x27s\x20mini-challenge,\x20the\x20queens\x20will\x20','Katya','slayed\x20the\x20runway!','KandyH','Peppermint','Willow\x20Pill','Carmen','min','Jasmine\x20Masters','finaleSize','JewelsSparkles','Jessica\x20Wild','PhiPhi','Luxx\x20Noir\x20London','BTM2\x20','MorphineLoveDion','Jujubee','Akashia','BenDeLaCreme','ConDRAGulations!\x20You\x20are\x20both\x20the\x20winners\x20of\x20this\x20lip-sync!','royalblue','Phoenix','Elliott','getImprov','ballChallenge()','getElementsByTagName','runwayEpisode','\x20the\x20pit\x20crew','fullCast','As\x20it\x20is\x20written,\x20it\x20shall\x20be\x20done.','border','Tonight\x20you\x20will\x20be\x20lip-syncing\x20to...\x20','King\x20Tyra','Max','untucked','Fire.','Balls\x20to\x20the\x20walls','Ladies,\x20I\x27ve\x20made\x20my\x20decision...','Summer\x20Solstice,','Monica','Heidi\x20N\x20Closet',',\x20you\x20represent\x20the\x20bottoms\x20of\x20the\x20week...','winner','AmandaToriMeating','7390194ZpvaKR','Dusty\x20Ray\x20Bottoms','Plastique','LaLa\x20Ri','The\x20queens\x20will\x20improvise\x20in\x20','Mhi\x27ya\x20Iman\x20LePaige','createHeader','Jiggly\x20Caliente','love.','table','finalePerformanceScore','Pandora\x20Boxx','Adore','Onya\x20Nurve','good','Lashauwn\x20Beyond','Dawn','Raven','lightpink','Laganja\x20Estranja','Gottmik','select','234xRJgGr','304945msCfBf','Naomi\x20Smalls','You\x20both\x20showed\x20me\x20how\x20bad\x20you\x20wanted\x20to\x20stay...\x20Shantay\x20you\x20BOTH\x20stay!','_name','Kerri\x20Colby','finale()','great','Jaida','Gigi\x20Goode','deepskyblue','Regular','Vivacious','currentCast','Rosé','Stacy','SAFE','Raja','Victoria\x20\x27Porkchop\x27\x20Parker','Plastique\x20Tiara','add','map','clean','Denali','onclick','Kameron\x20Michaels','Aura\x20Mayari','Jiggly','sienna','dance\x20number\x20about\x20','Kahanna',',\x20good\x20luck\x20and\x20don\x27t\x20fuck\x20it\x20up!','Party\x20Night','April','had\x20a\x20great\x20performance!','getActing','Executive\x20Realness,','Mystique\x20Summers','Cynthia\x20Lee\x20Fontaine','ELIM\x20','Kim\x20Chi','getDance','...\x20you\x20are\x20safe.','getFinalePerformance','Jaremi\x20Carey','_improv','LooseyLaDuca','_design','Kandy\x20Ho','June','Sahara','a\x20roast\x20about\x20','Pandora','Proceed','Dahlia\x20Sin','RobinFierce','slice','Miz\x20Cracker','Acid\x20Betty','SalinaEsTitties','1px\x20solid\x20white','AllStars','MhiyaImanLePaige','trash.\x20','resetSimulation()','Jade','winCount','Yvie','flopped\x20the\x20challenge...','LydiaBKollins','white','Crystal\x20Envy','topQueens','lipsyncPerformanceScore','sort','Lexi\x20Love','Shuga','Air.','#f5ebf5','isAllStars','Princess','\x20Ball!\x20The\x20queens\x20will\x20bring\x20three\x20looks\x20to\x20the\x20runway!\x20Themes\x20are:','abs','TrinityKB','The\x20time\x20has\x20come\x20for\x20you\x20to\x20lip-sync...\x20for\x20the\x20CROWN!','Rock','Kimora\x20Blac','The\x20time\x20has\x20come\x20for\x20you\x20to\x20lip-sync\x20for\x20your\x20life!','KandyM','Spring\x20Fling','Trixie\x20Mattel','Dusty','DeJa','Nicky','Shea','SapphiraCristal','pink','Kelly\x20Mantle','MissFame','Courtney\x20Act','Bring\x20back\x20my\x20girls!','Classic,','DayaBetty','Derrick\x20Barry','condoms.','...\x20you\x20are\x20both\x20safe.','Alisa\x20Summers','Mimi','finaleScore','Dax\x20ExclamationPoint','WIN\x20','Olivia','Lady\x20Camden','It\x27s\x20time...','Kornbread','\x20noodles','Alexis\x20Michelle','Plasma','HIGH','Trixie','comedyChallenge()','bottomCount','getComedy','Jaymes','44bWyDsM','Jorgeous','Lydia\x20B\x20Kollins','Lashauwn','createBigText','Trinity\x20The\x20Tuck','Shannel','Yuhua\x20Hamasaki','Miz','showTrackRecord(false)','Maddy','LanaJaRae','_lipsync','Kandy\x20Muse','Shuga\x20Cain','Joella','value','Alaska','concat','India\x20Ferrah','Finale\x20Eleganza\x20Extravaganza','Monét\x20X\x20Change','showTrackRecord(true)','Xunami\x20Muse','werkroom','eliminationScreen()','ELIM','Cynthia','Megami','Alisa','Morphine\x20Love\x20Dion',',\x20conDRAGulations!\x20You\x20are\x20the\x20winner\x20of\x20this\x20weeks\x20challenge!','Best\x20Drag','_dance','Ginger','Kalorie\x20K.\x20Williams','Thorgy','Irene\x20The\x20Alien','episodeCount','Angeria\x20Paris\x20VanMicheals','Valentina','249ypsDgh','url(\x27images/untuckedbg.webp\x27)','Vixen','Sasha\x20Velour','Tammie','the\x20history\x20of\x20the\x20world.','Red\x20Carpet,','Manila','https://myrainboww.github.io/Drag-Race-Simulator/image/queens/','Manila\x20Luzon','Marcia\x20Marcia\x20Marcia','The\x20Results...','Nymphia\x20Wind','Mirage','red','Jaida\x20Essence\x20Hall','Alexis','Kornbread\x20Jeté','url(\x27images/stagebg.webp\x27)','center','Shea\x20Couleé','Sasha','WIN',',\x20conDRAGulations!\x20You\x20represent\x20the\x20top\x20two\x20all\x20stars\x20of\x20this\x20week!','filter','_wrapper','Orion\x20Story','Tempest','Honey','PrincessPoppy','Summer\x20Solstice','Bianca','Dida\x20Ritz','yellow','Honey\x20Mahogany','trackRecord','finaleLipSync()','selectedIndex','disabled','Latrice','Farrah','\x20a\x20partner','LOW','Ladies,\x20I\x27ve\x20made\x20my\x20decision.','Brita','April\x20Carrión','\x20thank\x20you\x20for\x20an\x20incredible\x20season...','Morgan','the\x20history\x20of\x20disco.','Mistress\x20Isabelle\x20Brooks','SashaB','Kahmora','class','Nicole\x20Paige\x20Brooks','safeQueens','had\x20a\x20good\x20performance.','Antinque,','Retro,','TrinityTT','Vivienne','Scarlet\x20Envy','Morgan\x20McMichaels','body','RUNNER\x20UP','WINNER','Venus\x20D-Lite',',\x20you\x20two\x20will\x20always\x20be\x20all-stars,\x20now\x20sashay\x20away...','createElement','Soju','createParagraph','Trinity\x20K.\x20Bonet','Runway!','SharonNeedles','Milk','Roxxxy\x20Andrews','Sasha\x20Colby','375860gVFHNU','XunamiMuse','allQueens','format','MistressIsabelleBrooks','lightblue','Bring\x20in\x20the\x20puppets!\x20The\x20queens\x20will\x20be\x20using\x20puppets\x20in\x20order\x20to\x20parody\x20eachother!','The\x20queens\x27\x20performances...','Miss\x20Fame','The\x20library\x20is\x20open!\x20In\x20today\x27s\x20mini-challenge,\x20the\x20queens\x20will\x20read\x20eachother!','Delta\x20Work','p#Description','Princess\x20Poppy','The\x20next\x20RuPaul\x27s\x20Drag\x20Race\x20superstar\x20is...','Laila\x20McQueen','Based\x20on\x20tonight\x27s\x20performances...','getLipsync','.webp','Naomi','Penny','includes','trim','image','Elliott\x20With\x202\x20Ts','random','Alexis\x20Mateo','\x20you\x20are\x20safe.','188545IksKUM','mainstage','descriptionElement','isArray','the\x20history\x20of\x20drag.','placeholder','Mariah','Dax','Jaidynn\x20Diore\x20Fierce',',\x20conDRAGulations!\x20You\x27re\x20the\x20winner\x20of\x20this\x20week\x27s\x20challenge!','Nicky\x20Doll','crime.','p#castSelection','Charlie','fontWeight','_runway','6UIKGyn','HoneyD','Sahara\x20Davenport','Yara','style','Latrice\x20Royale','Utica\x20Queen','Category\x20is...\x20','Jessica','text','Delta','Acacia\x20Forgot','Shangela','location','Maxi-challenge!',',\x20great\x20job\x20this\x20week,\x20you\x20are\x20safe.','Jasmine\x20Kennedie','img#MCWinner','the\x20judges.','getElementById','Joey','max','Hormona\x20Lisa','Tyra','splice','Widow','political\x20satire.','Cosmic\x20Realness','Jinkx\x20Monsoon','Arrietty','Description','Tatianna','Bosco','Daya\x20Betty','Kahmora\x20Hall','Jaidynn','Tonight,\x20you\x20represent\x20the\x20tops\x20and\x20the\x20bottom\x20of\x20the\x20week.','Robin\x20Fierce','Dida','performanceScore','Ivy\x20Winters','createImage','doubleSashay',',\x20i\x27m\x20sorry\x20my\x20dears\x20but\x20you\x20are\x20up\x20for\x20elimination.','Victoria','Robbie\x20Turner','slayed\x20the\x20challenge!','generateDescription','createButton','Eureka','Joslyn\x20Fox','Mayhem\x20Miller','CrystalEnvy','runwayPerformanceScore','SamStar','had\x20a\x20good\x20runway.','querySelector','Farrah\x20Moan','TinaB','trtable','lipstickChoice','Monica\x20Beverly\x20Hillz','innerHTML','backgroundColor','AlyssaH','Sharon\x20Needles','Laganja','newEpisode()','join','IreneDubois','Contestant','resultsScreen()','Rock\x20M.\x20Sakura','Monique','11CULHPU','Aja','Monet','Jan','Gigi','150px','input#castSize','Rebecca','Asia\x20O\x27Hara','Kim','The\x20time\x20has\x20come\x20for\x20you\x20to\x20lip-sync\x20for\x20your\x20legacy!',',\x20I\x27m\x20sorry\x20my\x20dear\x20but\x20you\x20will\x20not\x20be\x20advancing\x20to\x20the\x20final\x20lip-sync.\x20Now...\x20sashay\x20away.','Mystique','Ginger\x20Minj','Serena\x20ChaCha','6513288VlJvKq','favoritism','lipsync\x20to\x20a\x20song\x20about','big','A\x27keria\x20C.\x20Davenport','The\x20queens\x20will\x20act\x20in\x20a\x20',',\x20sashay\x20away...','firebrick','createHorizontalLine','Derrick','Magnolia','textFiles/songs.txt','MarciaMarciaMarcia','Joey\x20Jay','make\x20a\x20song\x20about','Jax','Nina\x20Flowers','Spice','backgroundImage','Detox','push','setAttribute','Crowning\x20Glory','Jewels\x20Sparkles','toString','BTM2','appendChild','Willow','Red\x20Carpet','catch','designChallenge()','11783196zGwUJs'];_0x478f=function(){return _0x3e9963;};return _0x478f();}function preventDuplicates(){const _0x33a895=_0x3799e7;let _0x459145=[];for(let _0x48fb52=0x0;_0x48fb52<simulatorGlobals['castSize'];_0x48fb52++){let _0x5adbc0=document[_0x33a895(0x1f0)](_0x48fb52['toString']());_0x459145['push'](_0x5adbc0[_0x33a895(0x14d)]);}for(let _0x510d7e=0x0;_0x510d7e<simulatorGlobals[_0x33a895(0x289)];_0x510d7e++){let _0x2ae925=document[_0x33a895(0x1f0)](_0x510d7e[_0x33a895(0x24e)]());for(let _0x123a45=0x0;_0x123a45<_0x2ae925[_0x33a895(0x283)][_0x33a895(0x284)];_0x123a45++){let _0x2ea823=_0x2ae925[_0x33a895(0x283)][_0x123a45];_0x459145[_0x33a895(0x1c6)](_0x2ea823[_0x33a895(0x14d)])&&_0x2ae925[_0x33a895(0x14d)]!==_0x2ea823[_0x33a895(0x14d)]?_0x2ea823[_0x33a895(0x18c)]=!![]:_0x2ea823[_0x33a895(0x18c)]=![];}}}function startSimulation(_0x471580){const _0x1dd833=_0x3799e7;if(!Array[_0x1dd833(0x1d0)](_0x471580)||_0x471580[_0x1dd833(0x284)]===0x0){if(isNaN(simulatorGlobals[_0x1dd833(0x289)])||simulatorGlobals[_0x1dd833(0x289)]<0x3)return;else{for(let _0x23df83=0x0;_0x23df83<document[_0x1dd833(0x30b)](_0x1dd833(0xc0))[_0x1dd833(0x284)];_0x23df83++){const _0x57f589=document[_0x1dd833(0x1f0)](_0x23df83['toString']()),_0x4953ee=_0x57f589[_0x1dd833(0x283)][_0x57f589[_0x1dd833(0x18b)]]['text'];for(let _0x149740=0x0;_0x149740<seasonsData[_0x1dd833(0x1b4)]['length'];_0x149740++){if(_0x4953ee==seasonsData[_0x1dd833(0x1b4)][_0x149740]['getName']()){simulatorGlobals[_0x1dd833(0xce)][_0x1dd833(0x24a)](seasonsData['allQueens'][_0x149740]);break;}}}simulatorGlobals[_0x1dd833(0x30e)]=simulatorGlobals[_0x1dd833(0xce)],newEpisode();}}else simulatorGlobals['fullCast']=_0x471580,simulatorGlobals[_0x1dd833(0xce)]=_0x471580,newEpisode();}function newEpisode(){const _0x166f60=_0x3799e7;simulatorGlobals[_0x166f60(0x19c)]=[],simulatorGlobals['topQueens']=[],simulatorGlobals[_0x166f60(0x272)]=[];for(let _0x41868f=0x0;_0x41868f<simulatorGlobals['currentCast'][_0x166f60(0x284)];_0x41868f++){simulatorGlobals[_0x166f60(0xce)][_0x41868f][_0x166f60(0x219)]=null;}simulatorGlobals[_0x166f60(0x29e)]=[],simulatorGlobals['doubleShantay']=![],simulatorGlobals[_0x166f60(0x207)]=![],simulatorGlobals[_0x166f60(0x30c)]=![],simulatorGlobals[_0x166f60(0x163)]++;const _0x1b5411=new Scene();_0x1b5411[_0x166f60(0x2b8)]('werkroom'),_0x1b5411['clean'](),_0x1b5411[_0x166f60(0xb1)]('Queens\x20remaining...');for(let _0x9971c5=0x0;_0x9971c5<simulatorGlobals['currentCast'][_0x166f60(0x284)];_0x9971c5++){_0x1b5411[_0x166f60(0x206)](simulatorGlobals['currentCast'][_0x9971c5][_0x166f60(0x1c8)]),_0x1b5411[_0x166f60(0x2ab)](simulatorGlobals[_0x166f60(0xce)][_0x9971c5][_0x166f60(0x2c8)]());}_0x1b5411[_0x166f60(0x20d)]('Proceed','miniChallenge()');}function generatePerformances(){const _0x10086e=_0x3799e7,_0xce8919=new Scene();_0xce8919[_0x10086e(0x23e)](),_0xce8919['createBigText'](_0x10086e(0x1b9));let _0x1677fd=[],_0x5edeaa=[],_0x18bd81=[],_0x596a69=[],_0x1a0e69=[];for(let _0x22e2af=0x0;_0x22e2af<simulatorGlobals[_0x10086e(0xce)][_0x10086e(0x284)];_0x22e2af++){let _0x5996f7=simulatorGlobals['currentCast'][_0x22e2af][_0x10086e(0x204)];if(_0x5996f7<0x6)_0x1677fd[_0x10086e(0x24a)](simulatorGlobals[_0x10086e(0xce)][_0x22e2af]);else{if(_0x5996f7>=0x6&&_0x5996f7<0x10)_0x5edeaa[_0x10086e(0x24a)](simulatorGlobals['currentCast'][_0x22e2af]);else{if(_0x5996f7>=0x10&&_0x5996f7<0x1a)_0x18bd81['push'](simulatorGlobals['currentCast'][_0x22e2af]);else{if(_0x5996f7>=0x1a&&_0x5996f7<0x1f)_0x596a69['push'](simulatorGlobals[_0x10086e(0xce)][_0x22e2af]);else _0x5996f7>=0x1f&&_0x5996f7<0x32&&_0x1a0e69[_0x10086e(0x24a)](simulatorGlobals['currentCast'][_0x22e2af]);}}}}createPerformanceDesc(_0xce8919,_0x1677fd,_0x5edeaa,_0x18bd81,_0x596a69,_0x1a0e69);}function createPerformanceDesc(_0xe8d3df,_0x38c443,_0xbef5fd,_0x5a1ba9,_0x5f1bcc,_0x4add56){const _0x5d41e4=_0x3799e7;function _0x439478(_0x8f4a4d,_0x539404,_0x5dfe62,_0x4c9727){const _0x5cba6d=_0xc19b;if(_0x8f4a4d[_0x5cba6d(0x284)]===0x0)return;shuffle(_0x8f4a4d);for(let _0x2d8e21=0x0;_0x2d8e21<_0x8f4a4d[_0x5cba6d(0x284)];_0x2d8e21++){_0xe8d3df[_0x5cba6d(0x206)](_0x8f4a4d[_0x2d8e21]['image'],_0x539404);}_0xe8d3df[_0x5cba6d(0x2ab)]('',_0x5dfe62);const _0xfb7017=document[_0x5cba6d(0x1f0)](_0x5dfe62);if(_0xfb7017){let _0x2e7f81='';for(let _0x386773=0x0;_0x386773<_0x8f4a4d[_0x5cba6d(0x284)];_0x386773++){_0x2e7f81+=_0x8f4a4d[_0x386773]['getName']();if(_0x386773<_0x8f4a4d[_0x5cba6d(0x284)]-0x1)_0x2e7f81+=',\x20';}_0xfb7017[_0x5cba6d(0x21b)]=_0x2e7f81+'\x20'+_0x4c9727;}}_0x439478(_0x38c443,_0x5d41e4(0x2c2),'slay',_0x5d41e4(0x20b)),_0x439478(_0xbef5fd,_0x5d41e4(0x306),'great',_0x5d41e4(0xe3)),_0x439478(_0x5a1ba9,null,'good',_0x5d41e4(0x19d)),_0x439478(_0x5f1bcc,_0x5d41e4(0x121),_0x5d41e4(0x2bf),'had\x20a\x20bad\x20performance...'),_0x439478(_0x4add56,_0x5d41e4(0x2d1),'flop',_0x5d41e4(0x105)),simulatorGlobals[_0x5d41e4(0x30c)]===!![]?_0xe8d3df[_0x5d41e4(0x20d)](_0x5d41e4(0xf6),_0x5d41e4(0x2dc)):_0xe8d3df[_0x5d41e4(0x20d)]('Proceed',_0x5d41e4(0x2ba));}function createRunwayDesc(_0xcb3bdc,_0x2c6333,_0x506fa2,_0x5ef9c1,_0x2744dd,_0x2cbc10){const _0x3ddec1=_0x3799e7;function _0xc4f067(_0x14fd12,_0x1946db,_0x1bfab0,_0x180493){const _0x3f4e50=_0xc19b;if(_0x14fd12[_0x3f4e50(0x284)]===0x0)return;shuffle(_0x14fd12);for(let _0x4e4e6d=0x0;_0x4e4e6d<_0x14fd12[_0x3f4e50(0x284)];_0x4e4e6d++){_0xcb3bdc[_0x3f4e50(0x206)](_0x14fd12[_0x4e4e6d]['image'],_0x1946db);}_0xcb3bdc['createBold']('',_0x1bfab0);const _0x48f396=document['getElementById'](_0x1bfab0);if(_0x48f396){let _0x4e3249='';for(let _0x971afa=0x0;_0x971afa<_0x14fd12[_0x3f4e50(0x284)];_0x971afa++){_0x4e3249+=_0x14fd12[_0x971afa][_0x3f4e50(0x2c8)]();if(_0x971afa<_0x14fd12[_0x3f4e50(0x284)]-0x1)_0x4e3249+=',\x20';}_0x48f396['innerHTML']=_0x4e3249+'\x20'+_0x180493;}}_0xc4f067(_0x2c6333,_0x3ddec1(0x2c2),'slay',_0x3ddec1(0x2f4)),_0xc4f067(_0x506fa2,_0x3ddec1(0x306),_0x3ddec1(0xc8),'had\x20a\x20great\x20runway!'),_0xc4f067(_0x5ef9c1,_0x3ddec1(0x2c5),_0x3ddec1(0xb9),_0x3ddec1(0x214)),_0xc4f067(_0x2744dd,_0x3ddec1(0x121),_0x3ddec1(0x2bf),'had\x20a\x20bad\x20runway...'),_0xc4f067(_0x2cbc10,_0x3ddec1(0x2d1),_0x3ddec1(0x2a3),_0x3ddec1(0x2d3));}function miniChallenge(){const _0x4af036=_0x3799e7,_0x1eee82=new Scene();_0x1eee82[_0x4af036(0xd7)](),_0x1eee82[_0x4af036(0xb1)]('Mini-challenge!'),_0x1eee82[_0x4af036(0x1ab)]('',_0x4af036(0x1fb)),_0x1eee82[_0x4af036(0x23e)](),_0x1eee82[_0x4af036(0x206)]('','royalblue',_0x4af036(0x297)),_0x1eee82[_0x4af036(0x2ab)]('',_0x4af036(0x297));const _0x56c575=new MiniChallenge();_0x56c575['generateDescription'](),_0x56c575[_0x4af036(0x28a)]();if(simulatorGlobals[_0x4af036(0xce)][_0x4af036(0x284)]>simulatorGlobals[_0x4af036(0x2fb)]){const _0x15a347=[_0x4af036(0x2e6),_0x4af036(0x139),_0x4af036(0x2e8),_0x4af036(0x254),'improvChallenge()',_0x4af036(0x30a)],_0x5a1083=_0x15a347[randomNumber(0x0,_0x15a347[_0x4af036(0x284)]-0x1)];_0x1eee82[_0x4af036(0x20d)]('Proceed',_0x5a1083);}else _0x1eee82[_0x4af036(0x20d)](_0x4af036(0xf6),_0x4af036(0x2ba));}function actingChallenge(){const _0x4780f3=_0x3799e7,_0x4356a3=new Scene();_0x4356a3[_0x4780f3(0xd7)](),_0x4356a3['createHeader'](_0x4780f3(0x1eb)),_0x4356a3[_0x4780f3(0x1ab)]('',_0x4780f3(0x1fb));const _0x4ad21b=new ActingChallenge();_0x4ad21b['generateDescription'](),_0x4ad21b[_0x4780f3(0x28a)](),simulatorGlobals[_0x4780f3(0x30c)]=![],generatePerformances();}function comedyChallenge(){const _0xfc2ba0=_0x3799e7,_0x2ef371=new Scene();_0x2ef371['clean'](),_0x2ef371[_0xfc2ba0(0xb1)](_0xfc2ba0(0x1eb)),_0x2ef371[_0xfc2ba0(0x1ab)]('',_0xfc2ba0(0x1fb));const _0x59ae12=new ComedyChallenge();_0x59ae12[_0xfc2ba0(0x20c)](),_0x59ae12['rankPerformances'](),simulatorGlobals[_0xfc2ba0(0x30c)]=![],generatePerformances();}function danceChallenge(){const _0xbc8edd=_0x3799e7,_0x2f5d6d=new Scene();_0x2f5d6d['clean'](),_0x2f5d6d[_0xbc8edd(0xb1)](_0xbc8edd(0x1eb)),_0x2f5d6d[_0xbc8edd(0x1ab)]('',_0xbc8edd(0x1fb));const _0x31123f=new DanceChallenge();_0x31123f[_0xbc8edd(0x20c)](),_0x31123f['rankPerformances'](),simulatorGlobals['runwayEpisode']=![],generatePerformances();}function designChallenge(){const _0x3bc060=_0x3799e7,_0x12e2b2=new Scene();_0x12e2b2['clean'](),_0x12e2b2[_0x3bc060(0xb1)]('Maxi-challenge!'),_0x12e2b2[_0x3bc060(0x1ab)]('',_0x3bc060(0x1fb));const _0x471393=new DesignChallenge();_0x471393[_0x3bc060(0x20c)](),_0x471393[_0x3bc060(0x28a)](),simulatorGlobals['runwayEpisode']=!![],generatePerformances();}function improvChallenge(){const _0x4601c1=_0x3799e7,_0x599b7d=new Scene();_0x599b7d['clean'](),_0x599b7d[_0x4601c1(0xb1)](_0x4601c1(0x1eb)),_0x599b7d['createParagraph']('',_0x4601c1(0x1fb));const _0x4c5899=new ImprovChallenge();_0x4c5899['generateDescription'](),_0x4c5899[_0x4601c1(0x28a)](),simulatorGlobals[_0x4601c1(0x30c)]=![],generatePerformances();}function ballChallenge(){const _0x625e94=_0x3799e7,_0x5b1c9d=new Scene();_0x5b1c9d[_0x625e94(0xd7)](),_0x5b1c9d[_0x625e94(0xb1)](_0x625e94(0x1eb)),_0x5b1c9d[_0x625e94(0x1ab)]('','Description');const _0x243c0f=new BallChallenge();_0x243c0f[_0x625e94(0x20c)](),_0x243c0f[_0x625e94(0x28a)](),simulatorGlobals[_0x625e94(0x30c)]=!![],generatePerformances();}function runway(){const _0x454298=_0x3799e7,_0xe39948=new Scene();_0xe39948['clean'](),_0xe39948[_0x454298(0x2b8)](_0x454298(0x1ce)),_0xe39948[_0x454298(0xb1)](_0x454298(0x1ad)),_0xe39948[_0x454298(0x1ab)](_0x454298(0x2db));const _0x49bdd4=[_0x454298(0x2c1),_0x454298(0xe1),_0x454298(0x252),_0x454298(0x11a),'Winter\x20Wonderland',_0x454298(0x184),_0x454298(0x286)],_0x545c33=[_0x454298(0x24c),_0x454298(0x15d),_0x454298(0x2da),'Finale\x20Eleganza',_0x454298(0x151)];simulatorGlobals['currentCast'][_0x454298(0x284)]>simulatorGlobals[_0x454298(0x2fb)]?_0xe39948[_0x454298(0x1ab)](_0x454298(0x1e4)+_0x49bdd4[randomNumber(0x0,_0x49bdd4[_0x454298(0x284)]-0x1)]):_0xe39948[_0x454298(0x1ab)](_0x454298(0x1e4)+_0x545c33[randomNumber(0x0,_0x545c33['length']-0x1)]);_0xe39948['createHorizontalLine'](),_0xe39948[_0x454298(0x141)]('The\x20queens\x27\x20performances...');for(let _0x4cb3d0=0x0;_0x4cb3d0<simulatorGlobals['currentCast'][_0x454298(0x284)];_0x4cb3d0++){simulatorGlobals[_0x454298(0xce)][_0x4cb3d0]['getRunway']();}sortRunwayPerformances(simulatorGlobals[_0x454298(0xce)]);let _0x13ba6f=[],_0x52e6a5=[],_0x5932b0=[],_0x2d18a9=[],_0x501827=[];for(let _0x4060c7=0x0;_0x4060c7<simulatorGlobals[_0x454298(0xce)][_0x454298(0x284)];_0x4060c7++){let _0x3cd0ba=simulatorGlobals[_0x454298(0xce)][_0x4060c7]['runwayPerformanceScore'];if(_0x3cd0ba<0x6)_0x13ba6f[_0x454298(0x24a)](simulatorGlobals[_0x454298(0xce)][_0x4060c7]);else{if(_0x3cd0ba>=0x6&&_0x3cd0ba<0x10)_0x52e6a5[_0x454298(0x24a)](simulatorGlobals[_0x454298(0xce)][_0x4060c7]);else{if(_0x3cd0ba>=0x10&&_0x3cd0ba<0x1a)_0x5932b0[_0x454298(0x24a)](simulatorGlobals[_0x454298(0xce)][_0x4060c7]);else{if(_0x3cd0ba>=0x1a&&_0x3cd0ba<0x1f)_0x2d18a9[_0x454298(0x24a)](simulatorGlobals[_0x454298(0xce)][_0x4060c7]);else _0x3cd0ba>=0x1f&&_0x3cd0ba<0x32&&_0x501827[_0x454298(0x24a)](simulatorGlobals[_0x454298(0xce)][_0x4060c7]);}}}}createRunwayDesc(_0xe39948,_0x13ba6f,_0x52e6a5,_0x5932b0,_0x2d18a9,_0x501827),simulatorGlobals['currentCast'][_0x454298(0x284)]>simulatorGlobals['finaleSize']?_0xe39948[_0x454298(0x20d)]('Proceed','judging()'):_0xe39948[_0x454298(0x20d)](_0x454298(0xf6),_0x454298(0xc7));}function judging(){const _0x3cf7c1=_0x3799e7;if(simulatorGlobals[_0x3cf7c1(0xce)][_0x3cf7c1(0x284)]>0xb){simulatorGlobals['currentCast'][_0x3cf7c1(0x10b)](function(_0x5c134e,_0x9ef195){const _0x4d506c=_0x3cf7c1;return _0x5c134e[_0x4d506c(0x204)]-_0x9ef195[_0x4d506c(0x204)];});for(let _0x3d5264=0x0;_0x3d5264<0x4;_0x3d5264++){simulatorGlobals[_0x3cf7c1(0x109)]['push'](simulatorGlobals[_0x3cf7c1(0xce)][_0x3d5264]),simulatorGlobals[_0x3cf7c1(0x29e)][_0x3cf7c1(0x24a)](simulatorGlobals[_0x3cf7c1(0xce)][simulatorGlobals['currentCast'][_0x3cf7c1(0x284)]-(0x1+_0x3d5264)]);}judgingScreen();}else{if(simulatorGlobals[_0x3cf7c1(0xce)][_0x3cf7c1(0x284)]>0x6){simulatorGlobals[_0x3cf7c1(0xce)][_0x3cf7c1(0x10b)](function(_0x53e374,_0x1bf06e){const _0x273615=_0x3cf7c1;return _0x53e374['performanceScore']-_0x1bf06e[_0x273615(0x204)];});for(let _0x353cde=0x0;_0x353cde<0x3;_0x353cde++){simulatorGlobals[_0x3cf7c1(0x109)][_0x3cf7c1(0x24a)](simulatorGlobals[_0x3cf7c1(0xce)][_0x353cde]),simulatorGlobals[_0x3cf7c1(0x29e)][_0x3cf7c1(0x24a)](simulatorGlobals['currentCast'][simulatorGlobals['currentCast'][_0x3cf7c1(0x284)]-(0x1+_0x353cde)]);}judgingScreen();}else{simulatorGlobals[_0x3cf7c1(0xce)][_0x3cf7c1(0x10b)](function(_0x2bd28d,_0x4ac207){return _0x2bd28d['performanceScore']-_0x4ac207['performanceScore'];});const _0x40bc20=Math[_0x3cf7c1(0x2b1)](simulatorGlobals['currentCast']['length']/0x2);for(let _0x11d866=0x0;_0x11d866<_0x40bc20;_0x11d866++){simulatorGlobals[_0x3cf7c1(0x109)][_0x3cf7c1(0x24a)](simulatorGlobals[_0x3cf7c1(0xce)][_0x11d866]),simulatorGlobals[_0x3cf7c1(0x29e)]['push'](simulatorGlobals[_0x3cf7c1(0xce)][simulatorGlobals[_0x3cf7c1(0xce)][_0x3cf7c1(0x284)]-(0x1+_0x11d866)]);}judgingScreen();}}}function judgingScreen(){const _0x3c28e5=_0x3799e7,_0x349e13=new Scene();_0x349e13[_0x3c28e5(0xd7)](),_0x349e13[_0x3c28e5(0x2b8)](_0x3c28e5(0x1ce)),_0x349e13[_0x3c28e5(0xb1)]('Judging!'),_0x349e13[_0x3c28e5(0x1ab)](_0x3c28e5(0x1c1));const _0x498b48=simulatorGlobals['topQueens'][_0x3c28e5(0x14f)](simulatorGlobals['bottomQueens']);for(let _0x288571=0x0;_0x288571<_0x498b48[_0x3c28e5(0x284)];_0x288571++){_0x349e13[_0x3c28e5(0x206)](_0x498b48[_0x288571][_0x3c28e5(0x1c8)],_0x3c28e5(0x2c5));}const _0x56dfac=_0x498b48[_0x3c28e5(0xd6)](_0x543a59=>_0x543a59[_0x3c28e5(0x2c8)]())[_0x3c28e5(0x221)](',\x20');_0x349e13[_0x3c28e5(0x2ab)](_0x56dfac),_0x349e13[_0x3c28e5(0x1ab)](_0x3c28e5(0x201)),_0x349e13[_0x3c28e5(0x23e)](),simulatorGlobals[_0x3c28e5(0x19c)]=simulatorGlobals['currentCast']['filter'](_0x4216bb=>!_0x498b48[_0x3c28e5(0x1c6)](_0x4216bb));if(simulatorGlobals['safeQueens']['length']>0x0){for(let _0x44e22b=0x0;_0x44e22b<simulatorGlobals[_0x3c28e5(0x19c)][_0x3c28e5(0x284)];_0x44e22b++){simulatorGlobals['safeQueens'][_0x44e22b][_0x3c28e5(0x189)]['push'](_0x3c28e5(0xd1));}const _0x458b7c=simulatorGlobals['safeQueens']['map'](_0x4db6a4=>_0x4db6a4[_0x3c28e5(0x2c8)]())[_0x3c28e5(0x221)](',\x20');_0x349e13['createParagraph'](_0x458b7c+_0x3c28e5(0x1cc));}_0x349e13['createButton'](_0x3c28e5(0xf6),_0x3c28e5(0x224));}function resultsScreen(){const _0x5ea3ad=_0x3799e7,_0x4afdb3=new Scene();_0x4afdb3[_0x5ea3ad(0xd7)](),_0x4afdb3[_0x5ea3ad(0x2b8)](_0x5ea3ad(0x1ce)),_0x4afdb3[_0x5ea3ad(0xb1)](_0x5ea3ad(0x125)),_0x4afdb3[_0x5ea3ad(0x2ab)](_0x5ea3ad(0x191));for(let _0x72fd1c=0x0;_0x72fd1c<simulatorGlobals[_0x5ea3ad(0x109)]['length'];_0x72fd1c++){simulatorGlobals[_0x5ea3ad(0x109)][_0x72fd1c][_0x5ea3ad(0x204)]-=simulatorGlobals[_0x5ea3ad(0x109)][_0x72fd1c][_0x5ea3ad(0x212)]-simulatorGlobals['topQueens'][_0x72fd1c][_0x5ea3ad(0x237)];}simulatorGlobals[_0x5ea3ad(0x109)][_0x5ea3ad(0x10b)](function(_0x312943,_0x221b35){const _0x2877be=_0x5ea3ad;return _0x312943[_0x2877be(0x204)]-_0x221b35['performanceScore'];});if(simulatorGlobals[_0x5ea3ad(0x110)]==!![]){simulatorGlobals[_0x5ea3ad(0x109)][0x0][_0x5ea3ad(0x103)]++,simulatorGlobals[_0x5ea3ad(0x109)][0x0][_0x5ea3ad(0x237)]+=0x5,simulatorGlobals[_0x5ea3ad(0x109)][0x1][_0x5ea3ad(0x103)]++,simulatorGlobals[_0x5ea3ad(0x109)][0x1][_0x5ea3ad(0x237)]+=0x5,simulatorGlobals['topAllStars']['push'](simulatorGlobals[_0x5ea3ad(0x109)][0x0]),simulatorGlobals[_0x5ea3ad(0x272)][_0x5ea3ad(0x24a)](simulatorGlobals['topQueens'][0x1]),_0x4afdb3[_0x5ea3ad(0x206)](simulatorGlobals['topQueens'][0x0][_0x5ea3ad(0x1c8)],'deepskyblue'),_0x4afdb3[_0x5ea3ad(0x206)](simulatorGlobals[_0x5ea3ad(0x109)][0x1]['image'],'deepskyblue'),_0x4afdb3[_0x5ea3ad(0x2ab)](simulatorGlobals[_0x5ea3ad(0x109)][0x0][_0x5ea3ad(0x2c8)]()+',\x20'+simulatorGlobals[_0x5ea3ad(0x109)][0x1][_0x5ea3ad(0x2c8)]()+_0x5ea3ad(0x17d)),simulatorGlobals['topQueens']['splice'](0x0,0x2);if(simulatorGlobals['topQueens'][_0x5ea3ad(0x284)]>0x0){const _0x556422=simulatorGlobals[_0x5ea3ad(0x109)][_0x5ea3ad(0xd6)](_0x3d1e55=>_0x3d1e55[_0x5ea3ad(0x2c8)]())[_0x5ea3ad(0x221)](',\x20');for(let _0x30ca27=0x0;_0x30ca27<simulatorGlobals[_0x5ea3ad(0x109)]['length'];_0x30ca27++){_0x4afdb3[_0x5ea3ad(0x206)](simulatorGlobals[_0x5ea3ad(0x109)][_0x30ca27][_0x5ea3ad(0x1c8)],_0x5ea3ad(0x1b7)),simulatorGlobals['topQueens'][_0x30ca27][_0x5ea3ad(0x189)]['push'](_0x5ea3ad(0x137));}_0x4afdb3[_0x5ea3ad(0x1ab)](_0x556422+',\x20good\x20work\x20this\x20week,\x20you\x27re\x20safe.');}}else{if(simulatorGlobals[_0x5ea3ad(0x109)]['length']>=0x2&&simulatorGlobals[_0x5ea3ad(0x109)][0x0][_0x5ea3ad(0x204)]==simulatorGlobals[_0x5ea3ad(0x109)][0x1][_0x5ea3ad(0x204)])simulatorGlobals[_0x5ea3ad(0x109)][0x0][_0x5ea3ad(0x103)]++,simulatorGlobals[_0x5ea3ad(0x109)][0x0][_0x5ea3ad(0x237)]+=0x5,simulatorGlobals[_0x5ea3ad(0x109)][0x1][_0x5ea3ad(0x103)]++,simulatorGlobals[_0x5ea3ad(0x109)][0x1][_0x5ea3ad(0x237)]+=0x5,simulatorGlobals[_0x5ea3ad(0x109)][0x0]['trackRecord'][_0x5ea3ad(0x24a)](_0x5ea3ad(0x12f)),simulatorGlobals[_0x5ea3ad(0x109)][0x1]['trackRecord'][_0x5ea3ad(0x24a)](_0x5ea3ad(0x12f)),_0x4afdb3[_0x5ea3ad(0x206)](simulatorGlobals[_0x5ea3ad(0x109)][0x0][_0x5ea3ad(0x1c8)],_0x5ea3ad(0x2c2)),_0x4afdb3['createImage'](simulatorGlobals[_0x5ea3ad(0x109)][0x1]['image'],_0x5ea3ad(0x2c2)),_0x4afdb3['createBold'](simulatorGlobals[_0x5ea3ad(0x109)][0x0]['getName']()+',\x20'+simulatorGlobals['topQueens'][0x1][_0x5ea3ad(0x2c8)]()+',\x20conDRAGulations!\x20You\x27re\x20the\x20winners\x20of\x20this\x20week\x27s\x20challenge!'),simulatorGlobals['topQueens'][_0x5ea3ad(0x1f5)](0x0,0x2);else simulatorGlobals[_0x5ea3ad(0x109)][_0x5ea3ad(0x284)]>=0x1&&(simulatorGlobals[_0x5ea3ad(0x109)][0x0]['winCount']++,simulatorGlobals[_0x5ea3ad(0x109)][0x0][_0x5ea3ad(0x237)]+=0x5,_0x4afdb3[_0x5ea3ad(0x206)](simulatorGlobals[_0x5ea3ad(0x109)][0x0][_0x5ea3ad(0x1c8)],'royalblue'),simulatorGlobals[_0x5ea3ad(0x109)][0x0]['trackRecord']['push']('WIN'),_0x4afdb3[_0x5ea3ad(0x2ab)](simulatorGlobals[_0x5ea3ad(0x109)][0x0][_0x5ea3ad(0x2c8)]()+_0x5ea3ad(0x1d6)),simulatorGlobals[_0x5ea3ad(0x109)][_0x5ea3ad(0x1f5)](0x0,0x1));if(simulatorGlobals[_0x5ea3ad(0x109)][_0x5ea3ad(0x284)]>0x0){const _0xcc5667=simulatorGlobals['topQueens']['map'](_0x245b1d=>_0x245b1d[_0x5ea3ad(0x2c8)]())['join'](',\x20');for(let _0x3d7d45=0x0;_0x3d7d45<simulatorGlobals['topQueens']['length'];_0x3d7d45++){_0x4afdb3[_0x5ea3ad(0x206)](simulatorGlobals[_0x5ea3ad(0x109)][_0x3d7d45]['image'],_0x5ea3ad(0x1b7)),simulatorGlobals['topQueens'][_0x3d7d45][_0x5ea3ad(0x189)][_0x5ea3ad(0x24a)](_0x5ea3ad(0x137));}_0x4afdb3['createParagraph'](_0xcc5667+_0x5ea3ad(0x256));}}_0x4afdb3[_0x5ea3ad(0x23e)]();for(let _0x391d56=0x0;_0x391d56<simulatorGlobals['bottomQueens']['length'];_0x391d56++){simulatorGlobals[_0x5ea3ad(0x29e)][_0x391d56]['performanceScore']-=simulatorGlobals[_0x5ea3ad(0x29e)][_0x391d56]['runwayPerformanceScore']+simulatorGlobals[_0x5ea3ad(0x29e)][_0x391d56]['unfavoritism'];}simulatorGlobals[_0x5ea3ad(0x29e)][_0x5ea3ad(0x10b)](function(_0x49e713,_0x238313){return _0x49e713['performanceScore']-_0x238313['performanceScore'];});if(simulatorGlobals[_0x5ea3ad(0x29e)][_0x5ea3ad(0x284)]>=0x3){for(let _0xe00178=0x0;_0xe00178<simulatorGlobals[_0x5ea3ad(0x29e)][_0x5ea3ad(0x284)];_0xe00178++){_0x4afdb3['createImage'](simulatorGlobals[_0x5ea3ad(0x29e)][_0xe00178][_0x5ea3ad(0x1c8)],_0x5ea3ad(0x2d1));}const _0x4b6896=simulatorGlobals[_0x5ea3ad(0x29e)][_0x5ea3ad(0xd6)](_0x5cbd4c=>_0x5cbd4c[_0x5ea3ad(0x2c8)]())[_0x5ea3ad(0x221)](',\x20');_0x4afdb3[_0x5ea3ad(0x1ab)](_0x4b6896+_0x5ea3ad(0xa8));}if(simulatorGlobals[_0x5ea3ad(0x29e)][_0x5ea3ad(0x284)]==0x4){const _0x309411=simulatorGlobals[_0x5ea3ad(0x29e)][_0x5ea3ad(0x1f5)](0x0,0x2);for(let _0x2881a8=0x0;_0x2881a8<_0x309411[_0x5ea3ad(0x284)];_0x2881a8++){_0x309411[_0x2881a8][_0x5ea3ad(0x290)]+=0x3,_0x309411[_0x2881a8][_0x5ea3ad(0x189)]['push'](_0x5ea3ad(0x190)),_0x4afdb3[_0x5ea3ad(0x206)](_0x309411[_0x2881a8][_0x5ea3ad(0x1c8)],_0x5ea3ad(0xbd));}_0x4afdb3[_0x5ea3ad(0x2ab)](_0x309411[0x0][_0x5ea3ad(0x2c8)]()+',\x20'+_0x309411[0x1][_0x5ea3ad(0x2c8)]()+_0x5ea3ad(0x12a));}else{if(simulatorGlobals[_0x5ea3ad(0x29e)][_0x5ea3ad(0x284)]==0x3){const [_0x46987a]=simulatorGlobals[_0x5ea3ad(0x29e)][_0x5ea3ad(0x1f5)](0x0,0x1);_0x46987a['unfavoritism']+=0x3,_0x46987a['trackRecord'][_0x5ea3ad(0x24a)](_0x5ea3ad(0x190)),_0x4afdb3[_0x5ea3ad(0x206)](_0x46987a[_0x5ea3ad(0x1c8)],_0x5ea3ad(0xbd)),_0x4afdb3[_0x5ea3ad(0x2ab)](_0x46987a['getName']()+_0x5ea3ad(0xeb));}}for(let _0x1d8a07=0x0;_0x1d8a07<simulatorGlobals[_0x5ea3ad(0x29e)][_0x5ea3ad(0x284)];_0x1d8a07++){_0x4afdb3[_0x5ea3ad(0x206)](simulatorGlobals['bottomQueens'][_0x1d8a07][_0x5ea3ad(0x1c8)],_0x5ea3ad(0x2d1)),simulatorGlobals[_0x5ea3ad(0x29e)][_0x1d8a07][_0x5ea3ad(0x13a)]++;}_0x4afdb3[_0x5ea3ad(0x2ab)](simulatorGlobals[_0x5ea3ad(0x29e)][0x0]['getName']()+',\x20'+simulatorGlobals[_0x5ea3ad(0x29e)][0x0][_0x5ea3ad(0x2c8)]()+_0x5ea3ad(0x208));if(simulatorGlobals[_0x5ea3ad(0x110)]&&simulatorGlobals[_0x5ea3ad(0x29e)][_0x5ea3ad(0x284)]>0x0)for(let _0xa13af6=0x0;_0xa13af6<simulatorGlobals[_0x5ea3ad(0x272)]['length'];_0xa13af6++){const _0xc061da=Math['floor'](Math['random']()*simulatorGlobals[_0x5ea3ad(0x29e)][_0x5ea3ad(0x284)]);simulatorGlobals[_0x5ea3ad(0x272)][_0xa13af6][_0x5ea3ad(0x219)]=simulatorGlobals['bottomQueens'][_0xc061da];}_0x4afdb3[_0x5ea3ad(0x20d)](_0x5ea3ad(0xf6),'startLipsync()');}function startLipsync(){const _0xa7ed73=_0x3799e7;lipsync()[_0xa7ed73(0x253)](_0x8084ce=>{const _0x257a3f=_0xa7ed73;console[_0x257a3f(0x25c)](_0x257a3f(0x276),_0x8084ce);});}async function lipsync(){const _0x331fe7=_0x3799e7,_0x25fc1a=new Scene();_0x25fc1a['clean'](),_0x25fc1a[_0x331fe7(0x2b8)](_0x331fe7(0x2e9)),_0x25fc1a[_0x331fe7(0xb1)](_0x331fe7(0x132));if(simulatorGlobals[_0x331fe7(0x110)]==!![]){_0x25fc1a['createParagraph'](_0x331fe7(0x231));try{const _0x5148da=await fetch('textFiles/songs.txt'),_0x5288c1=await _0x5148da[_0x331fe7(0x1e6)](),_0x5807b7=_0x5288c1[_0x331fe7(0x2cc)]('\x0a')[_0x331fe7(0x17e)](_0x4b35fc=>_0x4b35fc[_0x331fe7(0x1c7)]()!==''),_0x3edb42=_0x5807b7[randomNumber(0x0,_0x5807b7['length']-0x1)];_0x25fc1a[_0x331fe7(0x2ab)](_0x331fe7(0x311)+_0x3edb42),_0x25fc1a['createHorizontalLine']();for(let _0x18f23c=0x0;_0x18f23c<simulatorGlobals[_0x331fe7(0x272)]['length'];_0x18f23c++){_0x25fc1a[_0x331fe7(0x206)](simulatorGlobals[_0x331fe7(0x272)][_0x18f23c][_0x331fe7(0x1c8)],'deepskyblue'),simulatorGlobals['topAllStars'][_0x18f23c][_0x331fe7(0x1c2)]();}simulatorGlobals[_0x331fe7(0x272)]['sort']((_0x5df781,_0x501f22)=>_0x5df781[_0x331fe7(0x10a)]-_0x501f22[_0x331fe7(0x10a)]),_0x25fc1a[_0x331fe7(0x2ab)](simulatorGlobals['topAllStars'][0x0]['getName']()+',\x20'+simulatorGlobals['topAllStars'][0x1][_0x331fe7(0x2c8)]()+_0x331fe7(0xe0)),_0x25fc1a[_0x331fe7(0x20d)](_0x331fe7(0xf6),_0x331fe7(0x156));}catch(_0x2914ee){console[_0x331fe7(0x25c)](_0x331fe7(0x2ce),_0x2914ee),_0x25fc1a[_0x331fe7(0x2ab)](_0x331fe7(0x27d)),_0x25fc1a['createButton']('Proceed',_0x331fe7(0x156));}}else{_0x25fc1a[_0x331fe7(0x1ab)](_0x331fe7(0x118));try{const _0x1c5049=await fetch(_0x331fe7(0x241)),_0x26c407=await _0x1c5049[_0x331fe7(0x1e6)](),_0x3cafe2=_0x26c407['split']('\x0a')[_0x331fe7(0x17e)](_0x2a6c72=>_0x2a6c72[_0x331fe7(0x1c7)]()!==''),_0x4ab4c8=_0x3cafe2[randomNumber(0x0,_0x3cafe2[_0x331fe7(0x284)]-0x1)];_0x25fc1a['createBold'](_0x331fe7(0x311)+_0x4ab4c8),_0x25fc1a[_0x331fe7(0x23e)]();for(let _0x4d47b6=0x0;_0x4d47b6<simulatorGlobals[_0x331fe7(0x29e)][_0x331fe7(0x284)];_0x4d47b6++){_0x25fc1a[_0x331fe7(0x206)](simulatorGlobals[_0x331fe7(0x29e)][_0x4d47b6][_0x331fe7(0x1c8)],_0x331fe7(0x2d1)),simulatorGlobals[_0x331fe7(0x29e)][_0x4d47b6][_0x331fe7(0x1c2)]();}simulatorGlobals[_0x331fe7(0x29e)]['sort']((_0x394584,_0x58578a)=>_0x394584['lipsyncPerformanceScore']-_0x58578a[_0x331fe7(0x10a)]),_0x25fc1a[_0x331fe7(0x2ab)](simulatorGlobals[_0x331fe7(0x29e)][0x0][_0x331fe7(0x2c8)]()+',\x20'+simulatorGlobals[_0x331fe7(0x29e)][0x1][_0x331fe7(0x2c8)]()+',\x20good\x20luck\x20and\x20don\x27t\x20fuck\x20it\x20up!'),_0x25fc1a[_0x331fe7(0x20d)]('Proceed',_0x331fe7(0x156));}catch(_0x1020d9){console['error'](_0x331fe7(0x2ce),_0x1020d9),_0x25fc1a[_0x331fe7(0x2ab)](_0x331fe7(0x27d)),_0x25fc1a[_0x331fe7(0x20d)](_0x331fe7(0xf6),_0x331fe7(0x156));}}}function eliminationScreen(){const _0x27fc91=_0x3799e7,_0x1929f9=new Scene();_0x1929f9[_0x27fc91(0xd7)](),_0x1929f9['changeRoom'](_0x27fc91(0x1ce)),_0x1929f9[_0x27fc91(0xb1)](_0x27fc91(0x171)),_0x1929f9[_0x27fc91(0x2ab)](_0x27fc91(0xa4));if(simulatorGlobals[_0x27fc91(0x110)]==!![]){const _0x35a8b3=simulatorGlobals[_0x27fc91(0x272)][0x0],_0x2b258b=simulatorGlobals[_0x27fc91(0x272)][0x1];if(Math[_0x27fc91(0x113)](_0x35a8b3[_0x27fc91(0x10a)]-_0x2b258b[_0x27fc91(0x10a)])<0x5&&randomNumber(0x0,0x64)<0xa){_0x1929f9[_0x27fc91(0x206)](_0x35a8b3[_0x27fc91(0x1c8)],_0x27fc91(0x2c2)),_0x1929f9[_0x27fc91(0x206)](_0x2b258b['image'],_0x27fc91(0x2c2)),_0x1929f9['createBold'](_0x27fc91(0x305)),_0x35a8b3[_0x27fc91(0x189)][_0x27fc91(0x24a)]('WIN\x20'),_0x2b258b[_0x27fc91(0x189)][_0x27fc91(0x24a)](_0x27fc91(0x12f)),_0x35a8b3[_0x27fc91(0x237)]+=0x5,_0x2b258b['favoritism']+=0x5,_0x1929f9[_0x27fc91(0x23e)](),_0x1929f9[_0x27fc91(0x141)](_0x27fc91(0x2d5)),_0x1929f9[_0x27fc91(0x206)](_0x35a8b3['lipstickChoice'][_0x27fc91(0x1c8)],_0x27fc91(0x2d1)),_0x1929f9[_0x27fc91(0x2ab)](_0x35a8b3[_0x27fc91(0x219)][_0x27fc91(0x2c8)]()+'.'),_0x1929f9['createImage'](_0x2b258b[_0x27fc91(0x219)][_0x27fc91(0x1c8)],_0x27fc91(0x2d1)),_0x1929f9[_0x27fc91(0x2ab)](_0x2b258b['lipstickChoice']['getName']()+'.'),_0x1929f9['createParagraph'](_0x27fc91(0x30f)),_0x1929f9[_0x27fc91(0x1ab)](_0x2b258b['lipstickChoice'][_0x27fc91(0x2c8)]()+',\x20'+_0x35a8b3[_0x27fc91(0x219)][_0x27fc91(0x2c8)]()+_0x27fc91(0x1a8)),_0x2b258b[_0x27fc91(0x219)][_0x27fc91(0x189)]['push'](_0x27fc91(0xe8)),_0x2b258b[_0x27fc91(0x219)][_0x27fc91(0x290)]+=0x3,_0x35a8b3[_0x27fc91(0x219)][_0x27fc91(0x189)]['push'](_0x27fc91(0xe8)),_0x35a8b3[_0x27fc91(0x219)][_0x27fc91(0x290)]+=0x3,_0x1929f9[_0x27fc91(0x20d)](_0x27fc91(0xf6),_0x27fc91(0x146));return;}_0x1929f9[_0x27fc91(0x206)](_0x35a8b3['image'],_0x27fc91(0x306)),_0x1929f9[_0x27fc91(0x2ab)](_0x35a8b3[_0x27fc91(0x2c8)]()+_0x27fc91(0x15c)),_0x35a8b3[_0x27fc91(0x189)][_0x27fc91(0x24a)]('WIN'),_0x35a8b3['favoritism']+=0x5,_0x1929f9[_0x27fc91(0x206)](_0x2b258b[_0x27fc91(0x1c8)],_0x27fc91(0xcb)),_0x1929f9[_0x27fc91(0x2ab)](_0x2b258b[_0x27fc91(0x2c8)]()+_0x27fc91(0x1ec)),_0x2b258b[_0x27fc91(0x189)]['push']('TOP2'),_0x2b258b[_0x27fc91(0x237)]+=0x3,_0x1929f9[_0x27fc91(0x23e)](),_0x1929f9['createBigText'](_0x27fc91(0x2d5)),_0x1929f9[_0x27fc91(0x206)](_0x35a8b3['lipstickChoice'][_0x27fc91(0x1c8)],'tomato'),_0x1929f9['createBold'](_0x35a8b3['lipstickChoice']['getName']()+'.'),_0x1929f9[_0x27fc91(0x1ab)](_0x27fc91(0x30f)),_0x1929f9[_0x27fc91(0x1ab)](_0x35a8b3[_0x27fc91(0x219)][_0x27fc91(0x2c8)]()+',\x20you\x20will\x20always\x20be\x20an\x20all-star,\x20now\x20sashay\x20away...'),_0x35a8b3[_0x27fc91(0x219)][_0x27fc91(0x189)][_0x27fc91(0x24a)](_0x27fc91(0x157)),_0x35a8b3[_0x27fc91(0x219)][_0x27fc91(0x290)]+=0x3;for(let _0x1bdbe5=0x0;_0x1bdbe5<simulatorGlobals[_0x27fc91(0x29e)][_0x27fc91(0x284)];_0x1bdbe5++){simulatorGlobals[_0x27fc91(0x29e)][_0x1bdbe5]!==_0x35a8b3[_0x27fc91(0x219)]&&simulatorGlobals[_0x27fc91(0x29e)][_0x1bdbe5]['trackRecord'][_0x27fc91(0x24a)]('BTM2');}}else{const _0x3e3711=simulatorGlobals[_0x27fc91(0x29e)][0x0],_0x37e127=simulatorGlobals['bottomQueens'][0x1];if(Math[_0x27fc91(0x113)](_0x3e3711[_0x27fc91(0x10a)]-_0x37e127[_0x27fc91(0x10a)])<0x5&&randomNumber(0x0,0x64)<0xa&&!doubleShantay){simulatorGlobals['doubleShantay']=!![],_0x1929f9[_0x27fc91(0x206)](_0x3e3711[_0x27fc91(0x1c8)],_0x27fc91(0x26e)),_0x1929f9[_0x27fc91(0x206)](_0x37e127[_0x27fc91(0x1c8)],'hotpink'),_0x1929f9[_0x27fc91(0x2ab)](_0x27fc91(0xc4)),_0x3e3711[_0x27fc91(0x189)]['push']('BTM2'),_0x37e127[_0x27fc91(0x189)][_0x27fc91(0x24a)](_0x27fc91(0x24f)),_0x37e127[_0x27fc91(0x290)]+=0x3,_0x3e3711[_0x27fc91(0x290)]+=0x3,_0x1929f9[_0x27fc91(0x20d)]('Proceed','showTrackRecord(false)');return;}if(_0x3e3711['lipsyncPerformanceScore']>0x1e&&_0x37e127[_0x27fc91(0x10a)]>0x1e&&randomNumber(0x0,0x64)<0xa&&!doubleSashay){simulatorGlobals[_0x27fc91(0x207)]=!![],_0x1929f9[_0x27fc91(0x206)](_0x3e3711[_0x27fc91(0x1c8)],_0x27fc91(0x23d)),_0x1929f9[_0x27fc91(0x206)](_0x37e127['image'],'firebrick'),_0x1929f9[_0x27fc91(0x2ab)](_0x27fc91(0x260)),simulatorGlobals['currentCast']=simulatorGlobals[_0x27fc91(0xce)][_0x27fc91(0x17e)](_0x390272=>_0x390272!==_0x3e3711&&_0x390272!==_0x37e127),simulatorGlobals['eliminatedCast'][_0x27fc91(0x24a)](_0x3e3711,_0x37e127),_0x3e3711[_0x27fc91(0x189)]['push'](_0x27fc91(0xe8)),_0x37e127[_0x27fc91(0x189)][_0x27fc91(0x24a)](_0x27fc91(0xe8)),_0x3e3711[_0x27fc91(0x290)]+=0x3,_0x37e127[_0x27fc91(0x290)]+=0x3,_0x1929f9[_0x27fc91(0x20d)]('Proceed',_0x27fc91(0x146));return;}_0x1929f9[_0x27fc91(0x206)](_0x3e3711[_0x27fc91(0x1c8)],_0x27fc91(0x2d1)),_0x3e3711[_0x27fc91(0x189)][_0x27fc91(0x24a)](_0x27fc91(0x24f)),_0x37e127[_0x27fc91(0x189)][_0x27fc91(0x24a)]('ELIM'),_0x1929f9[_0x27fc91(0x2ab)](_0x3e3711['getName']()+',\x20shantay\x20you\x20stay.'),_0x1929f9[_0x27fc91(0x206)](_0x37e127[_0x27fc91(0x1c8)],'red'),_0x1929f9[_0x27fc91(0x2ab)](_0x37e127[_0x27fc91(0x2c8)]()+_0x27fc91(0x23c)),simulatorGlobals[_0x27fc91(0xce)]=simulatorGlobals[_0x27fc91(0xce)][_0x27fc91(0x17e)](_0x2e59e4=>_0x2e59e4!==_0x37e127),simulatorGlobals['eliminatedCast'][_0x27fc91(0x24a)](_0x37e127);}_0x1929f9[_0x27fc91(0x20d)](_0x27fc91(0xf6),_0x27fc91(0x146));}function showTrackRecord(_0x3645cf){const _0x5e2641=_0x3799e7,_0x38ea66=new Scene();_0x38ea66[_0x5e2641(0xd7)](),_0x38ea66[_0x5e2641(0xb1)]('Track\x20Record'),_0x38ea66[_0x5e2641(0x2b8)](_0x5e2641(0x2a9));let _0x31cede=document[_0x5e2641(0x1a9)](_0x5e2641(0xb4));_0x31cede[_0x5e2641(0x24b)]('id',_0x5e2641(0x189)),_0x31cede['setAttribute'](_0x5e2641(0x19a),_0x5e2641(0x218)),_0x31cede[_0x5e2641(0x1e1)][_0x5e2641(0x281)]=_0x5e2641(0x280),_0x31cede[_0x5e2641(0x1e1)][_0x5e2641(0x2b4)]=_0x5e2641(0x179),_0x31cede[_0x5e2641(0x1e1)][_0x5e2641(0x28c)]=_0x5e2641(0x107);let _0x5267da=document[_0x5e2641(0x1a9)]('tr'),_0x42a761=document[_0x5e2641(0x1a9)]('th');_0x42a761['innerHTML']=_0x5e2641(0x223),_0x42a761[_0x5e2641(0x1e1)][_0x5e2641(0x1db)]=_0x5e2641(0x267),_0x42a761[_0x5e2641(0x1e1)][_0x5e2641(0x281)]=_0x5e2641(0x22c),_0x5267da['appendChild'](_0x42a761);for(let _0x295ce6=0x1;_0x295ce6<=simulatorGlobals[_0x5e2641(0x163)];_0x295ce6++){let _0x362a0c=document[_0x5e2641(0x1a9)]('th');_0x362a0c[_0x5e2641(0x21b)]=_0x5e2641(0x2e5)+_0x295ce6,_0x362a0c[_0x5e2641(0x1e1)]['fontWeight']='bold',_0x362a0c['style']['width']='30px',_0x5267da[_0x5e2641(0x250)](_0x362a0c);}_0x31cede[_0x5e2641(0x250)](_0x5267da);for(let _0xdb6a3 of simulatorGlobals[_0x5e2641(0x30e)]){let _0x515b04=document[_0x5e2641(0x1a9)]('tr'),_0x1cb2e7=document['createElement']('td');_0x1cb2e7['innerHTML']=_0xdb6a3[_0x5e2641(0x2c8)](),_0x1cb2e7[_0x5e2641(0x1e1)]['fontWeight']=_0x5e2641(0x267),_0x1cb2e7[_0x5e2641(0x1e1)][_0x5e2641(0x21c)]=_0x5e2641(0x10f),_0x1cb2e7['style']['color']=_0x5e2641(0x2c5),_0x515b04[_0x5e2641(0x250)](_0x1cb2e7);for(let _0x2ccdae of _0xdb6a3[_0x5e2641(0x189)]){let _0x54c320=document['createElement']('td');_0x54c320[_0x5e2641(0x21b)]=_0x2ccdae,_0x54c320[_0x5e2641(0x1e1)][_0x5e2641(0x310)]=_0x5e2641(0xfd),_0x54c320[_0x5e2641(0x1e1)][_0x5e2641(0x1db)]=_0x5e2641(0x267);switch(_0x2ccdae){case _0x5e2641(0x1a6):_0x54c320[_0x5e2641(0x1e1)][_0x5e2641(0x28c)]='black',_0x54c320[_0x5e2641(0x1e1)][_0x5e2641(0x21c)]=_0x5e2641(0x187);break;case _0x5e2641(0x1a5):_0x54c320[_0x5e2641(0x1e1)][_0x5e2641(0x28c)]=_0x5e2641(0x2c5),_0x54c320['style']['backgroundColor']='silver';break;case _0x5e2641(0x17c):_0x54c320[_0x5e2641(0x1e1)][_0x5e2641(0x28c)]=_0x5e2641(0x107),_0x54c320['style'][_0x5e2641(0x21c)]=_0x5e2641(0x306);break;case _0x5e2641(0x12f):_0x54c320[_0x5e2641(0x1e1)][_0x5e2641(0x28c)]='white',_0x54c320[_0x5e2641(0x1e1)][_0x5e2641(0x21c)]=_0x5e2641(0x2c2);break;case _0x5e2641(0x2e4):_0x54c320[_0x5e2641(0x1e1)][_0x5e2641(0x28c)]=_0x5e2641(0x2c5),_0x54c320[_0x5e2641(0x1e1)][_0x5e2641(0x21c)]=_0x5e2641(0xcb);break;case _0x5e2641(0x137):_0x54c320['style'][_0x5e2641(0x28c)]=_0x5e2641(0x2c5),_0x54c320[_0x5e2641(0x1e1)][_0x5e2641(0x21c)]=_0x5e2641(0x1b7);break;case _0x5e2641(0xd1):_0x54c320[_0x5e2641(0x1e1)][_0x5e2641(0x28c)]=_0x5e2641(0x2c5),_0x54c320['style'][_0x5e2641(0x21c)]=_0x5e2641(0x107);break;case _0x5e2641(0x190):_0x54c320[_0x5e2641(0x1e1)][_0x5e2641(0x28c)]=_0x5e2641(0x2c5),_0x54c320['style'][_0x5e2641(0x21c)]=_0x5e2641(0xbd);break;case _0x5e2641(0x24f):_0x54c320[_0x5e2641(0x1e1)]['color']='black',_0x54c320['style']['backgroundColor']='tomato';break;case _0x5e2641(0x300):_0x54c320[_0x5e2641(0x1e1)][_0x5e2641(0x28c)]=_0x5e2641(0x2c5),_0x54c320[_0x5e2641(0x1e1)]['backgroundColor']=_0x5e2641(0x26e);break;case _0x5e2641(0xe8):_0x54c320[_0x5e2641(0x1e1)][_0x5e2641(0x28c)]=_0x5e2641(0x107),_0x54c320['style'][_0x5e2641(0x21c)]=_0x5e2641(0x23d);break;case _0x5e2641(0x157):_0x54c320[_0x5e2641(0x1e1)][_0x5e2641(0x28c)]=_0x5e2641(0x2c5),_0x54c320[_0x5e2641(0x1e1)]['backgroundColor']=_0x5e2641(0x174);break;default:_0x54c320[_0x5e2641(0x1e1)][_0x5e2641(0x28c)]=_0x5e2641(0x2c5),_0x54c320['style'][_0x5e2641(0x21c)]='transparent';}_0x515b04[_0x5e2641(0x250)](_0x54c320);}_0x31cede[_0x5e2641(0x250)](_0x515b04);}_0x38ea66[_0x5e2641(0x17f)][_0x5e2641(0x250)](_0x31cede);if(_0x3645cf===![])_0x38ea66[_0x5e2641(0x20d)](_0x5e2641(0xf6),_0x5e2641(0x220));else _0x38ea66[_0x5e2641(0x20d)](_0x5e2641(0xf6),_0x5e2641(0x101));}function resetSimulation(){const _0x30889b=_0x3799e7;simulatorGlobals={'castSize':0x0,'fullCast':[],'currentCast':[],'eliminatedCast':[],'topQueens':[],'safeQueens':[],'bottomQueens':[],'doubleShantay':![],'doubleSashay':![],'episodeCount':0x0,'runwayEpisode':![],'finaleSize':0x3,'winner':undefined},seasonsData['allQueens']['forEach'](_0xb368b=>{const _0x46974a=_0xc19b;_0xb368b['trackRecord']=[],_0xb368b[_0x46974a(0x103)]=0x0,_0xb368b['bottomCount']=0x0,_0xb368b[_0x46974a(0x237)]=0x0,_0xb368b[_0x46974a(0x290)]=0x0,_0xb368b[_0x46974a(0x204)]=0x0,_0xb368b[_0x46974a(0x212)]=0x0,_0xb368b[_0x46974a(0x10a)]=0x0,_0xb368b[_0x46974a(0xb5)]=0x0;}),window[_0x30889b(0x1ea)][_0x30889b(0x25a)]();}function finale(){const _0x21fee7=_0x3799e7,_0x16bdcd=new Scene();_0x16bdcd[_0x21fee7(0xd7)](),_0x16bdcd['changeRoom']('mainstage'),_0x16bdcd['createHeader']('The\x20Finale!'),_0x16bdcd[_0x21fee7(0x1ab)](_0x21fee7(0x270));for(let _0x626c1a=0x0;_0x626c1a<simulatorGlobals[_0x21fee7(0xce)][_0x21fee7(0x284)];_0x626c1a++){simulatorGlobals[_0x21fee7(0xce)][_0x626c1a][_0x21fee7(0xec)]();}simulatorGlobals[_0x21fee7(0xce)][_0x21fee7(0x10b)]((_0x5ee979,_0x29f92f)=>_0x5ee979[_0x21fee7(0xb5)]-_0x29f92f['finalePerformanceScore']);let _0x3a3bb9=[];simulatorGlobals[_0x21fee7(0xce)]['length']>=0x3&&simulatorGlobals[_0x21fee7(0xce)][0x2][_0x21fee7(0xb5)]<0x14?(_0x3a3bb9=simulatorGlobals[_0x21fee7(0xce)][_0x21fee7(0xf9)](0x0,0x2),simulatorGlobals['currentCast'][0x2][_0x21fee7(0x189)][_0x21fee7(0x24a)](_0x21fee7(0x157)),_0x16bdcd[_0x21fee7(0x206)](simulatorGlobals['currentCast'][0x2][_0x21fee7(0x1c8)],_0x21fee7(0xdd)),_0x16bdcd['createBold'](simulatorGlobals[_0x21fee7(0xce)][0x2][_0x21fee7(0x2c8)]()+_0x21fee7(0x232)),_0x16bdcd[_0x21fee7(0x23e)]()):_0x3a3bb9=simulatorGlobals[_0x21fee7(0xce)][_0x21fee7(0xf9)](0x0,Math[_0x21fee7(0x2f9)](0x3,simulatorGlobals[_0x21fee7(0xce)][_0x21fee7(0x284)]));_0x16bdcd[_0x21fee7(0x141)]('The\x20finalists\x20who\x20will\x20lip-sync\x20for\x20the\x20crown\x20are...');for(let _0x1a037f of _0x3a3bb9){_0x16bdcd[_0x21fee7(0x206)](_0x1a037f['image'],_0x21fee7(0x306)),_0x1a037f[_0x21fee7(0x189)][_0x21fee7(0x24a)](_0x21fee7(0x265)+_0x3a3bb9[_0x21fee7(0x284)]);}_0x16bdcd[_0x21fee7(0x2ab)](_0x3a3bb9['map'](_0x3262bd=>_0x3262bd[_0x21fee7(0x2c8)]())[_0x21fee7(0x221)](',\x20')),_0x16bdcd[_0x21fee7(0x20d)](_0x21fee7(0xf6),_0x21fee7(0x18a));}async function finaleLipSync(){const _0x5bdd8d=_0x3799e7,_0x5042dc=new Scene();_0x5042dc[_0x5bdd8d(0xd7)](),_0x5042dc[_0x5bdd8d(0x2b8)]('mainstagelipsync');const _0x1840d0=simulatorGlobals[_0x5bdd8d(0xce)]['filter'](_0x23d40c=>_0x23d40c['trackRecord'][_0x23d40c['trackRecord']['length']-0x1]['startsWith'](_0x5bdd8d(0x2b2))),_0x5263af=await fetch('textFiles/songs.txt'),_0x5ee531=await _0x5263af[_0x5bdd8d(0x1e6)](),_0xc5e792=_0x5ee531['split']('\x0a')[_0x5bdd8d(0x17e)](_0x309ec1=>_0x309ec1['trim']()!==''),_0x4df368=_0xc5e792[randomNumber(0x0,_0xc5e792[_0x5bdd8d(0x284)]-0x1)];_0x5042dc[_0x5bdd8d(0xb1)](_0x5bdd8d(0x2ad)),_0x5042dc[_0x5bdd8d(0x1ab)](_0x5bdd8d(0x115)),_0x5042dc['createBold'](_0x5bdd8d(0x2df)+_0x4df368+'!');for(let _0x341028 of _0x1840d0){_0x341028[_0x5bdd8d(0xec)](),_0x341028[_0x5bdd8d(0x12d)]=_0x341028['lipSyncScore']+_0x341028[_0x5bdd8d(0xb5)];}_0x1840d0[_0x5bdd8d(0x10b)]((_0xf4dc2e,_0x184859)=>_0x184859[_0x5bdd8d(0x12d)]-_0xf4dc2e[_0x5bdd8d(0x12d)]),simulatorGlobals['currentCast']=_0x1840d0,_0x5042dc[_0x5bdd8d(0x20d)](_0x5bdd8d(0xf6),_0x5bdd8d(0x278));}function announceWinner(){const _0x450d7a=_0x3799e7,_0x43f784=new Scene();_0x43f784[_0x450d7a(0xd7)](),_0x43f784[_0x450d7a(0x2b8)](_0x450d7a(0x1ce));const _0x3d47c0=simulatorGlobals[_0x450d7a(0xce)][0x0],_0x2d1240=simulatorGlobals[_0x450d7a(0xce)][_0x450d7a(0xf9)](0x1);simulatorGlobals[_0x450d7a(0xa9)]=_0x3d47c0,_0x3d47c0[_0x450d7a(0x189)][_0x3d47c0[_0x450d7a(0x189)][_0x450d7a(0x284)]-0x1]=_0x450d7a(0x1a6);for(let _0x11ebe2 of _0x2d1240){_0x11ebe2[_0x450d7a(0x189)][_0x11ebe2['trackRecord'][_0x450d7a(0x284)]-0x1]=_0x450d7a(0x1a5);}_0x43f784['createHeader'](_0x450d7a(0x1bf)),_0x43f784[_0x450d7a(0x141)](_0x3d47c0['getName']()+'!'),_0x43f784['createImage'](_0x3d47c0[_0x450d7a(0x1c8)],_0x450d7a(0x187));for(let _0x20f992 of _0x2d1240){_0x43f784['createImage'](_0x20f992[_0x450d7a(0x1c8)],'silver');}_0x43f784[_0x450d7a(0x2ab)](_0x2d1240['map'](_0x1f2bca=>_0x1f2bca[_0x450d7a(0x2c8)]())[_0x450d7a(0x221)](',\x20')+_0x450d7a(0x194)),_0x43f784[_0x450d7a(0x20d)](_0x450d7a(0xf6),_0x450d7a(0x153));}
+// == Current Data == //
+let simulatorGlobals = {
+	castSize: 0,
+	fullCast: [],
+	currentCast: [],
+	eliminatedCast: [],
+	topQueens: [],
+	topAllStars: [],
+	safeQueens: [],
+	bottomQueens: [],
+	doubleShantay: false,
+	doubleSashay: false,
+	episodeCount: 0,
+	episodeList: [],
+	runwayEpisode: false,
+	winner: undefined,
+	format: "Regular",
+	finaleSize: 3,
+	isAllStars: false
+};
+
+// == End of Class == //
+
+// == Configuration and Utility Fuctions == //
+function selectFormat(format) {
+    simulatorGlobals.format = format;
+    simulatorGlobals.isAllStars = (format === "AllStars");
+   
+}
+function randomNumber(min, max) {
+    const rand = Math.floor(Math.random() * (max - min + 1)) + min;
+    return rand;
+}
+function sortPerformances(cast) {
+    cast.sort(function(a, b) {
+        return a.performanceScore - b.performanceScore;
+    });
+}
+function sortRunwayPerformances(cast) {
+    cast.sort(function(a, b) {
+        return a.runwayPerformanceScore - b.runwayPerformanceScore;
+    });
+}
+function shuffle(array) {
+    let currentIndex = array.length, randomIndex, temp;
+
+    while (currentIndex !== 0) {
+        randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex--;
+
+        temp = array[currentIndex];
+        array[currentIndex] = array[randomIndex];
+        array[randomIndex] = temp;
+    }
+    return array;
+}
+// == End of Class == //
+
+// == All of the classes == //
+class Challenge {
+	constructor() {
+		this.descriptionElement = document.querySelector("p#Description");
+	}
+
+	generateDescription() {
+
+	}
+
+	rankPerformances() {
+
+	}
+};
+
+class MiniChallenge extends Challenge {
+	generateDescription() {
+		const description = document.querySelector("p#Description");
+		const desc1 = [
+		  "make wigs with",
+		  "do a quiz about",
+		  "make nails with",
+		  "invent a competition about",
+		  "lipsync to a song about",
+		  "make a song about"
+		];
+
+		const desc2 = [
+		  " the pit crew",
+		  " a partner",
+		  " noodles"
+		];
+
+		if (simulatorGlobals.castSize == 8 && simulatorGlobals.currentCast.length == 8) {
+			description.innerHTML = "The library is open! In today's mini-challenge, the queens will read eachother!";
+		} else if (simulatorGlobals.castSize != 5 && simulatorGlobals.currentCast.length == 5) {
+			description.innerHTML = "Bring in the puppets! The queens will be using puppets in order to parody eachother!";
+		} else {
+			description.innerHTML = "In today's mini-challenge, the queens will " + desc1[randomNumber(0, desc1.length - 1)] + desc2[randomNumber(0, desc2.length - 1)];
+		}
+	}
+	rankPerformances() {
+		const imageResult = document.querySelector("img#MCWinner");
+		const result = document.querySelector("b#MCWinner");
+		const winner = simulatorGlobals.currentCast[randomNumber(0, simulatorGlobals.currentCast.length - 1)];
+		result.innerHTML = winner.getName() + " won the mini-challenge!";
+		imageResult.src = winner.image;
+	}
+};
+
+class ActingChallenge extends Challenge {
+	generateDescription() {
+		const desc1 = [
+			"theater piece about ",
+			"a parody film about "
+		];
+		const desc2 = [
+			"crime.",
+			"idk something."
+		];
+		this.descriptionElement.innerHTML = "The queens will act in a " + desc1[randomNumber(0, desc1.length - 1)] + desc2[randomNumber(0, desc2.length - 1)];
+	}
+
+	rankPerformances() {
+		for (let i = 0; i < simulatorGlobals.currentCast.length; i++) {
+			simulatorGlobals.currentCast[i].getActing();
+		}
+		sortPerformances(simulatorGlobals.currentCast);
+	}
+};
+
+class ComedyChallenge extends Challenge { 
+	generateDescription() {
+		const desc1 = [
+			"a comedy routine about ",
+			"a roast about "
+		];
+		const desc2 = [
+			"the queens.",
+			"the judges.",
+			"the season.",
+			"love.",
+			"sex."
+		]
+		this.descriptionElement.innerHTML = "The queens will participate in " + desc1[randomNumber(0, desc1.length - 1)] + desc2[randomNumber(0, desc2.length - 1)];
+	}
+
+	rankPerformances() {
+		for (let i = 0; i < simulatorGlobals.currentCast.length; i++) {
+			simulatorGlobals.currentCast[i].getComedy();
+		}
+		sortPerformances(simulatorGlobals.currentCast);
+	}
+}
+
+class DanceChallenge extends Challenge { 
+	generateDescription() {
+		const desc1 = [
+			"dance number about ",
+			"a dance routine about ",
+			"idk about "
+		];
+		const desc2 = [
+			"the history of drag.",
+			"the history of the world.",
+			"the history of disco.",
+			"RuPaul's biography."
+		]
+		this.descriptionElement.innerHTML = "The queens will participate in " + desc1[randomNumber(0, desc1.length - 1)] + desc2[randomNumber(0, desc2.length - 1)];
+	}
+
+	rankPerformances() {
+		for (let i = 0; i < simulatorGlobals.currentCast.length; i++) {
+			simulatorGlobals.currentCast[i].getDance();
+		}
+		sortPerformances(simulatorGlobals.currentCast);
+	}
+}
+
+class DesignChallenge extends Challenge { 
+	generateDescription() {
+		const desc1 = [
+			"trash. ",
+			"random materials.",
+			"condoms.",
+			"random items."
+		];
+		this.descriptionElement.innerHTML = "The queens will participate in " + desc1[randomNumber(0, desc1.length - 1)];
+	}
+
+	rankPerformances() {
+		for (let i = 0; i < simulatorGlobals.currentCast.length; i++) {
+			simulatorGlobals.currentCast[i].getDesign();
+		}
+		sortPerformances(simulatorGlobals.currentCast);
+	}
+}
+
+class ImprovChallenge extends Challenge { 
+	generateDescription() {
+		const desc1 = [
+			"political satire.",
+			"celebrity interview.",
+			"political debate."
+		];
+		this.descriptionElement.innerHTML = "The queens will improvise in " + desc1[randomNumber(0, desc1.length - 1)];
+	}
+
+	rankPerformances() {
+		for (let i = 0; i < simulatorGlobals.currentCast.length; i++) {
+			simulatorGlobals.currentCast[i].getImprov();
+		}
+		sortPerformances(simulatorGlobals.currentCast);
+	}
+}
+
+class BallChallenge extends Challenge { 
+	generateDescription() {
+		const desc0 = [
+			"Balls to the walls",
+			"Cosmic Realness",
+			"Crystalized Eleganza",
+			"AI"
+		]
+		const desc1 = [
+			"Executive Realness,",
+			"Party night,",
+			"Red Carpet,",
+			"Spring Fling,",
+			"Winter Wonderland,",
+			"Summer Solstice,"
+		];
+		const desc2 = [
+			"Antinque,",
+			"Futuristic,",
+			"Retro,",
+			"Modern,",
+			"Classic,",
+			"Vintage,"
+		];
+		const desc3 = [
+			"Ice.",
+			"Fire.",
+			"Water.",
+			"Earth.",
+			"Air."
+		]
+		this.descriptionElement.innerHTML = "Tonight we are having the... " + desc0[randomNumber(0, desc0.length - 1)] + " Ball! The queens will bring three looks to the runway! Themes are:" + desc1[randomNumber(0, desc1.length - 1)] + desc2[randomNumber(0, desc2.length - 1)] + desc3[randomNumber(0, desc3.length - 1)];
+	}
+
+	rankPerformances() {
+		for (let i = 0; i < simulatorGlobals.currentCast.length; i++) {
+			simulatorGlobals.currentCast[i].getBall();
+		}
+		sortPerformances(simulatorGlobals.currentCast);
+	}
+}
+
+class Queen {
+	constructor(name, acting, comedy, dance, design, improv, runway, lipsync, image = "placeholder") {
+		this.trackRecord = [];
+		//== Scores & Performances ==//
+		this.performanceScore = 0;
+		this.runwayPerformanceScore = 0;
+		this.lipsyncPerformanceScore = 0;
+		this.finalePerformanceScore = 0;
+		//== Season Values ==//
+		this.winCount = 0;
+		this.bottomCount = 0;
+		this.favoritism = 0;
+		this.unfavoritism = 0;
+		this.lipstickChoice = undefined;
+		this.miniChallengeWinsEpisode = [];
+		this.chocolateBar = false;
+		//== General Information ==//
+		this._name = name;
+		this._acting = acting;
+		this._comedy = comedy;
+		this._dance = dance;
+		this._design = design; 
+		this._improv = improv;
+		this._runway = runway;
+		this._lipsync = lipsync;
+		this.image = `https://myrainboww.github.io/Drag-Race-Simulator/image/queens/${image}.webp`;
+	}
+	_calculateScores(min, max, stat = 0) {
+		const score = randomNumber(min, max);
+		return score - stat;
+	}
+
+	getName() {
+		return this._name;
+	}
+	// > Regulars < //
+	getActing() {
+		this.performanceScore = this._calculateScores(15, 35, this._acting);
+	}
+	getComedy() {
+		this.performanceScore = this._calculateScores(15, 35, this._comedy);
+	}
+	getDance() {
+		this.performanceScore = this._calculateScores(15, 35, this._dance);
+	}
+	getDesign() {
+		this.performanceScore = this._calculateScores(15, 35, this._design);
+	}
+	getImprov() {
+		this.performanceScore = this._calculateScores(15, 35, this._improv);
+	}
+	getRunway() {
+		this.runwayPerformanceScore = this._calculateScores(15, 35, this._runway);
+	}
+	// > Bonus < //
+	getSnatch() {
+		this.performanceScore = this._calculateScores(25, 45, this._acting + this._comedy);
+	}
+	getRusical() {
+		this.performanceScore = this._calculateScores(35, 55, this._dance + this._lipsync + this.acting);
+	}
+	getRumix() {
+		this.performanceScore = this._calculateScores(35, 55, this._dance + this._lipsync + this._improv);
+	}
+	getTalentShow() {
+		this.performanceScore = this._calculateScores(15, 35, randomNumber(1, 35));
+	}
+	getMarketing() {
+		this.performanceScore = this._calculateScores(25, 45, this._comedy + this._acting);
+	}
+	getBall() {
+		this.performanceScore = this._calculateScores(25, 45, this._design + this._runway);
+	}
+	getLipsync() {
+		this.lipsyncPerformanceScore = this._calculateScores(0, 40, this._lipsync);
+	}
+	getFinalePerformance() {
+		this.finalePerformanceScore = 
+			this._dance +
+			this._runway + 
+			this._lipsync;
+		
+		this.finalePerformanceScore += (this.winCount * 3);
+		
+		this.finalePerformanceScore += randomNumber(0, 10);
+		
+		this.finalePerformanceScore = Math.min(100, Math.max(0, this.finalePerformanceScore));
+	}
+}
+
+class Scene {
+	constructor(_wrapper) {
+		this._wrapper = document.querySelector("div#wrapper");
+	}
+
+	clean() {
+		this._wrapper.innerHTML = '';
+	}
+	changeRoom(room) {
+		if (room == "untucked") {
+			document.body.style.backgroundImage = "url('images/untuckedbg.webp')";
+		} else if (room == "werkroom") {
+			document.body.style.backgroundImage = "url('images/werkroombg.webp')";
+		} else if (room == "mainstage") {
+			document.body.style.backgroundImage = "url('images/stagebg.webp')";
+		} else if (room == "mainstagelipsync") {
+			document.body.style.backgroundImage = "url('images/stagelipsyncbg.webp')";
+		}
+	}
+	createHeader(text) {
+		const header = document.createElement("h1");
+		header.innerHTML = text;
+		this._wrapper.appendChild(header);
+	}
+	createBigText(text) {
+		const big = document.createElement("big");
+		big.innerHTML = text;
+		this._wrapper.appendChild(big);
+	}
+	createParagraph(text, id = 0) {
+		const p = document.createElement("p");
+		p.innerHTML = text;
+		p.setAttribute("id", id);
+		this._wrapper.appendChild(p);
+	}
+	createBold(text, id = 0) {
+		const p = document.createElement("p");
+		const bold = document.createElement("b");
+		bold.innerHTML = text;
+		bold.setAttribute("id", id);
+		p.appendChild(bold);
+		this._wrapper.appendChild(p);
+	}
+	createImage(src, color = "#ECA9B1", id = 0) {
+		const img = document.createElement("img");
+		img.src = src;
+		img.setAttribute("id", id);
+		img.setAttribute("style", `outline-color: ${color}; width: 85px; height: 85px;`);
+		this._wrapper.appendChild(img);
+	}
+	createButton(text, method, id = 0) {
+		const button = document.createElement("button");
+		button.innerHTML = text;
+		button.setAttribute("onclick", method);
+		button.setAttribute("id", id);
+		this._wrapper.appendChild(button);
+	}
+	createHorizontalLine() {
+		const hr = document.createElement("hr");
+		this._wrapper.appendChild(hr);
+	}
+}
+// == End of Class == //
+
+// == All Queens and Seasons ==
+const akashia = new Queen("Akashia", 3, 2, 7, 3, 2, 7, 11, "Akashia");
+const bebe = new Queen("BeBe Zahara Benet", 6, 7, 8, 12, 6, 10, 9, "BeBe");
+const jade = new Queen("Jade Sotomayor", 3, 3, 8, 7, 3, 7, 7, "Jade");
+const ninaf = new Queen("Nina Flowers", 7, 5, 5, 11, 6, 10, 6, "NinaFlowers");
+const ongina = new Queen("Ongina", 9, 8, 7, 9, 10, 9, 8, "Ongina");
+const rebecca = new Queen("Rebecca Glasscock", 3, 3, 6, 4, 2, 6, 5, "Rebecca");
+const shannel = new Queen("Shannel", 7, 8, 7, 9, 9, 13, 10, "Shannel");
+const tammie = new Queen("Tammie Brown", 6, 7, 5, 7, 6, 7, 6, "Tammie");
+const victoria = new Queen("Victoria 'Porkchop' Parker", 3, 6, 4, 3, 6, 5, 4, "Victoria");
+
+const jessica = new Queen("Jessica Wild", 9, 8, 10, 11, 8, 9, 11, "Jessica");
+const jujubee = new Queen("Jujubee", 9, 11, 7, 8, 12, 6, 12, "Jujubee");
+const morgan = new Queen("Morgan McMichaels", 6, 6, 10, 9, 5, 10, 10, "Morgan");
+const mystique = new Queen("Mystique Summers", 4, 5, 3, 3, 3, 5, 6, "Mystique");
+const nicole = new Queen("Nicole Paige Brooks", 4, 4, 4, 6, 4, 7, 6, "Nicole");
+const pandora = new Queen("Pandora Boxx", 12, 11, 6, 8, 10, 8, 7, "Pandora");
+const raven = new Queen("Raven", 5, 8, 9, 10, 5, 8, 11, "Raven");
+const sahara = new Queen("Sahara Davenport", 6, 6, 10, 4, 6, 7, 10, "Sahara");
+const shangela = new Queen("Shangela", 14, 13, 10, 3, 9, 9, 12, "Shangela");
+const sonique = new Queen("Kylie Sonique Love", 11, 9, 10, 9, 8, 11, 11, "Kylie");
+const tatianna = new Queen("Tatianna", 8, 11, 8, 8, 10, 8, 10, "Tatianna");
+const tyra = new Queen("King Tyra", 11, 7, 8, 11, 8, 9, 10, "Tyra");
+
+const alexis = new Queen("Alexis Mateo", 14, 12, 9, 7, 10, 8, 12, "Alexis");
+const carmen = new Queen("Carmen Carrera", 3, 8, 6, 4, 3, 7, 7, "Carmen");
+const delta = new Queen("Delta Work", 4, 6, 5, 5, 5, 7, 7, "Delta");
+const india = new Queen("India Ferrah", 6, 4, 8, 6, 3, 10, 9, "India");
+const manila = new Queen("Manila Luzon", 12, 11, 7, 14, 10, 13, 11, "Manila");
+const mariah = new Queen("Mariah Paris Balenciaga", 6, 4, 7, 8, 4, 9, 8, "Mariah");
+const mimi = new Queen("Mimi Imfurst", 11, 6, 6, 10, 7, 8, 6, "Mimi");
+const phoenix = new Queen("Phoenix", 3, 3, 6, 5, 3, 5, 4, "Phoenix");
+const raja = new Queen("Raja", 11, 13, 6, 14, 12, 14, 9, "Raja");
+const stacey = new Queen("Stacy Layne Matthews", 6, 7, 5, 4, 10, 5, 6, "Stacy");
+const venus = new Queen("Venus D-Lite", 4, 5, 8, 2, 3, 5, 2, "Venus");
+const yara = new Queen("Yara Sofia", 11, 9, 9, 13, 7, 10, 8, "Yara");
+
+const alisa = new Queen("Alisa Summers", 4, 4, 5, 2, 3, 5, 4, "Alisa");
+const chad = new Queen("Chad Michaels", 11, 10, 8, 9, 12, 10, 8, "Chad");
+const dida = new Queen("Dida Ritz", 8, 7, 8, 5, 7, 7, 12, "Dida");
+const jiggly = new Queen("Jiggly Caliente", 4, 6, 9, 4, 4, 7, 10, "Jiggly");
+const kenya = new Queen("Kenya Olivera", 9, 6, 6, 6, 8, 7, 8, "Kenya");
+const leshauwn = new Queen("Lashauwn Beyond", 4, 4, 6, 11, 5, 7, 7, "Lashauwn");
+const latrice = new Queen("Latrice Royale", 11, 8, 9, 8, 7, 9, 13, "Latrice");
+const madame = new Queen("Madame LaQueer", 4, 7, 6, 5, 9, 7, 6, "Madame");
+const milan = new Queen("Milan", 4, 5, 9, 7, 5, 8, 10, "Milan");
+const phiphi = new Queen("Jaremi Carey", 13, 9, 8, 10, 10, 10, 8, "PhiPhi");
+const sharon = new Queen("Sharon Needles", 12, 12, 8, 12, 11, 10, 8, "SharonNeedles");
+const princess = new Queen("The Princess", 4, 4, 5, 7, 4, 7, 7, "Princess");
+const willam = new Queen("Willam", 10, 8, 7, 10, 10, 9, 8, "Willam");
+
+const alaska = new Queen("Alaska", 15, 14, 7, 8, 14, 10, 11, "Alaska");
+const alyssa = new Queen("Alyssa Edwards", 4, 6, 15, 6, 10, 9, 12, "Alyssa");
+const coco = new Queen("Coco Montrese", 10, 10, 11, 9, 7, 9, 15, "Coco");
+const detox = new Queen("Detox", 10, 9, 9, 9, 8, 12, 11, "Detox");
+const honey = new Queen("Honey Mahogany", 10, 3, 3, 6, 6, 8, 4, "Honey");
+const ivy = new Queen("Ivy Winters", 11, 4, 8, 12, 7, 10, 7, "Ivy");
+const jadejolie = new Queen("Jade Jolie", 5, 7, 8, 7, 8, 7, 8, "JadeJ");
+const jinkx = new Queen("Jinkx Monsoon", 15, 15, 9, 8, 15, 9, 8, "Jinkx");
+const lineysha = new Queen("Lineysha Sparx", 10, 4, 7, 11, 5, 9, 8, "Lineysha");
+const monica = new Queen("Monica Beverly Hillz", 4, 4, 6, 6, 4, 9, 8, "Monica");
+const penny = new Queen("Penny Tration", 4, 5, 4, 5, 5, 5, 4, "Penny");
+const roxxxy = new Queen("Roxxxy Andrews", 8, 9, 7, 13, 8, 11, 15, "Roxxxy");
+const serena = new Queen("Serena ChaCha", 3, 3, 7, 4, 5, 5, 8, "Serena");
+const vivienne = new Queen("Vivienne Pinay", 7, 3, 4, 5, 3, 6, 4, "Vivienne");
+
+const adore = new Queen("Adore Delano", 9, 11, 9, 6, 9, 8, 11, "Adore");
+const april = new Queen("April Carrión", 5, 5, 6, 9, 5, 9, 8, "April");
+const bendelacreme = new Queen("BenDeLaCreme", 12, 12, 11, 10, 15, 10, 9, "BenDeLaCreme");
+const bianca = new Queen("Bianca Del Rio", 11, 15, 7, 13, 15, 10, 5, "Bianca");
+const courtney = new Queen("Courtney Act", 11, 8, 10, 10, 10, 12, 9, "Courtney");
+const darienne = new Queen("Darienne Lake", 10, 8, 6, 5, 9, 9, 13, "Darienne");
+const gia = new Queen("Gia Gunn", 10, 4, 8, 8, 4, 8, 9, "Gia");
+const joslyn = new Queen("Joslyn Fox", 6, 7, 8, 6, 8, 8, 11, "Joslyn");
+const kelly = new Queen("Kelly Mantle", 6, 6, 5, 5, 4, 7, 4, "Kellu");
+const laganja = new Queen("Laganja Estranja", 9, 5, 14, 8, 6, 10, 15, "Laganja");
+const magnolia = new Queen("Magnolia Crawford", 4, 5, 6, 4, 5, 7, 4, "Magnolia");
+const milk = new Queen("Milk", 6, 6, 7, 8, 8, 7, 7, "Milk");
+const trinityk = new Queen("Trinity K. Bonet", 9, 9, 13, 12, 4, 10, 15, "TrinityKB");
+const vivacious = new Queen("Vivacious", 4, 5, 5, 4, 4, 7, 7, "Vivacious");
+
+const ginger = new Queen("Ginger Minj", 14, 12, 8, 9, 15, 7, 12, "Ginger");
+const jaidynn = new Queen("Jaidynn Diore Fierce", 9, 7, 8, 6, 6, 7, 11, "Jaidynn");
+const jasmine = new Queen("Jasmine Masters", 3, 4, 6, 5, 2, 7, 6, "Jasmine");
+const kandy = new Queen("Kandy Ho", 4, 4, 7, 5, 4, 7, 10, "KandyH");
+const katya = new Queen("Katya", 9, 12, 9, 7, 12, 10, 10, "Katya");
+const kennedy = new Queen("Kennedy Davenport", 9, 8, 10, 8, 11, 10, 14, "Kennedy");
+const max = new Queen("Max", 10, 7, 5, 8, 4, 8, 5, "Max");
+const fame = new Queen("Miss Fame", 8, 4, 5, 11, 3, 10, 5, "MissFame");
+const kasha = new Queen("Mrs. Kasha Davis", 11, 8, 10, 7, 6, 9, 7, "Kasha");
+const pearl = new Queen("Pearl", 7, 10, 8, 9, 10, 9, 5, "Pearl");
+const sashab = new Queen("Frisbee Jenkins", 6, 6, 4, 4, 6, 6, 4, "SashaB");
+const tempest = new Queen("Tempest DuJour", 6, 6, 5, 3, 6, 7, 4, "Tempest");
+const trixie = new Queen("Trixie Mattel", 13, 10, 6, 10, 11, 10, 5, "Trixie");
+const violet = new Queen("Violet Chachki", 6, 7, 8, 15, 8, 13, 8, "Violet");
+
+const acid = new Queen("Acid Betty", 9, 4, 7, 10, 5, 11, 7, "Acid");
+const bob = new Queen("Bob The Drag Queen", 15, 15, 8, 9, 15, 8, 12, "Bob");
+const chichi = new Queen("Chi Chi DeVayne", 8, 4, 13, 8, 6, 8, 13, "ChiChi");
+const cynthia = new Queen("Cynthia Lee Fontaine", 4, 4, 7, 6, 4, 7, 6, "Cynthia");
+const dax = new Queen("Dax ExclamationPoint", 5, 6, 6, 5, 6, 5, 4, "Dax");
+const derrick = new Queen("Derrick Barry", 7, 7, 8, 8, 9, 7, 8, "Derrick");
+const kim = new Queen("Kim Chi", 10, 7, 4, 15, 8, 13, 4, "Kim");
+const laila = new Queen("Laila McQueen", 6, 6, 4, 7, 6, 8, 7, "Laila");
+const naomi = new Queen("Naomi Smalls", 9, 7, 10, 14, 10, 12, 11, "Naomi");
+const naysha = new Queen("Naysha Lopez", 7, 5, 7, 5, 4, 10, 7, "Naysha");
+const robbie = new Queen("Robbie Turner", 4, 5, 6, 4, 3, 6, 6, "Robbie");
+const thorgy = new Queen("Thorgy Thor", 14, 9, 6, 9, 13, 9, 8, "Thorgy");
+
+const aja = new Queen("Aja", 4, 8, 12, 11, 9, 10, 11, "Aja");
+const alexism = new Queen("Alexis Michelle", 8, 8, 11, 10, 13, 10, 10, "AlexisM");
+const charlie = new Queen("Charlie Hides", 10, 6, 5, 7, 4, 9, 2, "Charlie");
+const eureka = new Queen("Eureka!", 9, 11, 8, 10, 13, 10, 12, "Eureka");
+const farrah = new Queen("Farrah Moan", 9, 4, 7, 3, 6, 8, 7, "Farrah");
+const jaymes = new Queen("Jaymes Mansfield", 8, 9, 5, 9, 9, 10, 7, "Jaymes");
+const kimora = new Queen("Kimora Blac", 5, 5, 4, 6, 5, 8, 7, "Kimora");
+const ninab = new Queen("Nina Bo'Nina Brown", 4, 8, 10, 9, 10, 10, 11, "NinaBB");
+const peppermint = new Queen("Peppermint", 11, 9, 10, 9, 4, 7, 13, "Peppermint");
+const sasha = new Queen("Sasha Velour", 9, 10, 8, 10, 11, 13, 11, "Sasha");
+const shea = new Queen("Shea Couleé", 11, 12, 15, 12, 11, 15, 15, "Shea");
+const trinity = new Queen("Trinity The Tuck", 13, 11, 9, 15, 10, 13, 11, "TrinityTT");
+const valentina = new Queen("Valentina", 11, 7, 10, 9, 9, 9, 10, "Valentina");
+
+const aquaria = new Queen("Aquaria", 6, 11, 8, 15, 12, 14, 11, "Aquaria");
+const asia = new Queen("Asia O'Hara", 11, 9, 6, 6, 7, 9, 9, "Asia");
+const blair = new Queen("Blair St. Clair", 9, 8, 6, 10, 8, 8, 7, "Blair");
+const dusty = new Queen("Dusty Ray Bottoms", 8, 8, 6, 7, 6, 7, 6, "Dusty");
+const kalorie = new Queen("Kalorie K. Williams", 6, 6, 6, 5, 7, 7, 8, "Kalorie");
+const kameron = new Queen("Kameron Michaels", 5, 8, 14, 10, 8, 8, 15, "Kameron");
+const mayhem = new Queen("Mayhem Miller", 4, 8, 9, 13, 7, 9, 10, "Mayhem");
+const miz = new Queen("Miz Cracker", 13, 11, 5, 12, 15, 9, 8, "Miz");
+const monet = new Queen("Monét X Change", 11, 11, 14, 9, 10, 10, 15, "Monet");
+const monique = new Queen("Mo Heart", 12, 8, 6, 10, 13, 12, 10, "Monique");
+const vanessa = new Queen("Vanessa Vanjie", 9, 7, 13, 8, 9, 12, 11, "Vanjie");
+const vixen = new Queen("The Vixen", 5, 4, 12, 9, 3, 8, 12, "Vixen");
+const yuhua = new Queen("Yuhua Hamasaki", 4, 4, 6, 9, 6, 7, 7, "Yuhua");
+
+const akeria = new Queen("A'keria C. Davenport", 11, 9, 11, 8, 10, 13, 10, "Akeria");
+const ariel = new Queen("Ariel Versace", 8, 6, 8, 5, 8, 8, 8, "Ariel");
+const brooke = new Queen("Brooke Lynn Hytes", 8, 8, 13, 12, 8, 10, 13, "Brooke");
+const honeyd = new Queen("Honey Davenport", 4, 6, 5, 7, 4, 9, 4, "HoneyD");
+const kahanna = new Queen("Kahanna Montrese", 6, 6, 12, 8, 6, 13, 11, "Kahanna");
+const mercedes = new Queen("Mercedes Iman Diamond", 4, 6, 4, 6, 6, 8, 8, "Mercedes");
+const ninaw = new Queen("Nina West", 14, 11, 7, 9, 11, 9, 6, "NinaW");
+const plastique = new Queen("Plastique Tiara", 11, 10, 10, 15, 8, 15, 9, "Plastique");
+const rajah = new Queen("Ra'Jah O'Hara", 8, 8, 11, 12, 9, 12, 13, "Rajah");
+const scarlet = new Queen("Scarlet Envy", 13, 9, 6, 13, 9, 11, 8, "Scarlet");
+const shuga = new Queen("Shuga Cain", 10, 9, 7, 6, 7, 10, 7, "Shuga");
+const silky = new Queen("Silky Nutmeg Ganache", 10, 10, 9, 8, 10, 10, 12, "Silky");
+const soju = new Queen("Soju", 4, 4, 4, 4, 4, 4, 4, "Soju");
+const yvie = new Queen("Yvie Oddly", 12, 7, 13, 12, 9, 12, 15, "Yvie");
+
+const aiden = new Queen("Aiden Zhane", 9, 3, 6, 4, 3, 6, 6, "Aiden");
+const brita = new Queen("Brita", 7, 8, 7, 4, 6, 8, 11, "Brita");
+const crystal = new Queen("Crystal Methyd", 6, 8, 8, 9, 8, 12, 6, "CrystalM");
+const dahlia = new Queen("Dahlia Sin", 4, 4, 6, 5, 5, 10, 4, "Dahlia");
+const gigi = new Queen("Gigi Goode", 10, 11, 11, 13, 9, 12, 8, "Gigi");
+const heidi = new Queen("Heidi N Closet", 9, 9, 11, 9, 12, 10, 13, "Heidi");
+const jackie = new Queen("Jackie Cox", 11, 12, 6, 6, 13, 9, 11, "Jackie");
+const jaida = new Queen("Jaida Essence Hall", 8, 5, 10, 15, 8, 13, 12, "Jaida");
+const jan = new Queen("Jan", 8, 4, 12, 9, 5, 10, 9, "Jan");
+const nicky = new Queen("Nicky Doll", 4, 4, 5, 12, 3, 11, 5, "Nicky");
+const rock = new Queen("Rock M. Sakura", 6, 6, 6, 4, 8, 8, 7, "Rock");
+const sherry = new Queen("Sherry Pie", 9, 8, 9, 8, 10, 11, 8, "SherryPie");
+const widow = new Queen("Widow Von'Du", 11, 7, 13, 8, 11, 10, 15, "Widow");
+
+const denali = new Queen("Denali", 4, 8, 14, 9, 10, 11, 13, "Denali");
+const elliott = new Queen("Elliott With 2 Ts", 5, 5, 12, 9, 3, 8, 11, "Elliott");
+const mik = new Queen("Gottmik", 9, 11, 7, 14, 14, 15, 9, "Gottmik");
+const joey = new Queen("Joey Jay", 6, 7, 6, 5, 5, 7, 7, "Joey");
+const kahmora = new Queen("Kahmora Hall", 3, 4, 3, 5, 4, 12, 4, "Kahmora");
+const kandym = new Queen("Kandy Muse", 11, 10, 10, 7, 8, 10, 14, "KandyM");
+const lala = new Queen("LaLa Ri", 6, 8, 13, 7, 10, 9, 14, "LaLa");
+const olivia = new Queen("Olivia Lux", 11, 5, 11, 10, 8, 11, 8, "Olivia");
+const rose = new Queen("Rosé", 12, 11, 13, 8, 10, 10, 6, "Rose");
+const symone = new Queen("Symone", 14, 7, 7, 9, 12, 13, 13, "Symone");
+const tamisha = new Queen("Tamisha Iman", 7, 6, 7, 5, 6, 7, 7, "Tamisha");
+const tina = new Queen("Tina Burner", 6, 6, 10, 5, 6, 8, 9, "TinaB");
+const utica = new Queen("Utica Queen", 7, 4, 6, 15, 5, 12, 11, "Utica");
+
+const alyssaH = new Queen("Alyssa Hunter", 5, 6, 7, 10, 7, 13, 8, "AlyssaH");
+const angeria = new Queen("Angeria Paris VanMicheals", 13, 11, 10, 12, 9, 13, 11, "Angeria");
+const bosco = new Queen("Bosco", 11, 12, 6, 7, 12, 11, 6, "Bosco");
+const daya = new Queen("Daya Betty", 9, 8, 9, 9, 10, 10, 8, "DayaBetty");
+const deja = new Queen("DeJa Skye", 9, 7, 9, 8, 13, 8, 8, "DeJa");
+const jasmineK = new Queen("Jasmine Kennedie", 7, 6, 13, 7, 6, 10, 14, "JasmineK");
+const jorgeous = new Queen("Jorgeous", 9, 7, 15, 10, 6, 11, 15, "Jorgeous");
+const june = new Queen("June Jambalaya", 5, 6, 6, 4, 5, 6, 6, "June");
+const kerri = new Queen("Kerri Colby", 6, 6, 5, 5, 6, 9, 6, "Kerri");
+const kornbread = new Queen("Kornbread Jeté", 6, 7, 6, 6, 7, 8, 7, "Kornbread");
+const cadmen = new Queen("Lady Camden", 12, 11, 12, 11, 7, 10, 11, "LadyCamden");
+const maddy = new Queen("Maddy Morphosis", 8, 7, 6, 5, 6, 9, 7, "Maddy");
+const orion = new Queen("Orion Story", 4, 6, 6, 5, 6, 6, 5, "Orion");
+const willow = new Queen("Willow Pill", 11, 8, 7, 10, 10, 12, 8, "Willow");
+
+const amethyst = new Queen("Amethyst", 4, 8, 6, 5, 9, 8, 10, "Amethyst");
+const anetra = new Queen("Anetra", 9, 7, 13, 11, 8, 11, 13, "Anetra");
+const auraMayari = new Queen("Aura Mayari", 5, 5, 9, 7, 6, 9, 7, "AuraMayari");
+const irene = new Queen("Irene The Alien", 4, 5, 4, 4, 4, 8, 6, "IreneDubois");
+const jax = new Queen("Jax", 5, 6, 9, 8, 6, 8, 14, "Jax");
+const loosey = new Queen("Loosey LaDuca", 10, 14, 9, 8, 13, 11, 9, "LooseyLaDuca");
+const luxx = new Queen("Luxx Noir London", 10, 10, 9, 13, 9, 14, 9, "LuxxNoirLondon");
+const malaysia = new Queen("Malaysia Babydoll Foxx", 9, 7, 7, 8, 6, 9, 8, "MalaysiaBabydollFoxx");
+const marcia = new Queen("Marcia Marcia Marcia", 9, 9, 10, 8, 9, 8, 12, "MarciaMarciaMarcia");
+const mistress = new Queen("Mistress Isabelle Brooks", 11, 10, 10, 10, 10, 13, 9, "MistressIsabelleBrooks");
+const poppy = new Queen("Princess Poppy", 5, 6, 5, 5, 6, 6, 8, "PrincessPoppy");
+const robin = new Queen("Robin Fierce", 7, 7, 6, 11, 7, 10, 9, "RobinFierce");
+const salina = new Queen("Salina EsTitties", 9, 9, 9, 5, 7, 7, 11, "SalinaEsTitties");
+const sashaColby = new Queen("Sasha Colby", 12, 8, 13, 11, 11, 15, 13, "SashaColby");
+const spice = new Queen("Spice", 8, 6, 7, 8, 5, 11, 7, "Spice");
+const sugar = new Queen("Sugar", 9, 7, 6, 6, 5, 11, 7, "Sugar");
+
+const amandaTori = new Queen("Amanda Tori Meating", 9, 7, 7, 7, 7, 7, 9, "AmandaToriMeating");
+const dawn = new Queen("Dawn", 8, 8, 8, 13, 8, 13, 7, "Dawn");
+const geneva = new Queen("Geneva Karr", 5, 7, 10, 6, 8, 8, 11, "GenevaKarr");
+const hershii = new Queen("Hershii LiqCour-Jeté", 4, 4, 4, 4, 4, 4, 4, "HershiiLiqCourJete");
+const megami = new Queen("Megami", 9, 7, 10, 10, 9, 10, 12, "Megami");
+const mhiya = new Queen("Mhi'ya Iman LePaige", 8, 6, 9, 9, 9, 9, 15, "MhiyaImanLePaige");
+const mirage = new Queen("Mirage", 6, 7, 8, 7, 6, 9, 10, "Mirage");
+const morphine = new Queen("Morphine Love Dion", 7, 6, 10, 10, 7, 11, 15, "MorphineLoveDion");
+const nymphia = new Queen("Nymphia Wind", 10, 11, 12, 15, 8, 15, 12, "NymphiaWind");
+const jane = new Queen("Plane Jane", 12, 12, 9, 9, 13, 11, 10, "PlaneJane");
+const plasma = new Queen("Plasma", 13, 9, 9, 7, 8, 9, 10, "Plasma");
+const qQueen = new Queen("Q", 12, 10, 8, 15, 8, 15, 8, "Q");
+const sapphira = new Queen("Sapphira Cristál", 8, 11, 12, 10, 11, 13, 13, "SapphiraCristal");
+const xunami = new Queen("Xunami Muse", 7, 6, 8, 8, 6, 10, 8, "XunamiMuse");
+
+const acacia = new Queen("Acacia Forgot", 7, 7, 7, 7, 7, 7, 7, "AcaciaForgot");
+const arrietty = new Queen("Arrietty", 7, 7, 7, 7, 7, 7, 7, "Arrietty");
+const crystalE = new Queen("Crystal Envy", 7, 7, 7, 7, 7, 7, 7, "CrystalEnvy");
+const hormona = new Queen("Hormona Lisa", 7, 7, 7, 7, 7, 7, 7, "HormonaLisa");
+const jewels = new Queen("Jewels Sparkles", 7, 7, 7, 7, 7, 7, 7, "JewelsSparkles");
+const joella = new Queen("Joella", 7, 7, 7, 7, 7, 7, 7, "Joella");
+const kori = new Queen("Kori King", 7, 7, 7, 7, 7, 7, 7, "KoriKing");
+const lana = new Queen("Lana Ja'Rae", 7, 7, 7, 7, 7, 7, 7, "LanaJaRae");
+const lexi = new Queen("Lexi Love", 7, 7, 7, 7, 7, 7, 7, "LexiLove");
+const lucky = new Queen("Lucky Starzzz", 7, 7, 7, 7, 7, 7, 7, "LuckyStarzzz");
+const lydia = new Queen("Lydia B Kollins", 7, 7, 7, 7, 7, 7, 7, "LydiaBKollins");
+const onya = new Queen("Onya Nurve", 7, 7, 7, 7, 7, 7, 7, "OnyaNurve");
+const samStar = new Queen("Sam Star", 7, 7, 7, 7, 7, 7, 7, "SamStar");
+const suzie = new Queen("Suzie Toot", 7, 7, 7, 7, 7, 7, 7, "SuzieToot");
+
+const jimbo = new Queen("Jimbo", 13, 15, 6, 14, 15, 14, 6, "Jimbo");
+
+const seasonsData = {
+	us_season1: [akashia, bebe, jade, ninaf, ongina, rebecca, shannel, tammie, victoria],
+	us_season2: [jessica, jujubee, morgan, mystique, nicole, pandora, raven, sahara, shangela, sonique, tatianna, tyra],
+	us_season3: [alexis, carmen, delta, india, manila, mariah, mimi, phoenix, raja, shangela, stacey, venus, yara],
+	us_season4: [alisa, chad, dida, jiggly, kenya, leshauwn, latrice, madame, milan, phiphi, sharon, princess, willam],
+	us_season5: [alaska, alyssa, coco, detox, honey, ivy, jadejolie, jinkx, lineysha, monica, penny, roxxxy, serena, vivienne],
+	us_season6: [adore, april, bendelacreme, bianca, courtney, darienne, gia, joslyn, kelly, laganja, magnolia, milk, trinityk, vivacious],
+	us_season7: [ginger, jaidynn, jasmine, kandy, katya, kennedy, max, fame, kasha, pearl, sashab, tempest, trixie, violet],
+	us_season8: [acid, bob, chichi, cynthia, dax, derrick, kim, laila, naomi, naysha, robbie, thorgy],
+	us_season9: [aja, alexism, charlie, cynthia, eureka, farrah, jaymes, kimora, ninab, peppermint, sasha, shea, trinity, valentina],
+	us_season10: [aquaria, asia, blair, dusty, eureka, kalorie, kameron, mayhem, miz, monet, monique, vanessa, vixen, yuhua],
+	us_season11: [akeria, ariel, brooke, honeyd, kahanna, mercedes, ninaw, plastique, rajah, scarlet, shuga, silky, soju, vanessa, yvie],
+	us_Season12: [aiden, brita, crystal, dahlia, gigi, heidi, jackie, jaida, jan, nicky, rock, sherry, widow],
+	us_season13: [denali, elliott, mik, joey, kahmora, kandym, lala, olivia, rose, symone, tamisha, tina, utica],
+	us_season14: [alyssaH, angeria, bosco, daya, deja, jasmineK, jorgeous, june, kerri, kornbread, cadmen, maddy, orion, willow],
+	us_season15: [amethyst, anetra, auraMayari, irene, jax, loosey, luxx, malaysia, marcia, mistress, poppy, robin, salina, sashaColby, spice, sugar],
+	us_season16: [amandaTori, dawn, geneva, hershii, megami, mhiya, mirage, morphine, nymphia, jane, plasma, qQueen, sapphira, xunami],
+	us_season17: [acacia, arrietty, crystalE, hormona, jewels, joella, kori, lana, lexi, lucky, lydia, onya, samStar, suzie],
+	allstars_1: [alexis, chad, jujubee, latrice, manila, mimi, ninaf, pandora, raven, shannel, tammie, yara],
+	allstars_2: [adore, alaska, alyssa, coco, detox, ginger, katya, phiphi, roxxxy, tatianna],
+	allstars_3: [aja, bebe, bendelacreme, chichi, kennedy, milk, morgan, shangela, thorgy, trixie],	
+	allstars_4: [farrah, gia, jasmine, latrice, manila, monet, monique, naomi, trinity, valentina],
+	allstars_5: [alexis, blair, derrick, india, jujubee, mariah, mayhem, miz, ongina, shea],
+	allstars_6: [sonique, eureka, ginger, rajah, trinityk, pandora, jan, akeria, scarlet, yara, silky,  jiggly, serena],
+	allstars_7: [jinkx, vivienne, monet, trinity, shea, raja, yvie, jaida],
+	allstars_8: [jimbo, kandy, jessica, alexis, lala, kahanna, jaymes, heidi, darienne, kasha, naysha, monica],
+	allstars_9: [angeria, mik, jorgeous, ninaw, plastique, roxxxy, shannel, vanessa],
+	allstars_10: [acid, aja, bosco, alyssaH, cynthia, daya, olivia, phoenix, tina, deja, denali, ginger, irene, jorgeous, kerri, nicole, mistress, lydia],
+	allQueens: [akashia, bebe, jade, ninaf, ongina, rebecca, shannel, tammie, victoria,
+    jessica, jujubee, morgan, mystique, nicole, pandora, raven, sahara, shangela, sonique, tatianna, tyra,
+    alexis, carmen, delta, india, manila, mariah, mimi, phoenix, raja, stacey, venus, yara,
+    alisa, chad, dida, jiggly, kenya, leshauwn, latrice, madame, milan, phiphi, sharon, princess, willam,
+    alaska, alyssa, coco, detox, honey, ivy, jadejolie, jinkx, lineysha, monica, penny, roxxxy, serena, vivienne,
+    adore, april, bendelacreme, bianca, courtney, darienne, gia, joslyn, kelly, laganja, magnolia, milk, trinityk, vivacious,
+    ginger, jaidynn, jasmine, kandy, katya, kennedy, max, fame, kasha, pearl, sashab, tempest, trixie, violet,
+    acid, bob, chichi, cynthia, dax, derrick, kim, laila, naomi, naysha, robbie, thorgy,
+    aja, alexism, charlie, eureka, farrah, jaymes, kimora, ninab, peppermint, sasha, shea, trinity, valentina,
+    aquaria, asia, blair, dusty, kalorie, kameron, mayhem, miz, monet, monique, vanessa, vixen, yuhua,
+    akeria, ariel, brooke, honeyd, kahanna, mercedes, ninaw, plastique, rajah, scarlet, shuga, silky, soju, yvie,
+    aiden, brita, crystal, dahlia, gigi, heidi, jackie, jaida, jan, nicky, rock, sherry, widow,
+    denali, elliott, mik, joey, kahmora, kandym, lala, olivia, rose, symone, tamisha, tina, utica,
+    alyssaH, angeria, bosco, daya, deja, jasmineK, jorgeous, june, kerri, kornbread, cadmen, maddy, orion, willow,
+    amethyst, anetra, auraMayari, irene, jax, loosey, luxx, malaysia, marcia, mistress, poppy, robin, salina, sashaColby, spice, sugar,
+    amandaTori, dawn, geneva, hershii, megami, mhiya, mirage, morphine, nymphia, jane, plasma, qQueen, sapphira, xunami,
+    acacia, arrietty, crystalE, hormona, jewels, joella, kori, lana, lexi, lucky, lydia, onya, samStar, suzie, jimbo]
+};
+// == End of Class == //
+
+// == UI Management Functions ==
+function showQueenSuggestions(query) {
+    const suggestionBox = document.getElementById('queenSuggestions');
+    suggestionBox.innerHTML = '';
+    if (!query) {
+        suggestionBox.style.display = 'none';
+        return;
+    }
+    const matches = seasonsData.allQueens.filter(q => q.getName().toLowerCase().includes(query.toLowerCase()) && !simulatorGlobals.currentCast.includes(q));
+    if (matches.length === 0) {
+        suggestionBox.style.display = 'none';
+        return;
+    }
+    matches.slice(0, 8).forEach(queen => {
+        const option = document.createElement('div');
+        option.textContent = queen.getName();
+        option.style.padding = '6px 10px';
+        option.style.cursor = 'pointer';
+        option.onmouseover = function() { option.style.background = '#eee'; };
+        option.onmouseout = function() { option.style.background = '#fff'; };
+        option.onclick = function() {
+            document.getElementById('queenSearchInput').value = queen.getName();
+            suggestionBox.style.display = 'none';
+        };
+        suggestionBox.appendChild(option);
+    });
+    suggestionBox.style.display = 'block';
+}
+
+function addQueenFromSearch() {
+    const input = document.getElementById('queenSearchInput');
+    const name = input.value.trim();
+    if (!name) return;
+    const queen = seasonsData.allQueens.find(q => q.getName().toLowerCase() === name.toLowerCase());
+    if (queen && !simulatorGlobals.currentCast.includes(queen)) {
+        simulatorGlobals.currentCast.push(queen);
+        addQueenToCastUI(queen);
+        input.value = '';
+        document.getElementById('queenSuggestions').style.display = 'none';
+    } else {
+        input.value = '';
+        document.getElementById('queenSuggestions').style.display = 'none';
+    }
+}
+
+function addQueenToCastUI(queen) {
+    const castSelection = document.getElementById('castSelection');
+    if ([...castSelection.children].some(div => div.dataset.queenName === queen.getName())) return;
+    const div = document.createElement('div');
+    div.className = 'cast-queen';
+    div.dataset.queenName = queen.getName();
+    div.style.display = 'flex';
+    div.style.flexDirection = 'column';
+    div.style.alignItems = 'center';
+    div.style.background = '#f5ebf5';
+    div.style.color = '#222';
+    div.style.borderRadius = '10px';
+    div.style.fontWeight = 'bold';
+    div.style.padding = '8px 10px 6px 10px';
+    div.style.position = 'relative';
+    div.style.minWidth = '90px';
+    div.style.maxWidth = '110px';
+    div.style.boxShadow = '0 2px 8px #0001';
+    div.style.margin = '0 2px 8px 2px';
+ 
+    const nameDiv = document.createElement('div');
+    nameDiv.textContent = queen.getName();
+    nameDiv.style.fontSize = '13px';
+    nameDiv.style.textAlign = 'center';
+    div.appendChild(nameDiv);
+ 
+    const removeBtn = document.createElement('button');
+    removeBtn.textContent = 'X';
+    removeBtn.style.position = 'absolute';
+    removeBtn.style.top = '2px';
+    removeBtn.style.right = '4px';
+    removeBtn.style.background = '#e57373';
+    removeBtn.style.color = '#fff';
+    removeBtn.style.border = 'none';
+    removeBtn.style.borderRadius = '50%';
+    removeBtn.style.cursor = 'pointer';
+    removeBtn.style.width = '20px';
+    removeBtn.style.height = '20px';
+    removeBtn.onclick = function() {
+        div.remove();
+        simulatorGlobals.currentCast = simulatorGlobals.currentCast.filter(q => q !== queen);
+    };
+    div.appendChild(removeBtn);
+    castSelection.appendChild(div);
+}
+
+function addRandomQueens() {
+    const available = seasonsData.allQueens.filter(q => !simulatorGlobals.currentCast.includes(q));
+    if (available.length === 0) return;
+    const queen = available[randomNumber(0, available.length - 1)];
+    simulatorGlobals.currentCast.push(queen);
+    addQueenToCastUI(queen);
+}
+
+// == Core Simulation Logic ==
+function startSimulation(predefined) {
+	if (!Array.isArray(predefined) || predefined.length === 0) {
+		if (simulatorGlobals.currentCast.length < 3) {
+			return;
+		} else {
+			simulatorGlobals.fullCast = simulatorGlobals.currentCast;
+			newEpisode();
+		}
+	} else {
+		simulatorGlobals.fullCast = predefined;
+		simulatorGlobals.currentCast = predefined;
+		newEpisode();
+	}
+}
+
+const _originalStartSimulation = window.startSimulation;
+window.startSimulation = function(predefined) {
+    const finaleInput = document.getElementById('finaleSizeInput');
+    if (finaleInput) {
+        let n = parseInt(finaleInput.value);
+        if (isNaN(n) || n < 2) n = 2;
+        if (n > 10) n = 10;
+        simulatorGlobals.finaleSize = n;
+    }
+    _originalStartSimulation.apply(this, arguments);
+};
+
+function newEpisode() {
+	simulatorGlobals.safeQueens = [];
+	simulatorGlobals.topQueens = [];
+	simulatorGlobals.topAllStars = [];
+	for (let i = 0; i < simulatorGlobals.currentCast.length; i++) {
+		simulatorGlobals.currentCast[i].lipstickChoice = null;
+	}
+	simulatorGlobals.bottomQueens = [];
+	simulatorGlobals.doubleShantay = false;
+	simulatorGlobals.doubleSashay = false;
+	simulatorGlobals.runwayEpisode = false;
+	simulatorGlobals.episodeCount++;
+
+	const queensRemainingScene = new Scene();
+	queensRemainingScene.changeRoom("werkroom");
+	queensRemainingScene.clean();
+	queensRemainingScene.createHeader("Queens remaining...");
+	for (let i = 0; i < simulatorGlobals.currentCast.length; i++) {
+		queensRemainingScene.createImage(simulatorGlobals.currentCast[i].image);
+		queensRemainingScene.createBold(simulatorGlobals.currentCast[i].getName());
+	}
+
+	queensRemainingScene.createButton("Proceed", "miniChallenge()");
+}
+
+function generatePerformances() {
+    const performanceScreen = new Scene();
+    performanceScreen.createHorizontalLine();
+    performanceScreen.createBigText("The queens' performances...");
+
+    let slay = [];
+    let great = [];
+    let good = [];
+    let bad = [];
+    let flop = [];
+
+    for (let i = 0; i < simulatorGlobals.currentCast.length; i++) {
+        let score = simulatorGlobals.currentCast[i].performanceScore;
+        if (score < 6) {
+            slay.push(simulatorGlobals.currentCast[i]);
+        } else if (score >= 6 && score < 16) {
+            great.push(simulatorGlobals.currentCast[i]);
+        } else if (score >= 16 && score < 26) {
+            good.push(simulatorGlobals.currentCast[i]);
+        } else if (score >= 26 && score < 31) {
+            bad.push(simulatorGlobals.currentCast[i]);
+        } else if (score >= 31 && score < 50) {
+            flop.push(simulatorGlobals.currentCast[i]);
+        }
+    }
+
+    createPerformanceDesc(performanceScreen, slay, great, good, bad, flop);
+}
+
+function createPerformanceDesc(screen, slay, great, good, bad, flop) {
+    function displayGroup(queens, color, id, message) {
+        if (queens.length === 0) return;
+
+        shuffle(queens);
+
+        for (let i = 0; i < queens.length; i++) {
+            screen.createImage(queens[i].image, color);
+        }
+
+        screen.createBold("", id);
+        const textElem = document.getElementById(id);
+        if (textElem) {
+            let names = "";
+            for (let j = 0; j < queens.length; j++) {
+                names += queens[j].getName();
+                if (j < queens.length - 1) names += ", ";
+            }
+            textElem.innerHTML = names + " " + message;
+        }
+    }
+
+    displayGroup(slay, "darkblue", "slay", "slayed the challenge!");
+    displayGroup(great, "royalblue", "great", "had a great performance!");
+    displayGroup(good, null, "good", "had a good performance.");
+    displayGroup(bad, "pink", "bad", "had a bad performance...");
+    displayGroup(flop, "tomato", "flop", "flopped the challenge...");
+	if (simulatorGlobals.runwayEpisode === true) {
+		screen.createButton("Proceed", "judging()");
+	} else {
+		screen.createButton("Proceed", "runway()");
+	}
+}
+
+function createRunwayDesc(screen, slay, great, good, bad, flop) {
+    function displayGroup(queens, color, id, message) {
+        if (queens.length === 0) return;
+
+        shuffle(queens);
+
+        for (let i = 0; i < queens.length; i++) {
+            screen.createImage(queens[i].image, color);
+        }
+
+        screen.createBold("", id);
+        const textElem = document.getElementById(id);
+        if (textElem) {
+            let names = "";
+            for (let j = 0; j < queens.length; j++) {
+                names += queens[j].getName();
+                if (j < queens.length - 1) names += ", ";
+            }
+            textElem.innerHTML = names + " " + message;
+        }
+    }
+
+	displayGroup(slay, "darkblue", "slay", "slayed the runway!");
+    displayGroup(great, "royalblue", "great", "had a great runway!");
+    displayGroup(good, "black", "good", "had a good runway.");
+    displayGroup(bad, "pink", "bad", "had a bad runway...");
+    displayGroup(flop, "tomato", "flop", "flopped the runway...");
+}
+
+// == Challenges and Runway Logic == //
+function miniChallenge() {
+	const miniChallengeScreen = new Scene();
+	miniChallengeScreen.clean();
+	miniChallengeScreen.createHeader("Mini-challenge!");
+	miniChallengeScreen.createParagraph("", "Description");
+	miniChallengeScreen.createHorizontalLine();
+	miniChallengeScreen.createImage("", "royalblue", "MCWinner");
+	miniChallengeScreen.createBold("", "MCWinner");
+
+	const miniChallenge = new MiniChallenge();
+	miniChallenge.generateDescription();
+	miniChallenge.rankPerformances();
+
+	if (simulatorGlobals.currentCast.length > simulatorGlobals.finaleSize) {
+		const methods = [
+		"actingChallenge()",
+		"comedyChallenge()",
+		"danceChallenge()",
+		"designChallenge()",
+		"improvChallenge()",
+		"ballChallenge()"
+		];
+
+		const chosen = methods[randomNumber(0, methods.length - 1)];
+		switch (chosen) {
+			case "actingChallenge()":
+				simulatorGlobals.episodeList.push("Acting");
+				break;
+			case "comedyChallenge()":
+				simulatorGlobals.episodeList.push("Comedy");
+				break;
+			case "danceChallenge()":
+				simulatorGlobals.episodeList.push("Dance");
+				break;
+			case "designChallenge()":
+				simulatorGlobals.episodeList.push("Design");
+				break;
+			case "improvChallenge()":
+				simulatorGlobals.episodeList.push("Improv");
+				break;
+			case "ballChallenge()":
+				simulatorGlobals.episodeList.push("Ball");
+				break;
+		}
+		miniChallengeScreen.createButton("Proceed", chosen);
+	} else {
+		miniChallengeScreen.createButton("Proceed", "runway()");
+	}
+}
+function actingChallenge() {
+	const actingChallengeScreen = new Scene();
+	actingChallengeScreen.clean();
+	actingChallengeScreen.createHeader("Maxi-challenge!");
+	actingChallengeScreen.createParagraph("", "Description");
+	const actingChallenge = new ActingChallenge();
+	actingChallenge.generateDescription();
+	actingChallenge.rankPerformances();
+
+	simulatorGlobals.runwayEpisode = false;
+	generatePerformances();
+}
+function comedyChallenge() {
+	const comedyChallengeScreen = new Scene();
+	comedyChallengeScreen.clean();
+	comedyChallengeScreen.createHeader("Maxi-challenge!");
+	comedyChallengeScreen.createParagraph("", "Description");
+
+	const comedyChallenge = new ComedyChallenge();
+	comedyChallenge.generateDescription();
+	comedyChallenge.rankPerformances();
+
+	simulatorGlobals.runwayEpisode = false;
+	generatePerformances();
+}
+function danceChallenge() {
+	const danceChallengeScreen = new Scene();
+	danceChallengeScreen.clean();
+	danceChallengeScreen.createHeader("Maxi-challenge!");
+	danceChallengeScreen.createParagraph("", "Description");
+
+	const danceChallenge = new DanceChallenge();
+	danceChallenge.generateDescription();
+	danceChallenge.rankPerformances();
+
+	simulatorGlobals.runwayEpisode = false;
+	generatePerformances();
+}
+function designChallenge() {
+	const designChallengeScreen = new Scene();
+	designChallengeScreen.clean();
+	designChallengeScreen.createHeader("Maxi-challenge!");
+	designChallengeScreen.createParagraph("", "Description");
+
+	const designChallenge = new DesignChallenge();
+	designChallenge.generateDescription();
+	designChallenge.rankPerformances();
+
+	simulatorGlobals.runwayEpisode = true;
+	generatePerformances();
+}
+function improvChallenge() {
+	const improvChallengeScreen = new Scene();
+	improvChallengeScreen.clean();
+	improvChallengeScreen.createHeader("Maxi-challenge!");
+	improvChallengeScreen.createParagraph("", "Description");
+
+	const improvChallenge = new ImprovChallenge();
+	improvChallenge.generateDescription();
+	improvChallenge.rankPerformances();
+
+	simulatorGlobals.runwayEpisode = false;
+	generatePerformances();
+}
+function ballChallenge() {
+	const ballChallengeScreen = new Scene();
+	ballChallengeScreen.clean();
+	ballChallengeScreen.createHeader("Maxi-challenge!");
+	ballChallengeScreen.createParagraph("", "Description");
+
+	const ballChallenge = new BallChallenge();
+	ballChallenge.generateDescription();
+	ballChallenge.rankPerformances();
+
+	simulatorGlobals.runwayEpisode = true;
+	generatePerformances();
+}
+function runway() {
+	const runwayScreen = new Scene();
+	runwayScreen.clean();
+	runwayScreen.changeRoom("mainstage");
+	runwayScreen.createHeader("Runway!");
+	runwayScreen.createParagraph("The queens will walk the runway in their looks!");
+	
+	const categories = [
+		"Executive Realness",
+		"Party Night",
+		"Red Carpet",
+		"Spring Fling",
+		"Winter Wonderland",
+		"Summer Solstice",
+		"IDK- Something",
+	];
+	const finaleCategories = [
+		"Crowning Glory",
+		"Best Drag",
+		"Come in your Best Drag",
+		"Finale Eleganza",
+		"Finale Eleganza Extravaganza"
+	]
+	if (simulatorGlobals.currentCast.length > simulatorGlobals.finaleSize) {
+		runwayScreen.createParagraph("Category is... " + categories[randomNumber(0, categories.length - 1)]);
+	} else {
+		runwayScreen.createParagraph("Category is... " + finaleCategories[randomNumber(0, finaleCategories.length - 1)]);
+	}
+
+	runwayScreen.createHorizontalLine();
+	runwayScreen.createBigText("The queens' performances...");
+	for (let i = 0; i < simulatorGlobals.currentCast.length; i++) {
+		simulatorGlobals.currentCast[i].getRunway();
+	}
+	sortRunwayPerformances(simulatorGlobals.currentCast);
+	let slay = [];
+	let great = [];
+	let good = [];
+	let bad = [];
+	let flop = [];
+	for (let i = 0; i < simulatorGlobals.currentCast.length; i++) {
+        let score = simulatorGlobals.currentCast[i].runwayPerformanceScore;
+        if (score < 6) {
+            slay.push(simulatorGlobals.currentCast[i]);
+        } else if (score >= 6 && score < 16) {
+            great.push(simulatorGlobals.currentCast[i]);
+        } else if (score >= 16 && score < 26) {
+            good.push(simulatorGlobals.currentCast[i]);
+        } else if (score >= 26 && score < 31) {
+            bad.push(simulatorGlobals.currentCast[i]);
+        } else if (score >= 31 && score < 50) {
+            flop.push(simulatorGlobals.currentCast[i]);
+        }
+    }
+	createRunwayDesc(runwayScreen, slay, great, good, bad, flop);
+	if (simulatorGlobals.currentCast.length > simulatorGlobals.finaleSize) {
+		runwayScreen.createButton("Proceed", "judging()");
+	} else {
+		runwayScreen.createButton("Proceed", "finale()");
+	}
+}
+
+function judging() {	
+	if (simulatorGlobals.currentCast.length > 11) {
+		simulatorGlobals.currentCast.sort(function(a, b) {
+			return a.performanceScore - b.performanceScore;
+		});
+		for (let i = 0; i < 4; i++) {
+			simulatorGlobals.topQueens.push(simulatorGlobals.currentCast[i]);
+			simulatorGlobals.bottomQueens.push(simulatorGlobals.currentCast[simulatorGlobals.currentCast.length - (1 + i)]);
+		}
+		judgingScreen();
+	} else if (simulatorGlobals.currentCast.length > 6) {
+		simulatorGlobals.currentCast.sort(function(a, b) {
+			return a.performanceScore - b.performanceScore;
+		});
+		for (let i = 0; i < 3; i++) {
+			simulatorGlobals.topQueens.push(simulatorGlobals.currentCast[i]);
+			simulatorGlobals.bottomQueens.push(simulatorGlobals.currentCast[simulatorGlobals.currentCast.length - (1 + i)]);
+		}
+		judgingScreen();
+	} else {
+		simulatorGlobals.currentCast.sort(function(a, b) {
+			return a.performanceScore - b.performanceScore;
+		});
+		const halfPoint = Math.floor(simulatorGlobals.currentCast.length / 2);
+		for (let i = 0; i < halfPoint; i++) {
+			simulatorGlobals.topQueens.push(simulatorGlobals.currentCast[i]);
+			simulatorGlobals.bottomQueens.push(simulatorGlobals.currentCast[simulatorGlobals.currentCast.length - (1 + i)]);
+		}
+		judgingScreen();
+	}
+}
+
+function judgingScreen() {
+	const judgingScreen = new Scene();
+	judgingScreen.clean();
+	judgingScreen.changeRoom("mainstage");
+	judgingScreen.createHeader("Judging!");
+	judgingScreen.createParagraph("Based on tonight's performances...");	
+	const judgedQueens = simulatorGlobals.topQueens.concat(simulatorGlobals.bottomQueens);
+
+	for (let i = 0; i < judgedQueens.length; i++) {
+		judgingScreen.createImage(judgedQueens[i].image, "black");
+	}
+	const judgedQueensNames = judgedQueens.map(queen => queen.getName()).join(", ");
+	judgingScreen.createBold(judgedQueensNames);
+	judgingScreen.createParagraph("Tonight, you represent the tops and the bottom of the week.")
+	judgingScreen.createHorizontalLine();
+
+	simulatorGlobals.safeQueens = simulatorGlobals.currentCast.filter(
+		queen => !judgedQueens.includes(queen)
+	);
+	if (simulatorGlobals.safeQueens.length > 0) {
+		for (let i = 0; i < simulatorGlobals.safeQueens.length; i++) {
+			simulatorGlobals.safeQueens[i].trackRecord.push("SAFE");
+		}
+		const safeQueensNames = simulatorGlobals.safeQueens.map(queen => queen.getName()).join(", ");
+		judgingScreen.createParagraph(safeQueensNames + " you are safe.");
+	}
+
+	judgingScreen.createButton("Proceed", "resultsScreen()");
+}
+
+function resultsScreen() {
+	const resultsScreen = new Scene();
+	resultsScreen.clean();
+	resultsScreen.changeRoom("mainstage");
+	resultsScreen.createHeader("Bring back my girls!");
+	resultsScreen.createBold("Ladies, I've made my decision.");
+
+	for (let i = 0; i < simulatorGlobals.topQueens.length; i++) {
+		simulatorGlobals.topQueens[i].performanceScore -= (simulatorGlobals.topQueens[i].runwayPerformanceScore - simulatorGlobals.topQueens[i].favoritism);
+	}
+
+	simulatorGlobals.topQueens.sort(function(a, b) {
+		return a.performanceScore - b.performanceScore;
+	});
+
+	if (simulatorGlobals.isAllStars == true) {
+		simulatorGlobals.topQueens[0].winCount++;
+		simulatorGlobals.topQueens[0].favoritism += 5;
+
+		simulatorGlobals.topQueens[1].winCount++;
+		simulatorGlobals.topQueens[1].favoritism += 5;
+
+		simulatorGlobals.topAllStars.push(simulatorGlobals.topQueens[0]);
+		simulatorGlobals.topAllStars.push(simulatorGlobals.topQueens[1]);
+		
+		resultsScreen.createImage(simulatorGlobals.topQueens[0].image, "deepskyblue");
+		resultsScreen.createImage(simulatorGlobals.topQueens[1].image, "deepskyblue");
+		resultsScreen.createBold(simulatorGlobals.topQueens[0].getName() + ", " + simulatorGlobals.topQueens[1].getName() + ", conDRAGulations! You represent the top two all stars of this week!");
+		simulatorGlobals.topQueens.splice(0, 2);
+
+		if (simulatorGlobals.topQueens.length > 0) {
+			const highQueens = simulatorGlobals.topQueens.map(queen => queen.getName()).join(", ");
+			for (let i = 0; i < simulatorGlobals.topQueens.length; i++) {
+				resultsScreen.createImage(simulatorGlobals.topQueens[i].image, "lightblue");
+				simulatorGlobals.topQueens[i].trackRecord.push("HIGH");
+			}
+			resultsScreen.createParagraph(highQueens + ", good work this week, you're safe.");
+		}
+	}
+	else {
+		if (simulatorGlobals.topQueens.length >= 2 && simulatorGlobals.topQueens[0].performanceScore == simulatorGlobals.topQueens[1].performanceScore) {
+			simulatorGlobals.topQueens[0].winCount++;
+			simulatorGlobals.topQueens[0].favoritism += 5;
+
+			simulatorGlobals.topQueens[1].winCount++;
+			simulatorGlobals.topQueens[1].favoritism += 5;
+
+			simulatorGlobals.topQueens[0].trackRecord.push('WIN ');
+			simulatorGlobals.topQueens[1].trackRecord.push('WIN ');
+			
+			resultsScreen.createImage(simulatorGlobals.topQueens[0].image, "darkblue");
+			resultsScreen.createImage(simulatorGlobals.topQueens[1].image, "darkblue");
+			resultsScreen.createBold(simulatorGlobals.topQueens[0].getName() + ", " + simulatorGlobals.topQueens[1].getName() + ", conDRAGulations! You're the winners of this week's challenge!");
+			simulatorGlobals.topQueens.splice(0, 2);
+		} else if (simulatorGlobals.topQueens.length >= 1) {
+			simulatorGlobals.topQueens[0].winCount++;
+			simulatorGlobals.topQueens[0].favoritism += 5;
+
+			resultsScreen.createImage(simulatorGlobals.topQueens[0].image, "royalblue");
+			simulatorGlobals.topQueens[0].trackRecord.push("WIN");
+			resultsScreen.createBold(simulatorGlobals.topQueens[0].getName() + ", conDRAGulations! You're the winner of this week's challenge!");
+			simulatorGlobals.topQueens.splice(0, 1);
+		}
+
+		if (simulatorGlobals.topQueens.length > 0) {
+			const highQueens = simulatorGlobals.topQueens.map(queen => queen.getName()).join(", ");
+			for (let i = 0; i < simulatorGlobals.topQueens.length; i++) {
+				resultsScreen.createImage(simulatorGlobals.topQueens[i].image, "lightblue");
+				simulatorGlobals.topQueens[i].trackRecord.push("HIGH");
+			}
+			resultsScreen.createParagraph(highQueens + ", good work this week, you're safe.");
+		}
+	}
+
+	resultsScreen.createHorizontalLine();
+
+	for (let i = 0; i < simulatorGlobals.bottomQueens.length; i++) {
+		simulatorGlobals.bottomQueens[i].performanceScore -= (simulatorGlobals.bottomQueens[i].runwayPerformanceScore + simulatorGlobals.bottomQueens[i].unfavoritism);
+	}
+	simulatorGlobals.bottomQueens.sort(function(a, b) {
+		return a.performanceScore - b.performanceScore;
+	});
+
+	if (simulatorGlobals.bottomQueens.length >= 3) {
+		for (let i = 0; i < simulatorGlobals.bottomQueens.length; i++) {
+			resultsScreen.createImage(simulatorGlobals.bottomQueens[i].image, "tomato");
+		}
+		const bottomQueensNames = simulatorGlobals.bottomQueens.map(q => q.getName()).join(", ");
+		resultsScreen.createParagraph(bottomQueensNames + ", you represent the bottoms of the week...");
+	}
+
+	if (simulatorGlobals.bottomQueens.length == 4) {
+		const lowQueens = simulatorGlobals.bottomQueens.splice(0, 2);		
+		for (let i = 0; i < lowQueens.length; i++) {
+			lowQueens[i].unfavoritism += 3;
+			lowQueens[i].trackRecord.push("LOW");
+			resultsScreen.createImage(lowQueens[i].image, "lightpink");
+		}
+		resultsScreen.createBold(lowQueens[0].getName() + ", " + lowQueens[1].getName() + "... you are both safe.");
+	} else if (simulatorGlobals.bottomQueens.length == 3) {
+		const [lowQueen] = simulatorGlobals.bottomQueens.splice(0, 1);	
+		lowQueen.unfavoritism += 3;
+		lowQueen.trackRecord.push("LOW");
+		resultsScreen.createImage(lowQueen.image, "lightpink");
+		resultsScreen.createBold(lowQueen.getName() + "... you are safe.");
+	}
+
+	for (let i = 0; i < simulatorGlobals.bottomQueens.length; i++) {
+		resultsScreen.createImage(simulatorGlobals.bottomQueens[i].image, "tomato");
+		simulatorGlobals.bottomQueens[i].bottomCount++;
+	}	resultsScreen.createBold(simulatorGlobals.bottomQueens[0].getName() + ", " + simulatorGlobals.bottomQueens[0].getName() + ", i'm sorry my dears but you are up for elimination.");
+	
+	if (simulatorGlobals.isAllStars && simulatorGlobals.bottomQueens.length > 0) {
+		for (let i = 0; i < simulatorGlobals.topAllStars.length; i++) {
+			const randomIndex = Math.floor(Math.random() * simulatorGlobals.bottomQueens.length);
+			simulatorGlobals.topAllStars[i].lipstickChoice = simulatorGlobals.bottomQueens[randomIndex];
+		}
+	}
+
+	resultsScreen.createButton("Proceed", "startLipsync()");
+}
+
+function startLipsync() {
+	lipsync().catch(error => {
+		console.error("Error during lip-sync:", error);
+	});
+}
+
+async function lipsync() {
+	const lipsyncScreen = new Scene();
+	lipsyncScreen.clean();
+	lipsyncScreen.changeRoom("mainstagelipsync");
+	lipsyncScreen.createHeader("It's time...");
+	if (simulatorGlobals.isAllStars == true) {
+		lipsyncScreen.createParagraph("The time has come for you to lip-sync for your legacy!")
+
+		try {
+			const response = await fetch('textFiles/songs.txt');
+			const text = await response.text();
+			const lipsyncSongs = text.split('\n').filter(song => song.trim() !== '');
+			const song = lipsyncSongs[randomNumber(0, lipsyncSongs.length - 1)];
+			lipsyncScreen.createBold("Tonight you will be lip-syncing to... " + song);
+
+			lipsyncScreen.createHorizontalLine();
+			
+			for (let i = 0; i < simulatorGlobals.topAllStars.length; i++) {
+				lipsyncScreen.createImage(simulatorGlobals.topAllStars[i].image, "deepskyblue");
+				simulatorGlobals.topAllStars[i].getLipsync();
+			}
+
+			simulatorGlobals.topAllStars.sort((a, b) => a.lipsyncPerformanceScore - b.lipsyncPerformanceScore);
+			lipsyncScreen.createBold(simulatorGlobals.topAllStars[0].getName() + ", " + simulatorGlobals.topAllStars[1].getName() + ", good luck and don't fuck it up!");
+			lipsyncScreen.createButton("Proceed", "eliminationScreen()");
+		} catch (error) {
+			console.error("Error loading lip-sync song:", error);
+			lipsyncScreen.createBold("Tonight you will be lip-syncing to... Born Naked by RuPaul");
+			lipsyncScreen.createButton("Proceed", "eliminationScreen()");
+		}
+	}
+	else {
+		lipsyncScreen.createParagraph("The time has come for you to lip-sync for your life!");
+
+		try {
+			const response = await fetch('textFiles/songs.txt');
+			const text = await response.text();
+			const lipsyncSongs = text.split('\n').filter(song => song.trim() !== '');
+			const song = lipsyncSongs[randomNumber(0, lipsyncSongs.length - 1)];
+			lipsyncScreen.createBold("Tonight you will be lip-syncing to... " + song);
+
+			lipsyncScreen.createHorizontalLine();
+			
+			for (let i = 0; i < simulatorGlobals.bottomQueens.length; i++) {
+				lipsyncScreen.createImage(simulatorGlobals.bottomQueens[i].image, "tomato");
+				simulatorGlobals.bottomQueens[i].getLipsync();
+			}
+
+			simulatorGlobals.bottomQueens.sort((a, b) => a.lipsyncPerformanceScore - b.lipsyncPerformanceScore);
+			lipsyncScreen.createBold(simulatorGlobals.bottomQueens[0].getName() + ", " + simulatorGlobals.bottomQueens[1].getName() + ", good luck and don't fuck it up!");
+			lipsyncScreen.createButton("Proceed", "eliminationScreen()");
+		} catch (error) {
+			console.error("Error loading lip-sync song:", error);
+			lipsyncScreen.createBold("Tonight you will be lip-syncing to... Born Naked by RuPaul");
+			lipsyncScreen.createButton("Proceed", "eliminationScreen()");
+		}
+	}
+}
+
+function eliminationScreen() {
+	const eliminationScreen = new Scene();
+	eliminationScreen.clean();
+	eliminationScreen.changeRoom("mainstage");
+	eliminationScreen.createHeader("The Results...");
+	eliminationScreen.createBold("Ladies, I've made my decision...");
+
+
+	if (simulatorGlobals.isAllStars == true) {
+		const winner = simulatorGlobals.topAllStars[0];
+		const loser = simulatorGlobals.topAllStars[1];
+
+		if (Math.abs(winner.lipsyncPerformanceScore - loser.lipsyncPerformanceScore) < 5 && randomNumber(0, 100) < 10) {
+			eliminationScreen.createImage(winner.image, "darkblue");
+			eliminationScreen.createImage(loser.image, "darkblue");
+			eliminationScreen.createBold("ConDRAGulations! You are both the winners of this lip-sync!");
+			winner.trackRecord.push("WIN ");
+			loser.trackRecord.push("WIN ");
+			winner.favoritism += 5;
+			loser.favoritism += 5;
+			eliminationScreen.createHorizontalLine();
+			eliminationScreen.createBigText("Now... Who will you send home?");
+			eliminationScreen.createImage(winner.lipstickChoice.image, "tomato");
+			eliminationScreen.createBold(winner.lipstickChoice.getName() + ".");
+			eliminationScreen.createImage(loser.lipstickChoice.image, "tomato");
+			eliminationScreen.createBold(loser.lipstickChoice.getName() + ".");
+			eliminationScreen.createParagraph("As it is written, it shall be done.");
+			eliminationScreen.createParagraph(loser.lipstickChoice.getName() + ", " + winner.lipstickChoice.getName() + ", you two will always be all-stars, now sashay away...");
+			loser.lipstickChoice.trackRecord.push("ELIM ");
+			simulatorGlobals.eliminatedCast.push(winner.lipstickChoice);
+			loser.lipstickChoice.unfavoritism += 3;
+			simulatorGlobals.eliminatedCast.push(loser.lipstickChoice);
+			winner.lipstickChoice.trackRecord.push("ELIM ");
+			winner.lipstickChoice.unfavoritism += 3;
+			simulatorGlobals.currentCast.splice(winner.lipstickChoice, 1);
+			simulatorGlobals.currentCast.splice(loser.lipstickChoice, 1);
+			eliminationScreen.createButton("Proceed", "showTrackRecord(false)");
+			return;
+		}
+
+		eliminationScreen.createImage(winner.image, "royalblue");
+		eliminationScreen.createBold(winner.getName() + ", conDRAGulations! You are the winner of this weeks challenge!");
+		winner.trackRecord.push("WIN");
+		winner.favoritism += 5;
+
+		eliminationScreen.createImage(loser.image, "deepskyblue");
+		eliminationScreen.createBold(loser.getName() + ", great job this week, you are safe.");
+		loser.trackRecord.push(" WIN");
+		loser.favoritism += 3;
+
+		eliminationScreen.createHorizontalLine();
+
+		eliminationScreen.createBigText("Now... Who will you send home?");
+		eliminationScreen.createImage(winner.lipstickChoice.image, "tomato");
+		eliminationScreen.createBold(winner.lipstickChoice.getName() + ".");
+		eliminationScreen.createParagraph("As it is written, it shall be done.");
+
+		eliminationScreen.createParagraph(winner.lipstickChoice.getName() + ", you will always be an all-star, now sashay away...");
+		winner.lipstickChoice.trackRecord.push("ELIM");
+		winner.lipstickChoice.unfavoritism += 3;
+		simulatorGlobals.eliminatedCast.push(winner.lipstickChoice);
+		simulatorGlobals.currentCast.splice(winner.lipstickChoice, 1);
+		for (let i = 0; i < simulatorGlobals.bottomQueens.length; i++) {
+			if (simulatorGlobals.bottomQueens[i] !== winner.lipstickChoice) {
+				simulatorGlobals.bottomQueens[i].trackRecord.push("BTM2");
+			}
+		}
+
+	} else {
+		const winner = simulatorGlobals.bottomQueens[0];
+		const eliminated = simulatorGlobals.bottomQueens[1];
+
+		if (Math.abs(winner.lipsyncPerformanceScore - eliminated.lipsyncPerformanceScore) < 5 && randomNumber(0, 100) < 10 && !simulatorGlobals.doubleShantay) {
+			simulatorGlobals.doubleShantay = true;
+			eliminationScreen.createImage(winner.image, "hotpink");
+			eliminationScreen.createImage(eliminated.image, "hotpink");
+			eliminationScreen.createBold("You both showed me how bad you wanted to stay... Shantay you BOTH stay!");
+			winner.trackRecord.push("BTM2");
+			eliminated.trackRecord.push("BTM2");
+			eliminated.unfavoritism += 3;
+			winner.unfavoritism += 3;
+
+			eliminationScreen.createButton("Proceed", "showTrackRecord(false)");
+			return;
+		}
+
+		if (winner.lipsyncPerformanceScore > 30 && eliminated.lipsyncPerformanceScore > 30 && randomNumber(0, 100) < 10 && !simulatorGlobals.doubleSashay) {
+			simulatorGlobals.doubleSashay = true;
+			eliminationScreen.createImage(winner.image, "firebrick");
+			eliminationScreen.createImage(eliminated.image, "firebrick");
+			eliminationScreen.createBold("None of you survived that lipsync... I must ask you both to sashay away.");
+			
+			simulatorGlobals.currentCast = simulatorGlobals.currentCast.filter(queen => 
+				queen !== winner && queen !== eliminated);
+			simulatorGlobals.eliminatedCast.push(winner, eliminated);
+
+			winner.trackRecord.push("ELIM ");
+			eliminated.trackRecord.push("ELIM ");
+			winner.unfavoritism += 3;
+			eliminated.unfavoritism += 3;
+
+			eliminationScreen.createButton("Proceed", "showTrackRecord(false)");
+			return;
+		}
+		eliminationScreen.createImage(winner.image, "tomato");
+		winner.trackRecord.push("BTM2");
+		eliminated.trackRecord.push("ELIM");
+		eliminationScreen.createBold(winner.getName() + ", shantay you stay.");
+		
+		eliminationScreen.createImage(eliminated.image, "red");
+		eliminationScreen.createBold(eliminated.getName() + ", sashay away...");
+
+		simulatorGlobals.currentCast = simulatorGlobals.currentCast.filter(queen => queen !== eliminated);
+		simulatorGlobals.eliminatedCast.push(eliminated);
+	}
+
+	eliminationScreen.createButton("Proceed", "showTrackRecord(false)");
+}
+
+function getPlacementPriority(result) {
+    switch (result.trim()) {
+        case "WINNER": return 100;
+        case "RUNNER UP": return 90;
+        case "WIN": return 80;
+        case "WIN ": return 75;
+        case "TOP2": return 70;
+        case "HIGH": return 60;
+        case "SAFE": return 50;
+        case "LOW": return 40;
+        case "BTM2": return 30;
+        case "BTM2 ": return 25;
+        case "ELIM ": return 10;
+        case "ELIM": return 5;
+        default: return 0;
+    }
+}
+
+function getQueenSortKey(queen) {
+    let elimIndex = queen.trackRecord.findIndex(r => r.trim() === "ELIM" || r.trim() === "ELIM ");
+    if (elimIndex === -1) elimIndex = Infinity;
+    let highest = Math.max(...queen.trackRecord.map(getPlacementPriority));
+    return { elimIndex, highest };
+}
+
+function sortTrackRecordQueens(queens) {
+    return queens.slice().sort((a, b) => {
+        const aKey = getQueenSortKey(a);
+        const bKey = getQueenSortKey(b);
+
+        if (aKey.elimIndex === Infinity && bKey.elimIndex === Infinity) {
+            return bKey.highest - aKey.highest;
+        }
+        if (aKey.elimIndex !== Infinity && bKey.elimIndex === Infinity) return 1;
+
+        if (aKey.elimIndex === Infinity && bKey.elimIndex !== Infinity) return -1;
+
+        return bKey.elimIndex - aKey.elimIndex;
+    });
+}
+
+function showTrackRecord(finale) {
+    const trackRecordScreen = new Scene();
+    trackRecordScreen.clean();
+    trackRecordScreen.createHeader("Track Record");
+    trackRecordScreen.changeRoom("untucked");
+
+    if (!document.getElementById('rubikFont')) {
+        const link = document.createElement('link');
+        link.id = 'rubikFont';
+        link.rel = 'stylesheet';
+        link.href = 'https://fonts.googleapis.com/css?family=Rubik:400,700&display=swap';
+        document.head.appendChild(link);
+    }
+
+    const sortedQueens = sortTrackRecordQueens(simulatorGlobals.fullCast);
+
+    let table = document.createElement("table");
+    table.setAttribute("id", "trackRecord");
+    table.setAttribute("class", "trtable");
+    table.style.width = "100%";
+    table.style.textAlign = "center";
+    table.style.color = "black";
+    table.style.borderCollapse = "collapse";
+    table.style.fontFamily = "'Rubik', Arial, sans-serif";
+    table.style.fontSize = "13px";
+    table.style.letterSpacing = "0.01em";
+
+    // --- HEADER ROWS ---
+    let headerRow1 = document.createElement("tr");
+    headerRow1.style.height = "32px";
+    let contestantHeader = document.createElement("th");
+    contestantHeader.innerHTML = "Contestant";
+    contestantHeader.colSpan = 1;
+	contestantHeader.style.backgroundColor = "#e9dfe9";
+	contestantHeader.style.border = "1px solid #a2a9b1";
+	contestantHeader.style.color = "black";
+    contestantHeader.style.fontWeight = "bold";
+    contestantHeader.style.width = "110px";
+    headerRow1.appendChild(contestantHeader);
+    for (let i = 1; i <= simulatorGlobals.episodeCount; i++) {
+        let episodeHeader = document.createElement("th");
+        episodeHeader.innerHTML = "Ep. " + i;
+        episodeHeader.style.fontWeight = "bold";
+		episodeHeader.style.color = "black";
+        episodeHeader.style.width = "24px";
+        episodeHeader.style.height = "32px";
+		episodeHeader.style.backgroundColor = "#e9dfe9";
+		episodeHeader.style.border = "1px solid #a2a9b1";
+        headerRow1.appendChild(episodeHeader);
+    }
+    table.appendChild(headerRow1);
+
+    let headerRow2 = document.createElement("tr");
+    headerRow2.style.height = "18px";
+    let nameHeader = document.createElement("th");
+	nameHeader.style.backgroundColor = "#e9dfe9";
+	nameHeader.style.border = "1px solid #a2a9b1";
+	nameHeader.style.color = "black";
+    nameHeader.style.fontWeight = "normal";
+    nameHeader.style.width = "70px";
+    headerRow2.appendChild(nameHeader);
+    if (Array.isArray(simulatorGlobals.episodeList)) {
+        simulatorGlobals.episodeList.forEach(epName => {
+            let episodeNameHeader = document.createElement("th");
+            episodeNameHeader.innerHTML = `<small>${epName}</small>`;
+            episodeNameHeader.style.fontWeight = "normal";
+            episodeNameHeader.style.fontSize = "10px";
+            episodeNameHeader.style.width = "24px";
+			episodeNameHeader.style.backgroundColor = "#e9dfe9";
+			episodeNameHeader.style.border = "1px solid #a2a9b1";
+			episodeNameHeader.style.color = "black";
+            episodeNameHeader.style.height = "18px";
+            headerRow2.appendChild(episodeNameHeader);
+        });
+    } else {
+        for (let i = 1; i <= simulatorGlobals.episodeCount; i++) {
+            let episodeNameHeader = document.createElement("th");
+            episodeNameHeader.innerHTML = "";
+            headerRow2.appendChild(episodeNameHeader);
+        }
+    }
+    table.appendChild(headerRow2);
+
+    for (let queen of sortedQueens) {
+        let row = document.createElement("tr");
+        row.style.height = "32px";
+        let nameCell = document.createElement("td");
+        nameCell.textContent = queen.getName();
+        nameCell.style.backgroundColor = "#f5ebf5";
+        nameCell.style.color = "black";
+        nameCell.style.fontWeight = "bold";
+        nameCell.style.fontSize = "12px";
+        nameCell.style.width = "70px";
+		nameCell.style.border = "1px solid #a2a9b1";
+        nameCell.style.textAlign = "center";
+        nameCell.style.padding = "0 2px";
+        row.appendChild(nameCell);
+
+        for (let result of queen.trackRecord) {
+            let cell = document.createElement("td");
+            cell.style.width = "24px";
+            cell.style.height = "32px";
+            cell.style.fontSize = "11px";
+            cell.style.padding = "0";
+            cell.style.border = "1px solid #a2a9b1";
+            cell.style.verticalAlign = "middle";
+            cell.style.lineHeight = "32px";
+            cell.style.textAlign = "center";
+            switch(result.trim()) {
+                case "WINNER":
+                    cell.style.color = "black";
+					cell.style.fontWeight = "bold";
+                    cell.style.backgroundColor = "yellow";
+                    break;
+                case "RUNNER UP":
+                    cell.style.color = "black";
+					cell.style.fontWeight = "bold";
+                    cell.style.backgroundColor = "silver";
+                    break;
+				case "ELIMINATED":
+					cell.style.color = "white";
+					cell.style.fontWeight = "bold";
+					cell.style.backgroundColor = "sienna";
+					break;
+                case "WIN":
+                    cell.style.color = "white";
+					cell.style.fontWeight = "bold";
+                    cell.style.backgroundColor = "royalblue";
+                    break;
+                case "WIN ":
+                    cell.style.color = "white";
+					cell.style.fontWeight = "bold";
+                    cell.style.backgroundColor = "darkblue";
+                    break;
+                case " WIN":
+                    cell.style.color = "black";
+					cell.style.fontWeight = "bold";
+                    cell.style.backgroundColor = "deepskyblue";
+                    break;
+				case "TOP2":
+                    cell.style.color = "black";
+                    cell.style.backgroundColor = "deepskyblue";
+                    break;
+                case "HIGH":
+                    cell.style.color = "black";
+                    cell.style.backgroundColor = "lightblue";
+                    break;
+                case "SAFE":
+                    cell.style.color = "black";
+                    cell.style.backgroundColor = "white";
+                    break;
+                case "LOW":
+                    cell.style.color = "black";
+                    cell.style.backgroundColor = "pink";
+                    break;
+                case "BTM2":
+                    cell.style.color = "black";
+                    cell.style.backgroundColor = "tomato";
+                    break;
+                case "BTM2 ":
+                    cell.style.color = "black";
+                    cell.style.backgroundColor = "hotpink";
+                    break;
+                case "ELIM ":
+                    cell.style.color = "white";
+					cell.style.fontWeight = "bold";
+                    cell.style.backgroundColor = "firebrick";
+                    break;
+                case "ELIM":
+                    cell.style.color = "black";
+					cell.style.fontWeight = "bold";
+                    cell.style.backgroundColor = "red";
+                    break;
+				case "":
+					cell.style.color = "transparent";
+					cell.style.backgroundColor = "lightgray";
+                default:
+                    cell.style.color = "black";
+                    cell.style.backgroundColor = "transparent";
+            }
+            cell.innerHTML = result;
+            row.appendChild(cell);
+        }
+        table.appendChild(row);
+    }
+    trackRecordScreen._wrapper.appendChild(table);
+
+    if (finale === false)
+        trackRecordScreen.createButton("Proceed", "newEpisode()");
+    else
+        trackRecordScreen.createButton("Proceed", "resetSimulation()");
+}
+
+function resetSimulation() {
+    simulatorGlobals = {
+        castSize: 0,
+        fullCast: [],
+        currentCast: [],
+        eliminatedCast: [],
+        topQueens: [],
+        safeQueens: [],
+        bottomQueens: [],
+        doubleShantay: false,
+        doubleSashay: false,
+        episodeCount: 0,
+        runwayEpisode: false,
+        finaleSize: 3,
+        winner: undefined
+    };
+
+    seasonsData.allQueens.forEach(queen => {
+        queen.trackRecord = [];
+        queen.winCount = 0;
+        queen.bottomCount = 0;
+        queen.favoritism = 0;
+        queen.unfavoritism = 0;
+        queen.performanceScore = 0;
+        queen.runwayPerformanceScore = 0;
+        queen.lipsyncPerformanceScore = 0;
+        queen.finalePerformanceScore = 0;
+    });
+
+    window.location.reload();
+}
+
+function finale() {
+    const finaleScreen = new Scene();
+    finaleScreen.clean();
+    finaleScreen.changeRoom("mainstage");
+    finaleScreen.createHeader("The Finale!");
+    finaleScreen.createParagraph("Our finalists will now perform in a lip-sync for the crown!");
+
+    for (let i = 0; i < simulatorGlobals.currentCast.length; i++) {
+        simulatorGlobals.currentCast[i].getFinalePerformance();
+    }
+    simulatorGlobals.currentCast.sort((a, b) => a.finalePerformanceScore - b.finalePerformanceScore);
+
+    let finalists = [];
+    if (simulatorGlobals.finaleSize > 3) {
+        finalists = simulatorGlobals.currentCast.slice(0, 2);
+        for (let i = 2; i < simulatorGlobals.currentCast.length; i++) {
+            simulatorGlobals.currentCast[i].trackRecord.push("ELIMINATED");
+            finaleScreen.createImage(simulatorGlobals.currentCast[i].image, "sienna");
+            finaleScreen.createBold(simulatorGlobals.currentCast[i].getName() + ", I'm sorry my dear but you will not be advancing to the final lip-sync. Now... sashay away.");
+            simulatorGlobals.eliminatedCast.push(simulatorGlobals.currentCast[i]);
+        }
+        simulatorGlobals.currentCast = finalists;
+        finaleScreen.createHorizontalLine();
+    } else if (simulatorGlobals.currentCast.length >= 3 && simulatorGlobals.currentCast[2].finalePerformanceScore < 20) {
+        finalists = simulatorGlobals.currentCast.slice(0, 2)
+        simulatorGlobals.currentCast[2].trackRecord.push("ELIMINATED");
+        finaleScreen.createImage(simulatorGlobals.currentCast[2].image, "sienna");
+        finaleScreen.createBold(simulatorGlobals.currentCast[2].getName() + ", I'm sorry my dear but you will not be advancing to the final lip-sync. Now... sashay away.");
+        simulatorGlobals.eliminatedCast.push(simulatorGlobals.currentCast[2]);
+        simulatorGlobals.currentCast = finalists;
+        finaleScreen.createHorizontalLine();
+    } else {
+        finalists = simulatorGlobals.currentCast.slice(0, Math.min(3, simulatorGlobals.currentCast.length));
+    }
+
+    finaleScreen.createBigText("The finalists who will lip-sync for the crown are...");
+    for (let queen of finalists) {
+        finaleScreen.createImage(queen.image, "royalblue");
+        queen.trackRecord.push("TOP " + finalists.length);
+    }
+    finaleScreen.createBold(finalists.map(q => q.getName()).join(", "));
+    
+    finaleScreen.createButton("Proceed", "finaleLipSync()");
+}
+
+async function finaleLipSync() {
+    const lipsyncScreen = new Scene();
+    lipsyncScreen.clean();
+    lipsyncScreen.changeRoom("mainstagelipsync");
+
+    const finalists = simulatorGlobals.currentCast.filter(q => q.trackRecord[q.trackRecord.length - 1].startsWith("TOP"));
+    
+    const response = await fetch('textFiles/songs.txt');
+	const text = await response.text();
+	const lipsyncSongs = text.split('\n').filter(song => song.trim() !== '');
+	const song = lipsyncSongs[randomNumber(0, lipsyncSongs.length - 1)];
+    
+    lipsyncScreen.createHeader("Ladies, this is your last chance to impress me and earn the crown.");
+    lipsyncScreen.createParagraph("The time has come for you to lip-sync... for the CROWN!");
+    lipsyncScreen.createBold("The song is... " + song + "!");
+
+    for (let queen of finalists) {
+        queen.getFinalePerformance();
+        queen.finaleScore = queen.lipSyncScore + queen.finalePerformanceScore;
+    }
+
+    finalists.sort((a, b) => b.finaleScore - a.finaleScore);
+    simulatorGlobals.currentCast = finalists;
+
+    lipsyncScreen.createButton("Proceed", "announceWinner()");
+}
+
+function announceWinner() {
+    const winnerScreen = new Scene();
+    winnerScreen.clean();
+    winnerScreen.changeRoom("mainstage");
+    
+    const winner = simulatorGlobals.currentCast[0];
+    const runnerUps = simulatorGlobals.currentCast.slice(1);
+    simulatorGlobals.winner = winner;
+
+    winner.trackRecord[winner.trackRecord.length - 1] = "WINNER";
+    for (let queen of runnerUps) {
+        queen.trackRecord[queen.trackRecord.length - 1] = "RUNNER UP";
+    }
+
+    winnerScreen.createHeader("The next RuPaul's Drag Race superstar is...");
+    winnerScreen.createBigText(winner.getName() + "!");
+    winnerScreen.createImage(winner.image, "yellow");
+
+    for (let queen of runnerUps) {
+        winnerScreen.createImage(queen.image, "silver");
+    }
+    winnerScreen.createBold(runnerUps.map(q => q.getName()).join(", ") + " thank you for an incredible season...");
+
+	simulatorGlobals.episodeList.push("Finale");
+    winnerScreen.createButton("Proceed", "showTrackRecord(true)");
+}
+
+function setFinaleSize(val) {
+    let n = parseInt(val);
+    if (isNaN(n) || n < 2) n = 2;
+    if (n > 10) n = 10;
+    simulatorGlobals.finaleSize = n;
+    document.getElementById('finaleSizeInput').value = n;
+}
